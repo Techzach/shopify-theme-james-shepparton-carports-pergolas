@@ -73,6 +73,26 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "level_1_MVqHkn": {
+          "type": "level_1",
+          "settings": {
+            "menu_title_lv1": "",
+            "enable_menu_banner_lv1": true,
+            "menu_gradient_bg_lv1": "",
+            "menu_banner_position_text_lv1": "bot-left",
+            "subtitle_menu_banner_lv1": "",
+            "title_menu_banner_lv1": "",
+            "menu_banner_size_title_lv1": "h3",
+            "des_menu_banner_lv1": "",
+            "btn_menu_banner_lv1": "shop now",
+            "btn_link_menu_banner_lv1": ""
+          }
+        }
+      },
+      "block_order": [
+        "level_1_MVqHkn"
+      ],
       "settings": {
         "logo": "shopify://shop_images/GVCarportsPatios-new.png",
         "logo_max_width": 170,
@@ -121,7 +141,7 @@
         "icon_wishlist": "icon",
         "icon_login": "icon",
         "e_link_login": "link",
-        "icon_search": "text"
+        "icon_search": "icon"
       }
     },
     "store-messages": {
