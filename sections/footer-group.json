@@ -43,17 +43,14 @@
             "widthlogofooter": 150,
             "title": "",
             "text": "We stand by our 10 year guarantee on all workmanship and our quality range of products. We have a range of inexpensive building materials to design a carport, patio or verandah to meet your lifestyle needs.\n\nRegistered Building Practitioner\nCDB-U 58882\nRegistered Plumber",
-            "width": "25%"
+            "width": "33%"
           }
         },
-        "b68420a7-353e-422d-9a28-2dba5275c372": {
-          "type": "text",
-          "disabled": true,
+        "menu_yqDbRf": {
+          "type": "menu",
           "settings": {
-            "widthlogofooter": 130,
-            "title": "Useful Links",
-            "text": "",
-            "width": "16%"
+            "link_list": "footer",
+            "width": "33%"
           }
         },
         "ec49d85b-17bb-4b65-a49f-3086aa5430cd": {
@@ -67,13 +64,13 @@
             "title": "Sign up & save 15%",
             "subheading": "<p>Get a 15% discount on your first order.</p>",
             "enablesocial": true,
-            "width": "50%"
+            "width": "33%"
           }
         }
       },
       "block_order": [
         "1595696762386",
-        "b68420a7-353e-422d-9a28-2dba5275c372",
+        "menu_yqDbRf",
         "ec49d85b-17bb-4b65-a49f-3086aa5430cd"
       ],
       "settings": {
