@@ -160,7 +160,6 @@
     },
     "rich_text_aLfc8b": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "animation": "",
         "setwidth": "container",
@@ -177,6 +176,18 @@
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
+    },
+    "line_QarkHW": {
+      "type": "line",
+      "settings": {
+        "animation": "",
+        "paddingsection": "10px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "bgsection": "#080808",
+        "setwidth": "container",
+        "bgborder": "#dddddd",
+        "wborder": "1px"
+      }
     }
   },
   "order": [
@@ -184,6 +195,7 @@
     "announcement-bar-slide",
     "header",
     "store-messages",
-    "rich_text_aLfc8b"
+    "rich_text_aLfc8b",
+    "line_QarkHW"
   ]
 }
