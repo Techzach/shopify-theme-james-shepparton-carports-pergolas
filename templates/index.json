@@ -399,7 +399,7 @@
         "enable_first_banner": false,
         "width_banner": 30,
         "subtitle_banner": "Sub Title",
-        "title_banner": "Title Banner",
+        "title_banner": "",
         "size_text": "h2",
         "des_banner": "Protection from the",
         "pos_banner": "mid-center",
@@ -488,6 +488,7 @@
         "166012224636496bd8-0",
         "166012224636496bd8-1"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -817,6 +818,7 @@
         "a3a10629-8bb5-4700-b3af-1c908798381a",
         "1660925094098c539e-5"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container-fluid",
@@ -845,14 +847,14 @@
         "template--20258838741312__0a081843-18cc-4628-a950-350c7308b356-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Collaboration with the English designer",
+            "title": "Lifestyle transformations",
             "size_text": "h2"
           }
         },
         "template--20258838741312__0a081843-18cc-4628-a950-350c7308b356-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "subtext": "This collection brings the designer’s signature aesthetic and style to a higher level, transforming essential household products into decorative as well as functional objects."
+            "subtext": "Apollo Patios offer a range of designs and options to transform your home and lifestyle, each installed by our qualified local installers. Explore a selection of projects we’ve recently completed for our customers."
           }
         },
         "0c9bcfdc-8196-4783-bd27-25bd7010548e": {
@@ -874,6 +876,7 @@
         "setwidth": "full",
         "bgsection": "#ffffff",
         "parrallax_enable": true,
+        "image": "shopify://shop_images/2-Buchanan2-1024x683.jpg",
         "height_section": "450",
         "height_section_mobile": "350",
         "align": "center",
