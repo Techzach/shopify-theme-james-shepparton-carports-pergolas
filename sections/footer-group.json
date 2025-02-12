@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer group",
@@ -14,7 +23,7 @@
         "e_size": "cover",
         "e_repeat": "no-repeat",
         "title_top": "",
-        "title": "Subscrible & Get <span class=\"text-theme\">10% <\/span> Discount",
+        "title": "Subscrible & Get <span class=\"text-theme\">10% </span> Discount",
         "des": "",
         "html_left": false,
         "html_left_block": "",
@@ -30,19 +39,11 @@
         "1595696762386": {
           "type": "text",
           "settings": {
-            "widthlogofooter": 150,
-            "title": "About us",
-            "text": "<div class=\"pr-lg-4 rte\">\n<p class=\"mt-3\">Molding® is an independent, female-founded label dedicated to creating luxury-grade active garments. Thanks to Molding for allowing us to use their photography and products in this demo store.<\/p>\n<\/div>",
-            "width": "25%"
-          }
-        },
-        "e849212d-9244-4a79-bbe3-1f9e3192a1df": {
-          "type": "text",
-          "settings": {
+            "logofooter": "shopify://shop_images/GVCarportsPatios-new.png",
             "widthlogofooter": 150,
             "title": "",
-            "text": "",
-            "width": "16%"
+            "text": "We stand by our 10 year guarantee on all workmanship and our quality range of products. We have a range of inexpensive building materials to design a carport, patio or verandah to meet your lifestyle needs.\n\nRegistered Building Practitioner\nCDB-U 58882\nRegistered Plumber",
+            "width": "25%"
           }
         },
         "b68420a7-353e-422d-9a28-2dba5275c372": {
@@ -50,30 +51,8 @@
           "disabled": true,
           "settings": {
             "widthlogofooter": 130,
-            "title": "",
+            "title": "Useful Links",
             "text": "",
-            "width": "16%"
-          }
-        },
-        "1562342622030": {
-          "type": "menu",
-          "disabled": true,
-          "settings": {
-            "link_list": "",
-            "width": "16%"
-          }
-        },
-        "1567410176792": {
-          "type": "menu",
-          "settings": {
-            "link_list": "info",
-            "width": "16%"
-          }
-        },
-        "a28fc3cc-c984-485b-af97-07168b85bea3": {
-          "type": "menu",
-          "settings": {
-            "link_list": "collections",
             "width": "16%"
           }
         },
@@ -86,23 +65,19 @@
             "btn_cl_new": "#f7f7f7",
             "btn_cl_new_hover": "#ffffff",
             "title": "Sign up & save 15%",
-            "subheading": "<p>Get a 15% discount on your first order.<\/p>",
+            "subheading": "<p>Get a 15% discount on your first order.</p>",
             "enablesocial": true,
-            "width": "25%"
+            "width": "50%"
           }
         }
       },
       "block_order": [
         "1595696762386",
-        "e849212d-9244-4a79-bbe3-1f9e3192a1df",
         "b68420a7-353e-422d-9a28-2dba5275c372",
-        "1562342622030",
-        "1567410176792",
-        "a28fc3cc-c984-485b-af97-07168b85bea3",
         "ec49d85b-17bb-4b65-a49f-3086aa5430cd"
       ],
       "settings": {
-        "setwidth": "container-fluid",
+        "setwidth": "full",
         "background": "#f6f6f0",
         "border_headfooter": "rgba(0,0,0,0)",
         "border-copryright": "#dfdfca",
