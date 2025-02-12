@@ -145,6 +145,51 @@
         "marginmobile": "40px 0px 0px 0px"
       }
     },
+    "carousel_special_ywbDeb": {
+      "type": "carousel-special",
+      "blocks": {
+        "text_DEGbjr": {
+          "type": "Text",
+          "settings": {
+            "title_small": "Comment",
+            "quote": "iydshfsnbdmsmdf",
+            "image": "shopify://shop_images/20200211_134503.jpg"
+          }
+        },
+        "text_QVAL3h": {
+          "type": "Text",
+          "settings": {
+            "title_small": "Comment",
+            "quote": "",
+            "image": "shopify://shop_images/Copy_2_of_DSC01690.jpg"
+          }
+        },
+        "text_p8FXXE": {
+          "type": "Text",
+          "settings": {
+            "title_small": "Comment",
+            "quote": "",
+            "image": "shopify://shop_images/IMG_0809.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_DEGbjr",
+        "text_QVAL3h",
+        "text_p8FXXE"
+      ],
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "bgsection": "#ffffff",
+        "bgsecond": "#ffffff",
+        "title": "New Arrivals",
+        "arrows": false,
+        "draggable": true,
+        "dots": true
+      }
+    },
     "2d11636f-e0da-4a86-b3b5-c1eda5735347": {
       "type": "rich-text",
       "blocks": {
@@ -173,6 +218,7 @@
         "7407acef-3e90-41f5-9ecf-356bd562c30b",
         "8a950665-fd5a-43a3-bf89-8ba1c9967e92"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -313,6 +359,7 @@
     "49b0a5ba-1ebd-493b-ae50-1ec847159046",
     "f172e7b1-989c-4feb-a20b-ac2934933476",
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4",
+    "carousel_special_ywbDeb",
     "2d11636f-e0da-4a86-b3b5-c1eda5735347",
     "d72bcc8c-88fe-4415-96f0-06511b070083",
     "24a28133-2e01-4361-8b00-ad164f72336f",
