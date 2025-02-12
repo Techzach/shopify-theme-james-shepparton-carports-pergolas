@@ -1,12 +1,68 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "settings": {}
+    },
+    "image_content_CdKwyz": {
+      "type": "image-content",
+      "blocks": {
+        "text_block_DdcFDE": {
+          "type": "text_block",
+          "settings": {
+            "width": "100%",
+            "bgtext": "#ffffff",
+            "title_color": "rgba(0,0,0,0)",
+            "subtitle": "",
+            "title": "Carports ",
+            "size_text": "h2",
+            "text": "Carports will protect your car and add value to your home. You'll love your new GV Carport. Designed &amp; built to compliment your home, a carport is a relatively inexpensive way to protect your car and add value to your property. It will provide new scope for landscaping around your house, and for people with north or west-facing walls, a carport can also help insulate against long hot summer afternoons. Best of all, it won't attract the kind of clutter that garages are famous for! You'll get plenty of compliments from friends and neighbours, in fact they usually follow suit.",
+            "answer_content": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "style_btn": "btn-underline btn-underline-white",
+            "button": "discover now",
+            "link": "",
+            "enable_padding": true,
+            "align": "left"
+          }
+        },
+        "image_block_yBVXYe": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/David-Testimonial-1024x768.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_DdcFDE",
+        "image_block_yBVXYe"
+      ],
       "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "rangebg": 0,
+        "bgbefore": "transparent",
+        "bg_pos": "left",
+        "enable_padding": false,
+        "align_center": true,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_content_CdKwyz"
   ]
 }
