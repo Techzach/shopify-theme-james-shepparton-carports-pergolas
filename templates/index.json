@@ -672,6 +672,7 @@
     },
     "9f5bec20-9d0e-4091-a18f-120476d3ae96": {
       "type": "image-content-4",
+      "disabled": true,
       "settings": {
         "animation": "",
         "setwidth": "full",
@@ -693,6 +694,7 @@
     },
     "1660192674d8a6fd50": {
       "type": "featured-articles",
+      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
