@@ -20,7 +20,7 @@
           "type": "text_block",
           "settings": {
             "width": "75%",
-            "bgtext": "#e7e8e3",
+            "bgtext": "#cded6f",
             "title_color": "rgba(0,0,0,0)",
             "subtitle": "",
             "title": "Carports ",
