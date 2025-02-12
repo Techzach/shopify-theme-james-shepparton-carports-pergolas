@@ -232,50 +232,6 @@
         "wborder": "1px"
       }
     },
-    "carousel_special_tr68iM": {
-      "type": "carousel-special",
-      "blocks": {
-        "text_3eB6pe": {
-          "type": "Text",
-          "settings": {
-            "title_small": "Level up your lifestyle with a new outdoor area",
-            "quote": "Create precious memories with friends and family that you will cherish for years to come with an outdoor living area that allows you to do what matters most – spend time with loved ones.\n\nWe will work with you to create a comfortable and practical space the whole family can enjoy all year round.\nWhether you want a larger entertainment area, a comfortable place to sip a glass of wine and watch the sun set, or a functional play space that brings the family together, we can help bring your vision to life.",
-            "image": "shopify://shop_images/0Y9A2185.jpg"
-          }
-        },
-        "text_V8HFAF": {
-          "type": "Text",
-          "settings": {
-            "title_small": "Comment",
-            "quote": "dsd",
-            "image": "shopify://shop_images/skillion-solarspan-patio1.jpg"
-          }
-        },
-        "text_jQeqqh": {
-          "type": "Text",
-          "settings": {
-            "title_small": "Comment",
-            "quote": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_3eB6pe",
-        "text_V8HFAF",
-        "text_jQeqqh"
-      ],
-      "settings": {
-        "animation": "flip-right",
-        "paddingsection": "0px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#ffffff",
-        "bgsecond": "#ffffff",
-        "title": "New Arrivals",
-        "arrows": false,
-        "draggable": true,
-        "dots": true
-      }
-    },
     "1f7801eb-26d9-49df-85c5-db063768cdb7": {
       "type": "featured-collections-3",
       "blocks": {
@@ -465,38 +421,29 @@
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-0": {
           "type": "quote",
           "settings": {
-            "title": "Wonderful !",
-            "quote": "<h4>“We do furniture and design for many different environments. At home, public spaces, professional spaces, and all the spaces in between.”</h4>",
-            "rate": 5,
-            "author": "— Susan P.",
-            "info": ""
+            "title": "Everyday luxury",
+            "quote": "<h6>“Create precious memories with friends and family that you will cherish for years to come with an outdoor living area that allows you to do what matters most – spend time with loved ones.\n\nWe will work with you to create a comfortable and practical space the whole family can enjoy all year round.\nWhether you want a larger entertainment area, a comfortable place to sip a glass of wine and watch the sun set, or a functional play space that brings the family together, we can help bring your vision to life.”</h6>",
+            "rate": 0,
+            "author": "",
+            "info": "",
+            "avatar": "shopify://shop_images/0Y9A2185.jpg"
           }
         },
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1": {
           "type": "quote",
           "settings": {
-            "title": "perfect !",
-            "quote": "<h4>“ What I admire about art is the unexpected, the originality; architecture is of course the context and the home of what we make.\"</h4>",
-            "rate": 5,
-            "author": "—  Jaycie Glove",
-            "info": ""
-          }
-        },
-        "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-2": {
-          "type": "quote",
-          "settings": {
-            "title": "Awesome",
-            "quote": "<h4>\" I love Lola! They're one of my favorite brands. Customer service is excellent. I have only returned items once and it was so easy. \" </h4>",
-            "rate": 5,
-            "author": "—  Kai Felix",
-            "info": ""
+            "title": "Customised design",
+            "quote": "<h6>“With our clever designs that seamlessly blend the outside and inside of your home, you can spend more time outside or protect your vehicles, regardless of the weather.\n\nOutstanding designs personalised to suit your lifestyle\nQuality materials built to last\n15-year warranty on our Apollo Durasheen® paint finish\nWe take care of planning permission and approvals\nServicing locally in QLD, NSW and ACT\nResponsible lending with flexible finance options\n\"</h6>",
+            "rate": 0,
+            "author": "",
+            "info": "",
+            "avatar": "shopify://shop_images/0Y9A2104-copy-1024x880.jpg"
           }
         }
       },
       "block_order": [
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-0",
-        "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1",
-        "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-2"
+        "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1"
       ],
       "settings": {
         "animation": "fade-up",
@@ -948,7 +895,6 @@
     "8f7efc88-8555-4d5d-984d-bfed30a488ff",
     "90256253-4427-4c0f-a280-c9d024bc8dcc",
     "9a4f05f1-ae72-47ea-a1c9-11ad0d6cf46e",
-    "carousel_special_tr68iM",
     "1f7801eb-26d9-49df-85c5-db063768cdb7",
     "662cf23c-2a28-41c4-9bd8-b6517c99ba49",
     "16601928830ceb6d9f",
