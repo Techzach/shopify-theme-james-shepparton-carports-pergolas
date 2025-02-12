@@ -24,9 +24,9 @@
             "title_color": "rgba(0,0,0,0)",
             "subtitle": "",
             "title": "Carports ",
-            "size_text": "h2",
-            "text": "Carports will protect your car and add value to your home. You'll love your new GV Carport. Designed &amp; built to compliment your home, a carport is a relatively inexpensive way to protect your car and add value to your property. It will provide new scope for landscaping around your house, and for people with north or west-facing walls, a carport can also help insulate against long hot summer afternoons. Best of all, it won't attract the kind of clutter that garages are famous for! You'll get plenty of compliments from friends and neighbours, in fact they usually follow suit.",
-            "answer_content": "<h3></h3><p>When you need answers, advice, or just a little bit<br/> of inspiration, we’re always here to help with our free design services<br/> – in person, online, or over the phone – to make it even easier to a <br/>create a space you’ll love coming home to.</p>",
+            "size_text": "h3",
+            "text": "When you need answers, advice, or just a little bit of inspiration, we’re always here to help with our free design services – in person, online, or over the phone – to make it even easier to a create a space you’ll love coming home to.",
+            "answer_content": "",
             "style_btn": "btn-underline btn-underline-white",
             "button": "",
             "link": "",
@@ -37,7 +37,7 @@
         "template--21250050228504__49b0a5ba-1ebd-493b-ae50-1ec847159046-image_block-2": {
           "type": "image_block",
           "settings": {
-            "image": "shopify://shop_images/David-Testimonial-1024x768.png"
+            "image": "shopify://shop_images/20170515_114126.jpg"
           }
         }
       },
