@@ -66,14 +66,14 @@
         "02d7795e-308f-44d9-b007-aa374d77dbcb": {
           "type": "heading",
           "settings": {
-            "title": "Our Brand",
+            "title": "Range and designs",
             "size_text": "h2"
           }
         },
         "5b0f48ed-12f4-43e7-a7fd-3e3ea948966e": {
           "type": "paragraph",
           "settings": {
-            "subtext": "At HAY, everything we make draws from three primary sources of inspiration: art, architecture, and fashion. We have always paid close attention to and been inspired by our surroundings, and putting our finger on the pulse of contemporary culture is how we keep pace with the world around us. \n\n<br>\n\n<br> “What I admire about art is the unexpected, the originality; architecture is of course the context and the home of what we make, and fashion has a wonderful dynamism to it, reflecting the spirit of the time and what’s happening right now. I would say that the best products we have done, they may exist somewhere in between these three environments, drawing from a little bit of everything.” — Rolf Hay"
+            "subtext": "Take inspiration from the different styles of carports and book a consultation to speak with our local designer about your unique requirements and preferences.\n\nWhether you’re inspired by a gable carport, a flat roof or any other style, our Design Consultants can help create a space to give your home modern curb appeal.\n\nYour carport should look like a natural part of your house, rather than an afterthought."
           }
         }
       },
@@ -96,56 +96,6 @@
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "b2ef3f00-5f4f-4e93-8187-3970a28a8f9e": {
-      "type": "parallax-banner",
-      "blocks": {
-        "template--19549173514560__b2ef3f00-5f4f-4e93-8187-3970a28a8f9e-sub_title-1": {
-          "type": "sub_title",
-          "disabled": true,
-          "settings": {
-            "subtitle": "Molding® active"
-          }
-        },
-        "template--19549173514560__b2ef3f00-5f4f-4e93-8187-3970a28a8f9e-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "We do a premium activewear",
-            "size_text": "h1"
-          }
-        },
-        "94c7371c-d71f-4781-892e-d23c731daa77": {
-          "type": "paragraph",
-          "disabled": true,
-          "settings": {
-            "subtext": "Clothing may not change the world, but the women who wear them will"
-          }
-        }
-      },
-      "block_order": [
-        "template--19549173514560__b2ef3f00-5f4f-4e93-8187-3970a28a8f9e-sub_title-1",
-        "template--19549173514560__b2ef3f00-5f4f-4e93-8187-3970a28a8f9e-heading-1",
-        "94c7371c-d71f-4781-892e-d23c731daa77"
-      ],
-      "settings": {
-        "animation": "fade",
-        "setwidth": "full",
-        "bgsection": "#ffffff",
-        "parrallax_enable": true,
-        "height_section": "650",
-        "height_section_mobile": "450",
-        "align": "center",
-        "position_text": "mid-center",
-        "bg_box": "#ffffff",
-        "opacity_bgbox": 0,
-        "title_color": "#ffffff",
-        "bg_overlay": "#000000",
-        "gradient_bg": "",
-        "opacity_bg_overlay": 0,
-        "paddingsection": "0px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px"
       }
     },
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4": {
@@ -653,7 +603,6 @@
     "main",
     "49b0a5ba-1ebd-493b-ae50-1ec847159046",
     "f172e7b1-989c-4feb-a20b-ac2934933476",
-    "b2ef3f00-5f4f-4e93-8187-3970a28a8f9e",
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4",
     "2d11636f-e0da-4a86-b3b5-c1eda5735347",
     "d72bcc8c-88fe-4415-96f0-06511b070083",
