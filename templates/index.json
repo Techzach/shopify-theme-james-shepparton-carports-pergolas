@@ -148,6 +148,7 @@
         "1564e714-c789-48c7-b569-15aa4f7877c0",
         "805f536e-ee6a-4186-812e-9d1e6988e011"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (min-width: 750px) {.h4 {--g-h4-font-size: 28px; }}"
       ],
@@ -202,6 +203,7 @@
         "c5356855-1cc3-44c2-a7ee-df7b554fbd4d",
         "b029a707-48a0-4f4e-8c1f-cf491c938152"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "size_text": "h2",
@@ -228,6 +230,50 @@
         "setwidth": "full",
         "bgborder": "#dddddd",
         "wborder": "1px"
+      }
+    },
+    "carousel_special_tr68iM": {
+      "type": "carousel-special",
+      "blocks": {
+        "text_3eB6pe": {
+          "type": "Text",
+          "settings": {
+            "title_small": "",
+            "quote": "dssfsf",
+            "image": "shopify://shop_images/20180806_110409.jpg"
+          }
+        },
+        "text_V8HFAF": {
+          "type": "Text",
+          "settings": {
+            "title_small": "Comment",
+            "quote": "dsd",
+            "image": "shopify://shop_images/skillion-solarspan-patio1.jpg"
+          }
+        },
+        "text_jQeqqh": {
+          "type": "Text",
+          "settings": {
+            "title_small": "Comment",
+            "quote": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_3eB6pe",
+        "text_V8HFAF",
+        "text_jQeqqh"
+      ],
+      "settings": {
+        "animation": "flip-right",
+        "paddingsection": "0px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "bgsection": "#ffffff",
+        "bgsecond": "#ffffff",
+        "title": "New Arrivals",
+        "arrows": false,
+        "draggable": true,
+        "dots": true
       }
     },
     "1f7801eb-26d9-49df-85c5-db063768cdb7": {
@@ -273,6 +319,12 @@
           "settings": {
             "collection": "best-seller"
           }
+        },
+        "collection_ffKhNe": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
@@ -281,14 +333,15 @@
         "012b04ac-f446-483f-a6aa-c59e3444912d",
         "bcd6b727-9c9f-4c33-9b79-0d4ca6070131",
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-2",
-        "collection_rynbdE"
+        "collection_rynbdE",
+        "collection_ffKhNe"
       ],
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
         "bgsection": "#ffffff",
         "title_top": "Premium Active",
-        "title": "Latest Projesct",
+        "title": "Latest Projects",
         "des": "We are inspired by the realities of life today, in which traditional divides between <br> personal and professional space are more fluid.",
         "align-heading": "center",
         "stylecollection": "namesup",
@@ -895,6 +948,7 @@
     "8f7efc88-8555-4d5d-984d-bfed30a488ff",
     "90256253-4427-4c0f-a280-c9d024bc8dcc",
     "9a4f05f1-ae72-47ea-a1c9-11ad0d6cf46e",
+    "carousel_special_tr68iM",
     "1f7801eb-26d9-49df-85c5-db063768cdb7",
     "662cf23c-2a28-41c4-9bd8-b6517c99ba49",
     "16601928830ceb6d9f",
