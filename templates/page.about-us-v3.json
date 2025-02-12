@@ -145,51 +145,6 @@
         "marginmobile": "40px 0px 0px 0px"
       }
     },
-    "carousel_special_ywbDeb": {
-      "type": "carousel-special",
-      "blocks": {
-        "text_DEGbjr": {
-          "type": "Text",
-          "settings": {
-            "title_small": "Comment",
-            "quote": "iydshfsnbdmsmdf",
-            "image": "shopify://shop_images/20200211_134503.jpg"
-          }
-        },
-        "text_QVAL3h": {
-          "type": "Text",
-          "settings": {
-            "title_small": "Comment",
-            "quote": "",
-            "image": "shopify://shop_images/Copy_2_of_DSC01690.jpg"
-          }
-        },
-        "text_p8FXXE": {
-          "type": "Text",
-          "settings": {
-            "title_small": "Comment",
-            "quote": "",
-            "image": "shopify://shop_images/IMG_0809.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "text_DEGbjr",
-        "text_QVAL3h",
-        "text_p8FXXE"
-      ],
-      "settings": {
-        "animation": "",
-        "paddingsection": "0px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#ffffff",
-        "bgsecond": "#ffffff",
-        "title": "New Arrivals",
-        "arrows": false,
-        "draggable": true,
-        "dots": true
-      }
-    },
     "2d11636f-e0da-4a86-b3b5-c1eda5735347": {
       "type": "rich-text",
       "blocks": {
@@ -302,7 +257,7 @@
             "subtitle": "Our Mission",
             "title": "Ethical and sustainable",
             "size_text": "h2",
-            "text": "<div class=\"pr-lg-5 mr-lg-4\">\n<p>Need a little newness in your life? We've got you covered. Bringing you \nthe latest drop of more killer clothes, versatile accessories, stand-out \nfootwear, and much, much more. Update those lifesaving essentials \nor bag a knock-out, night-out number.</p>\n      <div class=\"mt-5 pt-4 px-lg-5\">\n        <img class=\"lazyload\" loading=\"lazy\" data-src=\"https://cdn.shopify.com/s/files/1/0830/3722/5240/files/Rectangle_2_4_1.webp?v=1696176878\">\n      </div>\n    \n</div>",
+            "text": "<div class=\"pr-lg-5 mr-lg-4\">\n<p>Need a little newness in your life? We've got you covered. Bringing you \nthe latest drop of more killer clothes, versatile accessories, stand-out \nfootwear, and much, much more. Update those lifesaving essentials \nor bag a knock-out, night-out number.</p>\n      <div class=\"mt-5 pt-4 px-lg-5\">\n      \n    \n</div>\n</div>",
             "answer_content": "",
             "style_btn": "btn-underline btn-underline-white",
             "button": "",
@@ -313,14 +268,41 @@
         },
         "template--16716887458110__24a28133-2e01-4361-8b00-ad164f72336f-1666686767d1a98887-0": {
           "type": "image_block",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Copy_2_of_DSC01690.jpg"
+          }
+        },
+        "image_block_fCK9gE": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/DSC01700.jpg"
+          }
+        },
+        "text_block_qEBrC6": {
+          "type": "text_block",
+          "settings": {
+            "width": "100%",
+            "bgtext": "#ffffff",
+            "title_color": "rgba(0,0,0,0)",
+            "subtitle": "Sub Title",
+            "title": "Image with text",
+            "size_text": "h2",
+            "text": "",
+            "answer_content": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "style_btn": "btn-underline btn-underline-white",
+            "button": "discover now",
+            "link": "",
+            "enable_padding": true,
+            "align": "left"
+          }
         }
       },
       "block_order": [
         "template--16716887458110__24a28133-2e01-4361-8b00-ad164f72336f-1666686767d1a98887-1",
-        "template--16716887458110__24a28133-2e01-4361-8b00-ad164f72336f-1666686767d1a98887-0"
+        "template--16716887458110__24a28133-2e01-4361-8b00-ad164f72336f-1666686767d1a98887-0",
+        "image_block_fCK9gE",
+        "text_block_qEBrC6"
       ],
-      "disabled": true,
       "settings": {
         "animation": "fade",
         "setwidth": "container",
@@ -332,24 +314,7 @@
         "align_center": false,
         "paddingsection": "100px 0px 100px 0px",
         "paddingmobile": "60px 0px 60px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "e07a205a-2023-4ca5-b589-a46cd70b3237": {
-      "type": "contact-form",
-      "disabled": true,
-      "settings": {
-        "animation": "",
-        "bgsection": "#ffffff",
-        "title_top": "Questions?",
-        "title": "Send us an email",
-        "des": "",
-        "align-heading": "center",
-        "answer_content": "<p>This site is protected by reCAPTCHA and the Google <a href=\"https://policies.google.com/privacy\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\">Terms of Service</a> apply.</p>",
-        "paddingsection": "100px 0px 100px 0px",
-        "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "0px 0px 0px 0px",
+        "marginsection": "30px 0px 30px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
     }
@@ -359,10 +324,8 @@
     "49b0a5ba-1ebd-493b-ae50-1ec847159046",
     "f172e7b1-989c-4feb-a20b-ac2934933476",
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4",
-    "carousel_special_ywbDeb",
     "2d11636f-e0da-4a86-b3b5-c1eda5735347",
     "d72bcc8c-88fe-4415-96f0-06511b070083",
-    "24a28133-2e01-4361-8b00-ad164f72336f",
-    "e07a205a-2023-4ca5-b589-a46cd70b3237"
+    "24a28133-2e01-4361-8b00-ad164f72336f"
   ]
 }
