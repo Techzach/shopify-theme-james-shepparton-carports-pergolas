@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16485444103c52f5e9": {
@@ -9,7 +18,7 @@
             "bgblock": "rgba(0,0,0,0)",
             "title": "Free shipping",
             "description": "Get free shipping on orders of $100 or more",
-            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-truck\" viewbox=\"0 0 82 82\"><path d=\"M7.238 68.717H1.867V2.12H58.4v16.736h3.886c9.755 0 17.663 7.908 17.663 17.663v32.199h-5.917M55.781 68.717H25.487\"><\/path><path d=\"M58.334 42.124h15.068v-4.27c0-6.82-5.53-12.35-12.351-12.35h-2.718v16.62M73.909 70.236a9.125 9.125 0 1 0-18.013-2.931 9.125 9.125 0 0 0 18.013 2.93ZM25.367 70.235a9.125 9.125 0 1 0-18.012-2.931 9.125 9.125 0 0 0 7.54 10.471 9.125 9.125 0 0 0 10.472-7.54Z\"><\/path><path d=\"M13.723 77.507c-3.966.658-7.937 1.51-11.857 2.593M60.373 76.736c-10.512-1.212-24.298-1.969-38.645-.451M79.768 80.121s-4.96-1.222-12.975-2.395\"><\/path><\/svg>"
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-truck\" viewbox=\"0 0 82 82\"><path d=\"M7.238 68.717H1.867V2.12H58.4v16.736h3.886c9.755 0 17.663 7.908 17.663 17.663v32.199h-5.917M55.781 68.717H25.487\"></path><path d=\"M58.334 42.124h15.068v-4.27c0-6.82-5.53-12.35-12.351-12.35h-2.718v16.62M73.909 70.236a9.125 9.125 0 1 0-18.013-2.931 9.125 9.125 0 0 0 18.013 2.93ZM25.367 70.235a9.125 9.125 0 1 0-18.012-2.931 9.125 9.125 0 0 0 7.54 10.471 9.125 9.125 0 0 0 10.472-7.54Z\"></path><path d=\"M13.723 77.507c-3.966.658-7.937 1.51-11.857 2.593M60.373 76.736c-10.512-1.212-24.298-1.969-38.645-.451M79.768 80.121s-4.96-1.222-12.975-2.395\"></path></svg>"
           }
         },
         "8fb6874d-8c42-405c-9da3-134f7a8a0c73": {
@@ -18,7 +27,7 @@
             "bgblock": "rgba(0,0,0,0)",
             "title": "Customer service",
             "description": "A question? Please contact us at 123-456-7890",
-            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-plant-based\" viewbox=\"0 0 82 82\"><path d=\"M41 20.701V80M56.735 26.294c0 8.703-7.045 15.758-15.735 15.758s-15.735-7.055-15.735-15.758C25.265 14.719 41 2 41 2s15.735 12.719 15.735 24.294ZM30.479 46.972c6.145 6.154 6.145 16.132 0 22.285-6.145 6.154-16.107 6.154-22.252 0C.054 61.072 2.2 40.936 2.2 40.936s20.106-2.149 28.279 6.036Z\"><\/path><path d=\"M41 77.861S27.525 60.403 10.092 50.177M51.412 46.972c-6.145 6.154-6.145 16.132 0 22.285 6.145 6.153 16.107 6.154 22.252 0 8.173-8.185 6.027-28.321 6.027-28.321s-20.106-2.149-28.279 6.036Z\"><\/path><path d=\"M40.891 77.861s13.475-17.458 30.908-27.684\"><\/path><\/svg>"
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-plant-based\" viewbox=\"0 0 82 82\"><path d=\"M41 20.701V80M56.735 26.294c0 8.703-7.045 15.758-15.735 15.758s-15.735-7.055-15.735-15.758C25.265 14.719 41 2 41 2s15.735 12.719 15.735 24.294ZM30.479 46.972c6.145 6.154 6.145 16.132 0 22.285-6.145 6.154-16.107 6.154-22.252 0C.054 61.072 2.2 40.936 2.2 40.936s20.106-2.149 28.279 6.036Z\"></path><path d=\"M41 77.861S27.525 60.403 10.092 50.177M51.412 46.972c-6.145 6.154-6.145 16.132 0 22.285 6.145 6.153 16.107 6.154 22.252 0 8.173-8.185 6.027-28.321 6.027-28.321s-20.106-2.149-28.279 6.036Z\"></path><path d=\"M40.891 77.861s13.475-17.458 30.908-27.684\"></path></svg>"
           }
         },
         "16485444103c52f5e9-1": {
@@ -27,7 +36,7 @@
             "bgblock": "rgba(0,0,0,0)",
             "title": "Refer a friend",
             "description": "Refer a friend and get 15% off <br> each other",
-            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-package\" viewbox=\"0 0 82 82\"><path d=\"M80 21v39L41 80 2 60V21L41 2l39 19Z\"><\/path><path d=\"m2 21 39 20 38.571-19.807M41 41.478v38.338\"><\/path><path d=\"m27.715 8.643 38.409 19.473v17.543l-11.617 6.067V33.83L16.098 14.355\"><\/path><\/svg>"
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-package\" viewbox=\"0 0 82 82\"><path d=\"M80 21v39L41 80 2 60V21L41 2l39 19Z\"></path><path d=\"m2 21 39 20 38.571-19.807M41 41.478v38.338\"></path><path d=\"m27.715 8.643 38.409 19.473v17.543l-11.617 6.067V33.83L16.098 14.355\"></path></svg>"
           }
         },
         "16485444103c52f5e9-2": {
@@ -36,7 +45,7 @@
             "bgblock": "rgba(0,0,0,0)",
             "title": "Secure payment",
             "description": "Your payment information is processed securely",
-            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-shield\" viewbox=\"0 0 64 64\"><defs><\/defs><path d=\"M21.18 31.69L28.54 39l15.91-15.88\"><\/path><path d=\"M53 12.54v15.24a31.41 31.41 0 0 1-3.7 14.95A25.46 25.46 0 0 1 32 56a25.46 25.46 0 0 1-17.3-13.27A31.41 31.41 0 0 1 11 27.78V12.54C24.88 13.67 32 8 32 8s7.12 5.67 21 4.54z\"><\/path><\/svg>"
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-shield\" viewbox=\"0 0 64 64\"><defs></defs><path d=\"M21.18 31.69L28.54 39l15.91-15.88\"></path><path d=\"M53 12.54v15.24a31.41 31.41 0 0 1-3.7 14.95A25.46 25.46 0 0 1 32 56a25.46 25.46 0 0 1-17.3-13.27A31.41 31.41 0 0 1 11 27.78V12.54C24.88 13.67 32 8 32 8s7.12 5.67 21 4.54z\"></path></svg>"
           }
         }
       },
@@ -94,7 +103,6 @@
           "type": "image",
           "settings": {
             "img-in-hero": 60,
-            "image": "shopify:\/\/shop_images\/wood_1.png",
             "image_link": ""
           }
         },
@@ -127,7 +135,7 @@
           "type": "button",
           "settings": {
             "button": "shop and see",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "style_btn": "btn-underline"
           }
         }
@@ -228,43 +236,37 @@
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "kitchen",
-            "image": "shopify:\/\/shop_images\/c11_5b7e4c3f-365b-4fe5-b867-a331974b34d3.jpg"
+            "collection": "kitchen"
           }
         },
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "decoration",
-            "image": "shopify:\/\/shop_images\/c12_8001b951-ef72-4684-b69c-9876107c91a9.jpg"
+            "collection": "decoration"
           }
         },
         "012b04ac-f446-483f-a6aa-c59e3444912d": {
           "type": "collection",
           "settings": {
-            "collection": "office",
-            "image": "shopify:\/\/shop_images\/b3.png"
+            "collection": "office"
           }
         },
         "bcd6b727-9c9f-4c33-9b79-0d4ca6070131": {
           "type": "collection",
           "settings": {
-            "collection": "lighting",
-            "image": "shopify:\/\/shop_images\/b4.png"
+            "collection": "lighting"
           }
         },
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "books",
-            "image": "shopify:\/\/shop_images\/c13.jpg"
+            "collection": "books"
           }
         },
         "collection_rynbdE": {
           "type": "collection",
           "settings": {
-            "collection": "best-seller",
-            "image": "shopify:\/\/shop_images\/c14.jpg"
+            "collection": "best-seller"
           }
         }
       },
@@ -314,8 +316,6 @@
             "w_image": 40,
             "pos_image": 88,
             "e_image": "right",
-            "image": "shopify:\/\/shop_images\/bn1.webp",
-            "image2": "shopify:\/\/shop_images\/bn2.webp",
             "enable_video": false,
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -331,7 +331,7 @@
             "title": "New collection is already here.",
             "size_text": "h2",
             "text": "",
-            "answer_content": "<p>Retro florals, classic dots ,and sunny shades  give the line a vintage, beachy feel.<\/p>",
+            "answer_content": "<p>Retro florals, classic dots ,and sunny shades  give the line a vintage, beachy feel.</p>",
             "button": "shop now",
             "link": "",
             "style_btn": "btn-theme",
@@ -380,7 +380,7 @@
         "arrows": true,
         "scrollbar": false,
         "buttonall": "Shop collection",
-        "buttonall_link": "shopify:\/\/collections\/best-seller",
+        "buttonall_link": "shopify://collections/best-seller",
         "style_btn": "btn-theme",
         "enable_first_banner": false,
         "width_banner": 30,
@@ -408,33 +408,30 @@
           "type": "quote",
           "settings": {
             "title": "Wonderful !",
-            "quote": "<h4>“We do furniture and design for many different environments. At home, public spaces, professional spaces, and all the spaces in between.”<\/h4>",
+            "quote": "<h4>“We do furniture and design for many different environments. At home, public spaces, professional spaces, and all the spaces in between.”</h4>",
             "rate": 5,
             "author": "— Susan P.",
-            "info": "",
-            "avatar": "shopify:\/\/shop_images\/118795749_248230149682238_6921509451634328613_n.jpg"
+            "info": ""
           }
         },
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1": {
           "type": "quote",
           "settings": {
             "title": "perfect !",
-            "quote": "<h4>“ What I admire about art is the unexpected, the originality; architecture is of course the context and the home of what we make.\"<\/h4>",
+            "quote": "<h4>“ What I admire about art is the unexpected, the originality; architecture is of course the context and the home of what we make.\"</h4>",
             "rate": 5,
             "author": "—  Jaycie Glove",
-            "info": "",
-            "avatar": "shopify:\/\/shop_images\/designer-george-sowden.webp"
+            "info": ""
           }
         },
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-2": {
           "type": "quote",
           "settings": {
             "title": "Awesome",
-            "quote": "<h4>\" I love Lola! They're one of my favorite brands. Customer service is excellent. I have only returned items once and it was so easy. \" <\/h4>",
+            "quote": "<h4>\" I love Lola! They're one of my favorite brands. Customer service is excellent. I have only returned items once and it was so easy. \" </h4>",
             "rate": 5,
             "author": "—  Kai Felix",
-            "info": "",
-            "avatar": "shopify:\/\/shop_images\/inga-sempe-hero.webp"
+            "info": ""
           }
         }
       },
@@ -505,7 +502,7 @@
         "limit": 4,
         "show": 4,
         "buttonall": "All Products",
-        "buttonall_link": "shopify:\/\/collections\/all",
+        "buttonall_link": "shopify://collections/all",
         "style_btn": "btn-theme",
         "paddingsection": "80px 0px 80px 0px",
         "paddingmobile": "60px 0px 60px 0px",
@@ -557,7 +554,7 @@
         "height_section_mobile": "450px",
         "align": "left",
         "position_text": "bot-left",
-        "link_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4723927f415e46cb80d0d6ace49686ad.mp4",
+        "link_video": "https://cdn.shopify.com/videos/c/o/v/4723927f415e46cb80d0d6ace49686ad.mp4",
         "bgsection": "#ffffff",
         "bg_overlay": "#000000",
         "gradient_bg": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 100%)",
@@ -605,7 +602,6 @@
             "enable_height_banner": false,
             "promo_banner_height": 520,
             "promo_banner_height_mobile": 400,
-            "image": "shopify:\/\/shop_images\/2a.jpg",
             "subtitle": "Decoration",
             "title": "Explore the Collab",
             "size_text": "h3",
@@ -628,7 +624,6 @@
             "enable_height_banner": false,
             "promo_banner_height": 520,
             "promo_banner_height_mobile": 400,
-            "image": "shopify:\/\/shop_images\/1a_a4130550-4eae-49ed-919b-5c766d15615d.jpg",
             "subtitle": "furniture",
             "title": "Trade benefits",
             "size_text": "h3",
@@ -677,7 +672,6 @@
         "bgsection": "#f6f6f6",
         "txt_color": "#222222",
         "align_center": true,
-        "image": "shopify:\/\/shop_images\/155587725_931854637640562_6754960380077999647_n.jpg",
         "subtitle": "THE REFRESH SALE",
         "title": "20% off everything",
         "size_text": "h1",
@@ -685,7 +679,6 @@
         "button": "shop now",
         "link": "#",
         "style_btn": "btn-theme",
-        "imageright": "shopify:\/\/shop_images\/image_169.jpg",
         "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "0px 0px 0px 0px",
         "marginsection": "0px 0px 0px 0px",
@@ -736,7 +729,6 @@
         "opacity_bg_overlay": 0.5,
         "newletter_color": "#ffffff",
         "colorborder": "#e1e1e1",
-        "image_bg": "shopify:\/\/shop_images\/1360e74166735375.641d0f88e282c.jpg",
         "e_size": "cover",
         "e_repeat": "no-repeat",
         "e_position": "center center",
@@ -745,7 +737,7 @@
         "title": "",
         "des": "",
         "html_left": true,
-        "html_left_block": "<h3>Get 10% Discount<\/h3>\n<p class=\"mb-4 mb-lg-0\">Subscrible & Get 10%  Discount<\/p>",
+        "html_left_block": "<h3>Get 10% Discount</h3>\n<p class=\"mb-4 mb-lg-0\">Subscrible & Get 10%  Discount</p>",
         "paddingsection": "58px 0px 58px 0px",
         "paddingmobile": "32px 0px 0px 0px",
         "marginsection": "0px 0px 0px 0px",
@@ -758,44 +750,39 @@
         "1660925094098c539e-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/117682816_610638836547346_2990752233920683601_n.jpg",
-            "image_link": "https:\/\/www.instagram.com\/p\/Cu3wKNqvfPG\/"
+            "image_link": "https://www.instagram.com/p/Cu3wKNqvfPG/"
           }
         },
         "1660925094098c539e-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/279761859_523128179259221_8735502116657084738_n.jpg",
-            "image_link": "https:\/\/www.instagram.com\/p\/CuyrWWgPTY6\/"
+            "image_link": "https://www.instagram.com/p/CuyrWWgPTY6/"
           }
         },
         "6ecfa747-1624-47c4-8967-277d3c819672": {
           "type": "video",
           "disabled": true,
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aabbcacc033f492eb4f2732216fbe7d9.mp4",
-            "image_link": "https:\/\/www.instagram.com\/reel\/CcSe0EiKaL4\/",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/aabbcacc033f492eb4f2732216fbe7d9.mp4",
+            "image_link": "https://www.instagram.com/reel/CcSe0EiKaL4/",
             "enable_play_video": true
           }
         },
         "1660925094098c539e-4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/42382576_237178633820669_270617435187535641_n.jpg",
-            "image_link": "https:\/\/www.instagram.com\/p\/CtQ1RAMvvGv\/"
+            "image_link": "https://www.instagram.com/p/CtQ1RAMvvGv/"
           }
         },
         "1660925094098c539e-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/70306945_141693430439605_1587698108330359098_n.jpg",
-            "image_link": "https:\/\/www.instagram.com\/p\/CueN3LZPQYA\/"
+            "image_link": "https://www.instagram.com/p/CueN3LZPQYA/"
           }
         },
         "1660925094098c539e-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/94321878_104070254564418_2285062657065578548_n.jpg",
             "image_link": "#"
           }
         },
@@ -803,15 +790,14 @@
           "type": "video",
           "disabled": true,
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/42a9e75219f6412ab5309312b07982a6.mp4",
-            "image_link": "https:\/\/www.instagram.com\/p\/CT1byDeliOs\/",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/42a9e75219f6412ab5309312b07982a6.mp4",
+            "image_link": "https://www.instagram.com/p/CT1byDeliOs/",
             "enable_play_video": false
           }
         },
         "1660925094098c539e-5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/275583930_300585048674569_577797502455676454_n.jpg",
             "image_link": "#"
           }
         }
@@ -883,7 +869,6 @@
         "setwidth": "full",
         "bgsection": "#ffffff",
         "parrallax_enable": true,
-        "image": "shopify:\/\/shop_images\/1360e74166735375.641d0f88e282c.jpg",
         "height_section": "450",
         "height_section_mobile": "350",
         "align": "center",
