@@ -64,13 +64,6 @@
     "f172e7b1-989c-4feb-a20b-ac2934933476": {
       "type": "rich-text",
       "blocks": {
-        "41e5d7ef-7845-4f6d-85a2-ae6b277ad52b": {
-          "type": "image",
-          "settings": {
-            "img-in-hero": 48,
-            "image_link": ""
-          }
-        },
         "42255752-8074-4177-83cb-67736834a954": {
           "type": "spacer",
           "settings": {
@@ -87,19 +80,18 @@
         "02d7795e-308f-44d9-b007-aa374d77dbcb": {
           "type": "heading",
           "settings": {
-            "title": "We believe in design that inspires and solves problems.",
-            "size_text": "h2"
+            "title": "What makes a gable patio design different?",
+            "size_text": "h3"
           }
         },
         "5b0f48ed-12f4-43e7-a7fd-3e3ea948966e": {
           "type": "paragraph",
           "settings": {
-            "subtext": "When you need answers, advice, or just a little bit of inspiration, we’re always here to help with our free design services – in person, online, or over the phone – to make it even easier to a create a space you’ll love coming home to."
+            "subtext": "A gable patio design is one of the most popular patio designs that features a sloped, pitched roof, forming a triangle. This unique and impressive design allows rain and snow to quickly run off the sides, making it an ideal choice for locations that experience heavy precipitation.\n\nIn addition, the sloped gable roofs provide extra height and allow for more light, making it a comfortable place to relax or entertain guests. Best of all, the gable patio design can be customised to complement any home style.\n\nWhether you’re looking for a traditional or modern look, there’s a gable roof patio design that’s perfect for you."
           }
         }
       },
       "block_order": [
-        "41e5d7ef-7845-4f6d-85a2-ae6b277ad52b",
         "42255752-8074-4177-83cb-67736834a954",
         "a114a493-fb4e-4f52-9dba-52eacd1564d2",
         "02d7795e-308f-44d9-b007-aa374d77dbcb",
@@ -161,6 +153,7 @@
         "template--16716887458110__d72bcc8c-88fe-4415-96f0-06511b070083-16666725974cf35e4d-0",
         "template--16716887458110__d72bcc8c-88fe-4415-96f0-06511b070083-16666725974cf35e4d-1"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade",
         "setwidth": "container",
@@ -204,6 +197,7 @@
         "template--16716887458110__24a28133-2e01-4361-8b00-ad164f72336f-1666686767d1a98887-1",
         "template--16716887458110__24a28133-2e01-4361-8b00-ad164f72336f-1666686767d1a98887-0"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade",
         "setwidth": "container",
@@ -218,19 +212,6 @@
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
-    },
-    "a035e328-7cfe-4cf0-81d0-e2f5f0188740": {
-      "type": "map",
-      "settings": {
-        "heading": "Our store",
-        "address": "<p>123 Fake St.<br/>Toronto, Canada</p><p>Mon - Fri, 10am - 9pm<br/>Saturday, 11am - 9pm<br/>Sunday, 11am - 5pm</p>",
-        "map_address": "301 Front St W, Toronto",
-        "button_text": "Get directions",
-        "show_pin": true,
-        "api_key": "",
-        "map_code": "<div class=\"mapouter\"><div class=\"gmap_canvas\">\n<iframe width=\"600\" height=\"500\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?q=CN%20Tower,%20301%20Front%20St%20W,%20Toronto,%20ON%20M5V%202T6,%20Canada&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" loading=\"lazy\" allowfullscreen></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>\n<a href=\"https://www.embedgooglemap.net\">google maps code generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>\n</div></div>",
-        "background_image_position": "center center"
-      }
     }
   },
   "order": [
@@ -238,7 +219,6 @@
     "b2ef3f00-5f4f-4e93-8187-3970a28a8f9e",
     "f172e7b1-989c-4feb-a20b-ac2934933476",
     "d72bcc8c-88fe-4415-96f0-06511b070083",
-    "24a28133-2e01-4361-8b00-ad164f72336f",
-    "a035e328-7cfe-4cf0-81d0-e2f5f0188740"
+    "24a28133-2e01-4361-8b00-ad164f72336f"
   ]
 }
