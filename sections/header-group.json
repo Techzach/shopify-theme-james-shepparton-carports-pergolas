@@ -163,7 +163,7 @@
       "settings": {
         "animation": "",
         "setwidth": "container",
-        "bgsection": "#d3ea91",
+        "bgsection": "#cded6f",
         "gradient_bg": "",
         "title_color": "transparent",
         "title_top": "Building Your dream carports, Patios and Pergolas",
@@ -171,9 +171,9 @@
         "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
         "align-heading": "center",
         "align-content": "center",
-        "paddingsection": "40px 0px 40px 0px",
+        "paddingsection": "70px 0px 70px 0px",
         "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "0px 0px 0px 0px",
+        "marginsection": "10px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
     }
