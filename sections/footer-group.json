@@ -43,7 +43,7 @@
             "widthlogofooter": 150,
             "title": "",
             "text": "We stand by our 10 year guarantee on all workmanship and our quality range of products. We have a range of inexpensive building materials to design a carport, patio or verandah to meet your lifestyle needs.",
-            "width": "25%"
+            "width": "33%"
           }
         },
         "ec49d85b-17bb-4b65-a49f-3086aa5430cd": {
@@ -85,8 +85,8 @@
         "text": "#0b0b0b",
         "text_hover": "#cded6f",
         "title": "#cded6f",
-        "footer_align_title": "center",
-        "enable_border": false,
+        "footer_align_title": "left",
+        "enable_border": true,
         "footer_font_family": "--g-font-1",
         "footer_font_size_title": 15,
         "footer_font_weight": "600",
