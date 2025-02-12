@@ -252,7 +252,7 @@
         "012b04ac-f446-483f-a6aa-c59e3444912d": {
           "type": "collection",
           "settings": {
-            "collection": "office",
+            "collection": "",
             "image": "shopify://shop_images/skillion-solarspan-patio1.jpg"
           }
         },
@@ -300,13 +300,13 @@
         "title": "Latest Projects",
         "des": "We are inspired by the realities of life today, in which traditional divides between <br> personal and professional space are more fluid.",
         "align-heading": "center",
-        "stylecollection": "namesup",
+        "stylecollection": "nameanditem",
         "size_image_col": "square",
         "color": "#1e2f45",
-        "bg_overlay": "#222222",
+        "bg_overlay": "#d96b4f",
         "enable_gradient": false,
         "opacity_overlay": 0,
-        "size_title": "h5",
+        "size_title": "h6",
         "button_link": "",
         "button": "",
         "perviewDesktop": 4,
