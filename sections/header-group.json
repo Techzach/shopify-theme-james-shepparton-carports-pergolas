@@ -160,6 +160,7 @@
     },
     "rich_text_aLfc8b": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "animation": "",
         "setwidth": "container",
