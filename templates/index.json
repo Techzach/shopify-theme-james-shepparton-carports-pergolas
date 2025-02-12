@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "rich_text_aVzkC6": {
+      "type": "rich-text",
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#cded6f",
+        "gradient_bg": "",
+        "title_color": "transparent",
+        "title_top": "Building Your dream carports, Patios and Pergolas",
+        "title": "Welcome to Gv Carports & Patios",
+        "text": "<h3></h3><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "align-heading": "center",
+        "align-content": "center",
+        "paddingsection": "70px 0px 70px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
+    },
+    "line_KWiBcB": {
+      "type": "line",
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "marginsection": "5px 0px 0px 0px",
+        "bgsection": "#080808",
+        "setwidth": "container",
+        "bgborder": "#080808",
+        "wborder": "1px"
+      }
+    },
     "16485444103c52f5e9": {
       "type": "service",
       "blocks": {
@@ -842,6 +873,8 @@
     }
   },
   "order": [
+    "rich_text_aVzkC6",
+    "line_KWiBcB",
     "16485444103c52f5e9",
     "70da4000-c1cf-4928-8203-f21c081874c6",
     "8f7efc88-8555-4d5d-984d-bfed30a488ff",

@@ -157,25 +157,12 @@
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
-    },
-    "line_QarkHW": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "10px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#dddddd",
-        "wborder": "1px"
-      }
     }
   },
   "order": [
     "announcement-bar",
     "announcement-bar-slide",
     "header",
-    "store-messages",
-    "line_QarkHW"
+    "store-messages"
   ]
 }
