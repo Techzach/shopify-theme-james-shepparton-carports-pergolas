@@ -68,11 +68,11 @@
         "marginsection": "0px 0px 0px 0px",
         "bgsection": "#080808",
         "setwidth": "container",
-        "bgborder": "#dddddd",
+        "bgborder": "#080808",
         "wborder": "1px"
       }
     },
-    "line_f8zpL9": {
+    "line_HKpc3L": {
       "type": "line",
       "settings": {
         "animation": "",
@@ -80,7 +80,7 @@
         "marginsection": "0px 0px 0px 0px",
         "bgsection": "#080808",
         "setwidth": "container",
-        "bgborder": "#dddddd",
+        "bgborder": "#080808",
         "wborder": "1px"
       }
     },
@@ -348,7 +348,7 @@
     "49b0a5ba-1ebd-493b-ae50-1ec847159046",
     "line_wg3kJQ",
     "f172e7b1-989c-4feb-a20b-ac2934933476",
-    "line_f8zpL9",
+    "line_HKpc3L",
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4",
     "2d11636f-e0da-4a86-b3b5-c1eda5735347",
     "d72bcc8c-88fe-4415-96f0-06511b070083",
