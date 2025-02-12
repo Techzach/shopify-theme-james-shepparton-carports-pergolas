@@ -74,7 +74,7 @@
         "ec49d85b-17bb-4b65-a49f-3086aa5430cd"
       ],
       "settings": {
-        "setwidth": "full",
+        "setwidth": "container-fluid",
         "background": "#f6f6f0",
         "border_headfooter": "rgba(0,0,0,0)",
         "border-copryright": "#dfdfca",
