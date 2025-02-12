@@ -236,31 +236,36 @@
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "kitchen"
+            "collection": "kitchen",
+            "image": "shopify://shop_images/verandah-2-1-370x370.jpg"
           }
         },
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "decoration"
+            "collection": "decoration",
+            "image": "shopify://shop_images/Pergola-with-slats.jpg"
           }
         },
         "012b04ac-f446-483f-a6aa-c59e3444912d": {
           "type": "collection",
           "settings": {
-            "collection": "office"
+            "collection": "office",
+            "image": "shopify://shop_images/skillion-solarspan-patio1.jpg"
           }
         },
         "bcd6b727-9c9f-4c33-9b79-0d4ca6070131": {
           "type": "collection",
           "settings": {
-            "collection": "lighting"
+            "collection": "lighting",
+            "image": "shopify://shop_images/Gable-Patio-iron1.jpg"
           }
         },
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "books"
+            "collection": "books",
+            "image": "shopify://shop_images/Caravan-gable-carport-370x370.jpg"
           }
         },
         "collection_rynbdE": {
@@ -283,7 +288,7 @@
         "setwidth": "container",
         "bgsection": "#ffffff",
         "title_top": "Premium Active",
-        "title": "New arrivals",
+        "title": "Latest Projesct",
         "des": "We are inspired by the realities of life today, in which traditional divides between <br> personal and professional space are more fluid.",
         "align-heading": "center",
         "stylecollection": "namesup",
