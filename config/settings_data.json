@@ -488,7 +488,7 @@
               "gradient_overlay": false,
               "bg_overlay": "#000000",
               "opacity_overlay": 0.2,
-              "slide_toptitle": "Decoration",
+              "slide_toptitle": "Welcom to Gv Carports & Patios",
               "margin_title": 1.5,
               "slide_toptitle_color": "#ffffff",
               "slide_title": "Refresh your <br> living room.",
@@ -516,6 +516,8 @@
             "settings": {
               "enable_video": false,
               "video_hosted": "",
+              "image": "shopify://shop_images/1121.jpg",
+              "image2": "shopify://shop_images/Homepage-bg1.jpg",
               "alignment": "center center",
               "text_alignment": "left center",
               "bgwrap": "#968574",
