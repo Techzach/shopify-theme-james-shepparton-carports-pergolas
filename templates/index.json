@@ -269,18 +269,6 @@
             "collection": "books",
             "image": "shopify://shop_images/Caravan-gable-carport-370x370.jpg"
           }
-        },
-        "collection_rynbdE": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-seller"
-          }
-        },
-        "collection_ffKhNe": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
@@ -288,9 +276,7 @@
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-1",
         "012b04ac-f446-483f-a6aa-c59e3444912d",
         "bcd6b727-9c9f-4c33-9b79-0d4ca6070131",
-        "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-2",
-        "collection_rynbdE",
-        "collection_ffKhNe"
+        "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-2"
       ],
       "settings": {
         "animation": "fade-up",
