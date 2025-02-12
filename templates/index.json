@@ -32,8 +32,8 @@
       "type": "line",
       "settings": {
         "animation": "",
-        "paddingsection": "0px 0px 0px 0px",
-        "marginsection": "5px 0px 0px 0px",
+        "paddingsection": "2px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
         "bgsection": "#080808",
         "setwidth": "container",
         "bgborder": "#080808",
