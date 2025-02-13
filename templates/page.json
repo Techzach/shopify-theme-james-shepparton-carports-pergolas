@@ -137,6 +137,13 @@
             "image_link": ""
           }
         },
+        "image_dFC8pk": {
+          "type": "image",
+          "settings": {
+            "img-in-hero": 200,
+            "image_link": ""
+          }
+        },
         "image_jwMqLW": {
           "type": "image",
           "settings": {
@@ -164,15 +171,24 @@
             "img-in-hero": 200,
             "image_link": ""
           }
+        },
+        "image_mD8VmN": {
+          "type": "image",
+          "settings": {
+            "img-in-hero": 200,
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "heading_XAe8aw",
         "image_BFptqR",
+        "image_dFC8pk",
         "image_jwMqLW",
         "image_DQ3mT7",
         "image_BfkWFj",
-        "image_kJyPtM"
+        "image_kJyPtM",
+        "image_mD8VmN"
       ],
       "settings": {
         "animation": "",
