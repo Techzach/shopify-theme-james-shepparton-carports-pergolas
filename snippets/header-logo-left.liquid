@@ -117,7 +117,7 @@
       </nav>    
     {%- endif -%}
     </div>
-   <div class="header-bottom__right col-bottom__right">
+    <div class="header-bottom__right col-bottom__right">
           <div class="d-none d-lg-flex align-items-center">
             {%- liquid
               assign enable_image = section.settings.enable_image
@@ -131,6 +131,7 @@
             -%}
           </div>
       {%- render link_list_search: section.settings.link_list_search, e_search: section.settings.sidebar_search -%}
+     
       {%- render 'block-cart' -%}
     </div>
   </div>
