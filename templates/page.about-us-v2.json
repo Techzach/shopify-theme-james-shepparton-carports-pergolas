@@ -164,44 +164,53 @@
     "1640249822349f58c7": {
       "type": "advanced-content",
       "blocks": {
-        "16402498223f426db3-0": {
-          "type": "html",
+        "image_pLfLMk": {
+          "type": "image",
           "settings": {
-            "code": "<div class=\"text-center mt-5  px-lg-5\" style=\"border-right: 1px solid rgba(255,255,255,0.1)\">\n<h4 class=\"mb-4\">\nModern Furniture Materials\n</h4>\n<p>\nMid-century modern designs are simple, comfortable, and mass-producible from affordable (yet high-quality) materials.</p>\n<div></div>\n</div>",
             "width": "33%",
-            "align": "auto"
+            "align": "center",
+            "image": "shopify://shop_images/IMG_0818.jpg",
+            "width_image": 100,
+            "image_link": "",
+            "enable_top": false,
+            "code": "<h4 style=\"text-align: center;  padding-top: 20px;\">\n    Gable Carports\n</h4>",
+            "padding-left": false,
+            "padding-right": false
           }
         },
-        "cc60faa4-f700-454c-b170-ae2148b201a2": {
-          "type": "html",
+        "image_4RxAz3": {
+          "type": "image",
           "settings": {
-            "code": "<div class=\"text-center mt-5  px-lg-5\" style=\"border-right: 1px solid rgba(255,255,255,0.2)\">\n<h4 class=\"mb-4\">\nWhat Features Define Modern Furniture?\n</h4>\n<p>\nModern and mid-century modern furniture designs primarily feature.</p>\n<div></div>\n</div>",
             "width": "33%",
-            "align": "auto"
+            "align": "center",
+            "image": "shopify://shop_images/IMG_0818.jpg",
+            "width_image": 100,
+            "image_link": "",
+            "enable_top": false,
+            "code": "<h4 style=\"text-align: center;  padding-top: 20px;\">\n    Gable Carports\n</h4>",
+            "padding-left": false,
+            "padding-right": false
           }
         },
-        "7da3a34c-3ce6-4e1e-998b-755fa0b63af8": {
-          "type": "html",
+        "image_nrwhhR": {
+          "type": "image",
           "settings": {
-            "code": "<div class=\"text-center mt-5  px-lg-5\">\n<h4 class=\" mb-4\">\nMid-Century Modern Designers\n</h4>\n<p>\nDuring the mid-century modern period, several mid-century modern designers rose to prominence for their roles in pioneering these modern styles.</p>\n<div></div>\n</div>",
             "width": "33%",
-            "align": "auto"
-          }
-        },
-        "a554d5b0-2bec-4123-adf5-5bdbd0b24f0e": {
-          "type": "html",
-          "settings": {
-            "code": "<div class=\"text-center mt-5\">\n<a class=\"btn btn-theme\" href=\"#\"> Read more</a>\n</div>",
-            "width": "100%",
-            "align": "auto"
+            "align": "center",
+            "image": "shopify://shop_images/IMG_0818.jpg",
+            "width_image": 100,
+            "image_link": "",
+            "enable_top": false,
+            "code": "<h4 style=\"text-align: center;  padding-top: 20px;\">\n    Gable Carports\n</h4>",
+            "padding-left": false,
+            "padding-right": false
           }
         }
       },
       "block_order": [
-        "16402498223f426db3-0",
-        "cc60faa4-f700-454c-b170-ae2148b201a2",
-        "7da3a34c-3ce6-4e1e-998b-755fa0b63af8",
-        "a554d5b0-2bec-4123-adf5-5bdbd0b24f0e"
+        "image_pLfLMk",
+        "image_4RxAz3",
+        "image_nrwhhR"
       ],
       "settings": {
         "animation": "fade-up",
@@ -215,15 +224,15 @@
         "e_position": "center center",
         "zindex": "0",
         "title_top": "",
-        "title": "",
-        "des": "",
-        "align-heading": "center",
+        "title": "Explore our roofing",
+        "des": "As manufacturers of both insulated panel roofing and single skin roofing, we offer a total system solution to our customers.\n\nOur National Head Office and Queensland Manufacturing facility is located at Parkinson in Brisbane. There are also Apollo Patio Roofing manufacturing facilities based in Sydney, Cairns, Townsville and Rockhampton.",
+        "align-heading": "left",
         "padding": false,
         "gutter_padding": 30,
         "col_center": false,
         "paddingsection": "60px 0px 90px 0px",
         "paddingmobile": "60px 0px 60px 0px",
-        "marginsection": "0px 0px 0px 0px",
+        "marginsection": "0px 10px 0px 10px",
         "marginmobile": "0px 0px 0px 0px"
       }
     },
