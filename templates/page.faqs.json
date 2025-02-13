@@ -43,6 +43,7 @@
         "template--16736981942590__9ad78513-f48a-4eed-affd-30f6d370be1c-1666772143a4c26d1e-1",
         "template--16736981942590__9ad78513-f48a-4eed-affd-30f6d370be1c-1666772143a4c26d1e-2"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -206,12 +207,84 @@
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
+    },
+    "brand_carousel_tBJ3aC": {
+      "type": "brand-carousel",
+      "blocks": {
+        "logo_rLJeAV": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_yaMmry": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_EnDp6z": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_E4r7h3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_XyXWVi": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_WidfaU": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_rLJeAV",
+        "logo_yaMmry",
+        "logo_EnDp6z",
+        "logo_E4r7h3",
+        "logo_XyXWVi",
+        "logo_WidfaU"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_top": "Our Trusted",
+        "title": "Products &Suppliers",
+        "des": "",
+        "align-heading": "center",
+        "grayscale": true,
+        "arrows": false,
+        "draggable": true,
+        "dots": true,
+        "infinite": true,
+        "width_image": 70,
+        "slidestoshow": 5,
+        "slidescroll": 1,
+        "rows": "1",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 20px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
     "main",
     "9ad78513-f48a-4eed-affd-30f6d370be1c",
     "062df5dc-f552-45ec-89c4-08fb863777b7",
-    "e3f9b59b-307f-4380-8307-f05ffecaaef0"
+    "e3f9b59b-307f-4380-8307-f05ffecaaef0",
+    "brand_carousel_tBJ3aC"
   ]
 }
