@@ -12,9 +12,85 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "advanced_content_eXgfgT": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_TiAn3E": {
+          "type": "image",
+          "settings": {
+            "width": "33%",
+            "align": "auto",
+            "image": "shopify://shop_images/20191208_174930.jpg",
+            "width_image": 100,
+            "image_link": "",
+            "enable_top": false,
+            "code": "This text can be used to share information about your brand with customers.",
+            "padding-left": false,
+            "padding-right": false
+          }
+        },
+        "image_QKEcGM": {
+          "type": "image",
+          "settings": {
+            "width": "33%",
+            "align": "auto",
+            "image": "shopify://shop_images/20181112_163637.jpg",
+            "width_image": 100,
+            "image_link": "",
+            "enable_top": false,
+            "code": "This text can be used to share information about your brand with customers.",
+            "padding-left": false,
+            "padding-right": false
+          }
+        },
+        "image_YxEUQa": {
+          "type": "image",
+          "settings": {
+            "width": "33%",
+            "align": "auto",
+            "image": "shopify://shop_images/20181112_163333_2.jpg",
+            "width_image": 100,
+            "image_link": "",
+            "enable_top": false,
+            "code": "This text can be used to share information about your brand with customers.",
+            "padding-left": false,
+            "padding-right": false
+          }
+        }
+      },
+      "block_order": [
+        "image_TiAn3E",
+        "image_QKEcGM",
+        "image_YxEUQa"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "text_color": "rgba(0,0,0,0)",
+        "bgsection": "#ffffff",
+        "rangebg": 0,
+        "bgbefore": "transparent",
+        "e_size": "auto",
+        "e_repeat": "no-repeat",
+        "e_position": "center center",
+        "zindex": "0",
+        "title_top": "",
+        "title": "Pergolas",
+        "des": "",
+        "align-heading": "center",
+        "padding": true,
+        "gutter_padding": 30,
+        "col_center": false,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "advanced_content_eXgfgT"
   ]
 }
