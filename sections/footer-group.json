@@ -65,7 +65,7 @@
           "type": "contact",
           "settings": {
             "title": "Contact Us",
-            "contact_des": "Have a question? Give us a call or fill out the contact form. We’d love to hear from you",
+            "contact_des": "",
             "contact_addess": "91 Archer Street Shepparton, Victoria, 3630",
             "contact_phone": "044888621",
             "contact_mail": "SCP@yourcompany.com",
