@@ -9,18 +9,6 @@
  */
 {
   "sections": {
-    "line_KWiBcB": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "2px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#080808",
-        "wborder": "1px"
-      }
-    },
     "16485444103c52f5e9": {
       "type": "service",
       "blocks": {
@@ -95,18 +83,6 @@
         "paddingmobile": "24px 0px 10px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "70da4000-c1cf-4928-8203-f21c081874c6": {
-      "type": "line",
-      "settings": {
-        "animation": "fade",
-        "paddingsection": "0px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#ffffff",
-        "setwidth": "full",
-        "bgborder": "#dce2ec",
-        "wborder": "1px"
       }
     },
     "8f7efc88-8555-4d5d-984d-bfed30a488ff": {
@@ -231,18 +207,6 @@
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "9a4f05f1-ae72-47ea-a1c9-11ad0d6cf46e": {
-      "type": "line",
-      "settings": {
-        "animation": "fade",
-        "paddingsection": "0px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#ffffff",
-        "setwidth": "full",
-        "bgborder": "#dddddd",
-        "wborder": "1px"
       }
     },
     "1f7801eb-26d9-49df-85c5-db063768cdb7": {
@@ -690,12 +654,9 @@
     }
   },
   "order": [
-    "line_KWiBcB",
     "16485444103c52f5e9",
-    "70da4000-c1cf-4928-8203-f21c081874c6",
     "8f7efc88-8555-4d5d-984d-bfed30a488ff",
     "90256253-4427-4c0f-a280-c9d024bc8dcc",
-    "9a4f05f1-ae72-47ea-a1c9-11ad0d6cf46e",
     "1f7801eb-26d9-49df-85c5-db063768cdb7",
     "662cf23c-2a28-41c4-9bd8-b6517c99ba49",
     "70b7f2d2-4c12-4305-88bd-da89e2d18d5b",
