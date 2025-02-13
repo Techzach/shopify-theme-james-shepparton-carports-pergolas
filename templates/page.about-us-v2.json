@@ -122,7 +122,8 @@
           "type": "image",
           "settings": {
             "width": "50%",
-            "align": "auto",
+            "align": "center",
+            "image": "shopify://shop_images/20230811_Apollo-Factory-shoot_Sales_022-scaled.jpg",
             "width_image": 100,
             "image_link": "",
             "enable_top": false,
