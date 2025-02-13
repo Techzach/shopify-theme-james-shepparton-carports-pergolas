@@ -53,15 +53,6 @@
             "width": "25%"
           }
         },
-        "text_mBmajU": {
-          "type": "text",
-          "settings": {
-            "widthlogofooter": 100,
-            "title": "contact",
-            "text": "Have a question? Give us a call or fill out the contact form. We’d love to hear from you",
-            "width": "20%"
-          }
-        },
         "contact_L3hAUE": {
           "type": "contact",
           "settings": {
@@ -72,13 +63,23 @@
             "contact_mail": "SCP@yourcompany.com",
             "contact_web": "www.SCP.com"
           }
+        },
+        "text_mBmajU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "widthlogofooter": 100,
+            "title": "contact",
+            "text": "Have a question? Give us a call or fill out the contact form. We’d love to hear from you",
+            "width": "20%"
+          }
         }
       },
       "block_order": [
         "1595696762386",
         "menu_YjgKMn",
-        "text_mBmajU",
-        "contact_L3hAUE"
+        "contact_L3hAUE",
+        "text_mBmajU"
       ],
       "custom_css": [],
       "settings": {
