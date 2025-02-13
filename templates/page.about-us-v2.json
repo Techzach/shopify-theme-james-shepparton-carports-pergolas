@@ -298,6 +298,50 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
+    "family_kDAPP7": {
+      "type": "Family",
+      "blocks": {
+        "feature_w6HNEi": {
+          "type": "feature",
+          "settings": {
+            "title": "Operating since 1995",
+            "text": "Three decades of experience"
+          }
+        },
+        "feature_JYieRf": {
+          "type": "feature",
+          "settings": {
+            "title": "15-Year Warranty",
+            "text": "On Durasheen paint coat finishes"
+          }
+        },
+        "feature_f6YfzQ": {
+          "type": "feature",
+          "settings": {
+            "title": "Manufactured in Australia",
+            "text": "Designed, engineered, and manufactured in Australia"
+          }
+        },
+        "feature_hen3Ek": {
+          "type": "feature",
+          "settings": {
+            "title": "Complete System",
+            "text": "We deliver everything needed to construct your structure"
+          }
+        }
+      },
+      "block_order": [
+        "feature_w6HNEi",
+        "feature_JYieRf",
+        "feature_f6YfzQ",
+        "feature_hen3Ek"
+      ],
+      "settings": {
+        "subtitle": "Family-Owned",
+        "main_title": "Everyone in our network is part of a family-owned business",
+        "description": "We fully understand how important it is to get your outdoor addition right. We are genuinely committed to elevating the experience you have with us and strive to exceed your expectations along the way."
+      }
+    },
     "4e23e5dd-3451-47fa-a801-2e98e58aaadd": {
       "type": "image-content",
       "blocks": {
@@ -586,6 +630,7 @@
     "eb8451fb-cc18-4b15-9852-18c939660c4e",
     "1640249822349f58c7",
     "70b7f2d2-4c12-4305-88bd-da89e2d18d5b",
+    "family_kDAPP7",
     "4e23e5dd-3451-47fa-a801-2e98e58aaadd",
     "164025010979f1d019",
     "9023d9a5-f48d-400d-86ac-2821223f115d",
