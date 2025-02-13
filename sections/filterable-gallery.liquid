@@ -1,6 +1,94 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Filterable Gallery",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Filterable Gallery"
+    }
+  ]
+}
 {% endschema %}
+
+<div class="filter-gallery">
+  <div class="filter-buttons">
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="pergola">Pergola</button>
+    <button class="filter-btn" data-filter="patio">Patio</button>
+    <button class="filter-btn" data-filter="carports">Carports</button>
+  </div>
+
+  <div class="gallery">
+    <div class="gallery-item pergola">
+      <img src="{{ 'pergola.jpg' | asset_url }}" alt="Pergola">
+    </div>
+    <div class="gallery-item patio">
+      <img src="{{ 'patio.jpg' | asset_url }}" alt="Patio">
+    </div>
+    <div class="gallery-item carports">
+      <img src="{{ 'carport.jpg' | asset_url }}" alt="Carport">
+    </div>
+  </div>
+</div>
+
+<style>
+  .filter-gallery {
+    text-align: center;
+  }
+  .filter-buttons {
+    margin-bottom: 20px;
+  }
+  .filter-btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background: #333;
+    color: white;
+  }
+  .filter-btn:hover {
+    background: #555;
+  }
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gallery-item {
+    width: 200px;
+    margin: 10px;
+    display: block;
+  }
+  .gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .gallery-item img:hover {
+    transform: scale(1.1);
+  }
+  .hide {
+    display: none;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".filter-btn");
+    const items = document.querySelectorAll(".gallery-item");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        const filter = button.getAttribute("data-filter");
+
+        items.forEach(item => {
+          if (filter === "all" || item.classList.contains(filter)) {
+            item.classList.remove("hide");
+          } else {
+            item.classList.add("hide");
+          }
+        });
+      });
+    });
+  });
+</script>
