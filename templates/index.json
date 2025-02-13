@@ -14,11 +14,11 @@
       "settings": {
         "animation": "",
         "setwidth": "container",
-        "bgsection": "#cded6f",
+        "bgsection": "#5bc2e7",
         "gradient_bg": "",
-        "title_color": "transparent",
-        "title_top": "Building Your dream carports, Patios and Pergolas",
-        "title": "Welcome to Gv Carports & Patios",
+        "title_color": "rgba(0,0,0,0)",
+        "title_top": "Building Your dream carports and Pergolas",
+        "title": "Welcome to SCP Carports & Patios",
         "text": "<h3></h3><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
         "align-heading": "center",
         "align-content": "center",
@@ -276,8 +276,7 @@
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "decoration",
-            "image": "shopify://shop_images/Pergola-with-slats.jpg"
+            "collection": "decoration"
           }
         },
         "012b04ac-f446-483f-a6aa-c59e3444912d": {
@@ -297,8 +296,7 @@
         "template--21109129117976__48a9fffb-7b1f-4bc5-9e0b-4f19556846d2-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "books",
-            "image": "shopify://shop_images/Caravan-gable-carport-370x370.jpg"
+            "collection": "books"
           }
         }
       },
