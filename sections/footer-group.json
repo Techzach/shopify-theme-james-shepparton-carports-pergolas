@@ -54,6 +54,13 @@
             "width": "33%"
           }
         },
+        "menu_YjgKMn": {
+          "type": "menu",
+          "settings": {
+            "link_list": "footer",
+            "width": "20%"
+          }
+        },
         "contact_L3hAUE": {
           "type": "contact",
           "settings": {
@@ -64,20 +71,13 @@
             "contact_mail": "SCP@yourcompany.com",
             "contact_web": "www.SCP.com"
           }
-        },
-        "menu_YjgKMn": {
-          "type": "menu",
-          "settings": {
-            "link_list": "footer",
-            "width": "25%"
-          }
         }
       },
       "block_order": [
         "1595696762386",
         "social_pJWfWc",
-        "contact_L3hAUE",
-        "menu_YjgKMn"
+        "menu_YjgKMn",
+        "contact_L3hAUE"
       ],
       "settings": {
         "setwidth": "container-fluid",
