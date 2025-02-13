@@ -75,18 +75,26 @@
     flex-wrap: wrap;
   }
   .gallery-item {
-    width: 200px;
-    margin: 10px;
-    display: block;
+    width: 200px; /* Sab images ki width same hogi */
+    height: 200px; /* Sab images ki height bhi same hogi */
+    overflow: hidden; /* Agar image badi ho to extra part hide ho jaye */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
   .gallery-item img {
     width: 100%;
+    height: 100%;
+    object-fit: cover; /* Image ko crop karke same size me fit karega */
     border-radius: 10px;
     transition: transform 0.3s;
   }
+
   .gallery-item img:hover {
     transform: scale(1.1);
   }
+
   .hide {
     display: none;
   }
