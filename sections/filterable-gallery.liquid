@@ -1,21 +1,29 @@
 {% schema %}
 {
   "name": "Filterable Gallery",
-  "settings": [
+  "settings": [],
+  "blocks": [
     {
-      "type": "image_picker",
-      "id": "pergola_image",
-      "label": "Pergola Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "patio_image",
-      "label": "Patio Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "carport_image",
-      "label": "Carport Image"
+      "type": "image",
+      "name": "Gallery Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Upload Image"
+        },
+        {
+          "type": "select",
+          "id": "category",
+          "label": "Category",
+          "options": [
+            { "value": "pergola", "label": "Pergola" },
+            { "value": "patio", "label": "Patio" },
+            { "value": "carports", "label": "Carports" }
+          ],
+          "default": "pergola"
+        }
+      ]
     }
   ],
   "presets": [
@@ -35,23 +43,13 @@
   </div>
 
   <div class="gallery">
-    {% if section.settings.pergola_image %}
-      <div class="gallery-item pergola">
-        <img src="{{ section.settings.pergola_image | img_url: 'large' }}" alt="Pergola">
-      </div>
-    {% endif %}
-
-    {% if section.settings.patio_image %}
-      <div class="gallery-item patio">
-        <img src="{{ section.settings.patio_image | img_url: 'large' }}" alt="Patio">
-      </div>
-    {% endif %}
-
-    {% if section.settings.carport_image %}
-      <div class="gallery-item carports">
-        <img src="{{ section.settings.carport_image | img_url: 'large' }}" alt="Carport">
-      </div>
-    {% endif %}
+    {% for block in section.blocks %}
+      {% if block.settings.image %}
+        <div class="gallery-item {{ block.settings.category }}">
+          <img src="{{ block.settings.image | img_url: 'large' }}" alt="{{ block.settings.category }}">
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
 
