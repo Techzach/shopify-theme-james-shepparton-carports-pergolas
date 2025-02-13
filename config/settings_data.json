@@ -518,47 +518,47 @@
               "color_button_hover_2": "#ffffff"
             }
           },
-          "image_AE6C4q": {
+          "image_KbRXiA": {
             "type": "image",
             "settings": {
               "enable_video": false,
               "video_hosted": "",
-              "image": "shopify://shop_images/20210810_093600.heic",
-              "image_mobile": "shopify://shop_images/IMG_1999.jpg",
+              "image": "shopify://shop_images/20211201_103956.jpg",
+              "image_mobile": "shopify://shop_images/20211201_103956.jpg",
               "alignment": "center center",
-              "text_alignment": "center center",
-              "bgwrap": "#f8ede7",
-              "show_overlay": false,
+              "text_alignment": "left center",
+              "bgwrap": "#a29f9a",
+              "show_overlay": true,
               "gradient_overlay": false,
               "bg_overlay": "#000000",
-              "opacity_overlay": 1,
+              "opacity_overlay": 0.2,
               "slide_toptitle": "",
               "margin_title": 1.5,
-              "slide_toptitle_color": "#999999",
-              "slide_title": "",
-              "slide_title_color": "#131315",
+              "slide_toptitle_color": "#ffffff",
+              "slide_title": "The most reputable builders in the Goulburn Valley since 1997",
+              "slide_title_color": "#ffffff",
               "subheading": "",
               "subheading_color": "#ffffff",
-              "button_label": "",
-              "button_link": "",
+              "button_label": "Book a Free Quote",
+              "button_link": "shopify://collections/tools",
               "stylebtns": "btn-theme",
-              "bg_button": "#000000",
-              "color_button": "#ffffff",
-              "bg_button_hover": "#ff6f2e",
-              "color_button_hover": "#ffffff",
+              "bg_button": "#ffffff",
+              "color_button": "#202025",
+              "bg_button_hover": "#eeeeee",
+              "color_button_hover": "#202025",
               "button_label_2": "",
-              "button_link_2": "",
-              "stylebtns_2": "btn-theme",
-              "bg_button_2": "#000000",
+              "button_link_2": "shopify://collections/all",
+              "stylebtns_2": "btn-underline",
+              "bg_button_2": "#ffffff",
               "color_button_2": "#ffffff",
-              "bg_button_hover_2": "#ff6f2e",
+              "bg_button_hover_2": "#d96b4f",
               "color_button_hover_2": "#ffffff"
             }
           }
         },
         "block_order": [
           "1561259906467",
-          "image_AE6C4q"
+          "image_KbRXiA"
         ],
         "settings": {
           "enable_slideshow": true,
