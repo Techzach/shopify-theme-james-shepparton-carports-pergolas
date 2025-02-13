@@ -72,18 +72,6 @@
         "wborder": "1px"
       }
     },
-    "line_HKpc3L": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "2px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#080808",
-        "wborder": "1px"
-      }
-    },
     "f172e7b1-989c-4feb-a20b-ac2934933476": {
       "type": "rich-text",
       "blocks": {
@@ -122,10 +110,28 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
+    "line_HKpc3L": {
+      "type": "line",
+      "settings": {
+        "animation": "",
+        "paddingsection": "2px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "bgsection": "#080808",
+        "setwidth": "container",
+        "bgborder": "#080808",
+        "wborder": "1px"
+      }
+    },
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4": {
       "type": "image-content",
       "blocks": {
         "18d2b540-6aa2-4967-b7fd-c7eefd2bd1e5": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Caravan-Carport-with-Slats.jpg"
+          }
+        },
+        "image_block_GNypxA": {
           "type": "image_block",
           "settings": {
             "image": "shopify://shop_images/Caravan-Carport-with-Slats.jpg"
@@ -146,18 +152,19 @@
             "button": "",
             "link": "",
             "enable_padding": true,
-            "align": "left"
+            "align": "center"
           }
         }
       },
       "block_order": [
         "18d2b540-6aa2-4967-b7fd-c7eefd2bd1e5",
+        "image_block_GNypxA",
         "e3cdf781-1586-4bad-94d6-ba09691910ac"
       ],
       "settings": {
         "animation": "fade",
         "setwidth": "full",
-        "bgsection": "#344a52",
+        "bgsection": "#9e9f38",
         "rangebg": 0,
         "bgbefore": "rgba(0,0,0,0)",
         "bg_pos": "left",
@@ -165,7 +172,7 @@
         "align_center": true,
         "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "0px 0px 40px 0px",
-        "marginsection": "0px 0px 0px 0px",
+        "marginsection": "10px 0px 0px 0px",
         "marginmobile": "40px 0px 0px 0px"
       }
     },
