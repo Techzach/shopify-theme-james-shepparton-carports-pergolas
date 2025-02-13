@@ -485,9 +485,9 @@
         "quote_nbyNMy": {
           "type": "quote",
           "settings": {
-            "title": "",
+            "title": "PERFECT!",
             "author": "John Smith",
-            "info": "",
+            "info": "ENGINEER",
             "rate": 5,
             "quote": "\"Absolutely love our new pergola! It adds so much charm to our outdoor space, and the installation was smooth and hassle-free. Great service!\""
           }
@@ -495,9 +495,9 @@
         "quote_NXBgjP": {
           "type": "quote",
           "settings": {
-            "title": "",
+            "title": "AWESOME!",
             "author": "Emily Johnson",
-            "info": "",
+            "info": "PRODUCER",
             "rate": 5,
             "quote": "\"We needed a durable carport to protect our vehicles, and this company delivered exactly what we wanted. Strong, stylish, and built to last!\""
           }
@@ -505,9 +505,9 @@
         "quote_cpj9rT": {
           "type": "quote",
           "settings": {
-            "title": "",
+            "title": "AMAZING!",
             "author": "Sarah Williams",
-            "info": "",
+            "info": "DISIGNER",
             "rate": 5,
             "quote": "\"Our new pergola completely transformed our backyard! The team was professional from start to finish. Highly recommend!\""
           }
@@ -528,7 +528,7 @@
         "des": "Hear From Our Satisfied Customers",
         "align-heading": "left",
         "aligntext": "text-left",
-        "style": "style-2",
+        "style": "style-1",
         "color_rate": "#f1f1f1",
         "color_rated": "#000000",
         "size_text": "txt-body",
