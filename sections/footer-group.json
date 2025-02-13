@@ -46,17 +46,18 @@
             "width": "33%"
           }
         },
-        "ec49d85b-17bb-4b65-a49f-3086aa5430cd": {
-          "type": "newsletter",
+        "menu_YjgKMn": {
+          "type": "menu",
           "settings": {
-            "bg_new": "rgba(0,0,0,0)",
-            "border_new": "#5c6978",
-            "btn_bg_new": "#5bc2e7",
-            "btn_cl_new": "#080808",
-            "btn_cl_new_hover": "#ffffff",
-            "title": "Sign up & save 15%",
-            "subheading": "<p>Get a 15% discount on your first order.</p>",
-            "enablesocial": true,
+            "link_list": "footer",
+            "width": "33%"
+          }
+        },
+        "social_pJWfWc": {
+          "type": "social",
+          "disabled": true,
+          "settings": {
+            "title": "Follow us",
             "width": "33%"
           }
         },
@@ -67,14 +68,15 @@
             "contact_des": "Have a question? Give us a call or fill out the contact form. We’d love to hear from you",
             "contact_addess": "91 Archer Street Shepparton, Victoria, 3630",
             "contact_phone": "044888621",
-            "contact_mail": "sale@yourcompany.com",
-            "contact_web": "www.example.com"
+            "contact_mail": "SCP@yourcompany.com",
+            "contact_web": "www.SCP.com"
           }
         }
       },
       "block_order": [
         "1595696762386",
-        "ec49d85b-17bb-4b65-a49f-3086aa5430cd",
+        "menu_YjgKMn",
+        "social_pJWfWc",
         "contact_L3hAUE"
       ],
       "settings": {
@@ -85,7 +87,7 @@
         "text": "#ffffff",
         "text_hover": "#5bc2e7",
         "title": "#ffffff",
-        "footer_align_title": "center",
+        "footer_align_title": "left",
         "enable_border": true,
         "footer_font_family": "--g-font-1",
         "footer_font_size_title": 15,
