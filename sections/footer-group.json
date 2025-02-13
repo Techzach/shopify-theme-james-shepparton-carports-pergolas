@@ -63,6 +63,7 @@
         },
         "text_mBmajU": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "widthlogofooter": 100,
             "title": "contact",
