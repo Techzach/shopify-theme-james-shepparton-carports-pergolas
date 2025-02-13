@@ -600,74 +600,93 @@
     "filterable_gallery_9XRifx": {
       "type": "filterable-gallery",
       "blocks": {
-        "image_HGqTx8": {
-          "type": "image",
+        "photo_BfJP4b": {
+          "type": "photo",
           "settings": {
-            "image": "shopify://shop_images/IMG_1999.jpg",
-            "category": "pergola"
+            "image": "shopify://shop_images/20160223_093322_001.jpg",
+            "title": "Pergolas",
+            "link": ""
           }
         },
-        "image_apb6mN": {
-          "type": "image",
+        "photo_JkBD9G": {
+          "type": "photo",
+          "settings": {
+            "image": "shopify://shop_images/20211201_103956.jpg",
+            "title": "Carports",
+            "link": ""
+          }
+        },
+        "photo_QDjLf4": {
+          "type": "photo",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0260.jpg",
+            "title": "Pergolas",
+            "link": ""
+          }
+        },
+        "photo_3DAc4g": {
+          "type": "photo",
+          "settings": {
+            "image": "shopify://shop_images/20170602_135559.jpg",
+            "title": "Carports",
+            "link": ""
+          }
+        },
+        "photo_dTV8Uf": {
+          "type": "photo",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0351.jpg",
+            "title": "Pergolas",
+            "link": ""
+          }
+        },
+        "photo_HtHADG": {
+          "type": "photo",
           "settings": {
             "image": "shopify://shop_images/IMG_0809.jpg",
-            "category": "carports"
+            "title": "Carports",
+            "link": ""
           }
         },
-        "image_UChpTD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_1903.jpg",
-            "category": "carports"
-          }
-        },
-        "image_fqd9b9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/20151230_114626.jpg",
-            "category": "pergola"
-          }
-        },
-        "image_Xrt7Az": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/20190607_122013.jpg",
-            "category": "carports"
-          }
-        },
-        "image_NaQXFf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/20240823_101108.jpg",
-            "category": "pergola"
-          }
-        },
-        "image_DHF3hy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/20211201_103831.jpg",
-            "category": "carports"
-          }
-        },
-        "image_4ChKdh": {
-          "type": "image",
+        "photo_Lc7V9k": {
+          "type": "photo",
           "settings": {
             "image": "shopify://shop_images/20220203_104255.jpg",
-            "category": "pergola"
+            "title": "Pergolas",
+            "link": ""
+          }
+        },
+        "photo_fKVA9N": {
+          "type": "photo",
+          "settings": {
+            "image": "shopify://shop_images/20200211_134503.jpg",
+            "title": "Carports",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "image_HGqTx8",
-        "image_apb6mN",
-        "image_UChpTD",
-        "image_fqd9b9",
-        "image_Xrt7Az",
-        "image_NaQXFf",
-        "image_DHF3hy",
-        "image_4ChKdh"
+        "photo_BfJP4b",
+        "photo_JkBD9G",
+        "photo_QDjLf4",
+        "photo_3DAc4g",
+        "photo_dTV8Uf",
+        "photo_HtHADG",
+        "photo_Lc7V9k",
+        "photo_fKVA9N"
       ],
-      "settings": {}
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_top": "Sub Title Top",
+        "title": "Custom content",
+        "des": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
