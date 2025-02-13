@@ -1,146 +1,123 @@
 {% schema %}
 {
-  "name": "Family Owned Section",
+  "name": "Feature Section",
   "settings": [
-    {
-      "type": "text",
-      "id": "subheading",
-      "label": "Subheading",
-      "default": "Family-owned"
-    },
     {
       "type": "text",
       "id": "heading",
       "label": "Heading",
       "default": "Everyone in our network is part of a family-owned business"
-    },
+    }
+  ],
+  "blocks": [
     {
-      "type": "textarea",
-      "id": "description",
-      "label": "Description",
-      "default": "We fully understand how important it is to get your outdoor addition right. We are genuinely committed to elevating the experience you have with us and strive to exceed your expectations along the way."
-    },
-    {
-      "type": "image_picker",
-      "id": "icon1",
-      "label": "Icon 1"
-    },
-    {
-      "type": "text",
-      "id": "title1",
-      "label": "Title 1",
-      "default": "Operating since 1995"
-    },
-    {
-      "type": "textarea",
-      "id": "desc1",
-      "label": "Description 1",
-      "default": "Three decades of experience"
-    },
-    {
-      "type": "image_picker",
-      "id": "icon2",
-      "label": "Icon 2"
-    },
-    {
-      "type": "text",
-      "id": "title2",
-      "label": "Title 2",
-      "default": "15-Year Warranty"
-    },
-    {
-      "type": "textarea",
-      "id": "desc2",
-      "label": "Description 2",
-      "default": "On Durasheen paint coat finishes"
-    },
-    {
-      "type": "image_picker",
-      "id": "icon3",
-      "label": "Icon 3"
-    },
-    {
-      "type": "text",
-      "id": "title3",
-      "label": "Title 3",
-      "default": "Manufactured in Australia"
-    },
-    {
-      "type": "textarea",
-      "id": "desc3",
-      "label": "Description 3",
-      "default": "Designed, engineered, and manufactured in Australia."
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Feature Icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Feature Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Feature Description"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "Family Owned Section",
-      "category": "Custom Sections"
+      "name": "Feature Section",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Operating since 1995",
+            "description": "Three decades of experience"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "15-Year Warranty",
+            "description": "On Durasheen paint coat finishes"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Manufactured in Australia",
+            "description": "Designed, engineered, and manufactured in Australia"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Complete System",
+            "description": "We deliver everything needed to construct your project to site"
+          }
+        }
+      ]
     }
   ]
 }
 {% endschema %}
 
 <style>
-.family-owned-section {
+.feature-section {
   text-align: center;
-  padding: 50px 20px;
+  padding: 50px 0;
 }
-.family-owned-section h2 {
-  font-size: 32px;
-  font-weight: bold;
-  color: #0a2135;
-}
-.family-owned-section p {
-  font-size: 16px;
-  color: #5a5a5a;
-  margin: 10px 0 30px;
-}
-.features {
+
+.feature-list {
   display: flex;
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-  max-width: 1000px;
-  margin: auto;
 }
+
 .feature-item {
   text-align: center;
-  width: 250px;
+  max-width: 200px;
 }
+
 .feature-item img {
-  max-width: 60px;
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
 }
+
 .feature-item h3 {
   font-size: 18px;
   font-weight: bold;
-  margin-top: 10px;
+  margin-bottom: 5px;
 }
+
 .feature-item p {
   font-size: 14px;
-  color: #5a5a5a;
+  color: #666;
 }
 </style>
 
-<section class="family-owned-section">
-  <h4 style="color: #007acc; font-style: italic;">{{ section.settings.subheading }}</h4>
+<div class="feature-section">
   <h2>{{ section.settings.heading }}</h2>
-  <p>{{ section.settings.description }}</p>
-  <div class="features">
-    <div class="feature-item">
-      <img src="{{ section.settings.icon1 | img_url: '60x60' }}" alt="{{ section.settings.title1 }}">
-      <h3>{{ section.settings.title1 }}</h3>
-      <p>{{ section.settings.desc1 }}</p>
-    </div>
-    <div class="feature-item">
-      <img src="{{ section.settings.icon2 | img_url: '60x60' }}" alt="{{ section.settings.title2 }}">
-      <h3>{{ section.settings.title2 }}</h3>
-      <p>{{ section.settings.desc2 }}</p>
-    </div>
-    <div class="feature-item">
-      <img src="{{ section.settings.icon3 | img_url: '60x60' }}" alt="{{ section.settings.title3 }}">
-      <h3>{{ section.settings.title3 }}</h3>
-      <p>{{ section.settings.desc3 }}</p>
-    </div>
+  <div class="feature-list">
+    {% for block in section.blocks %}
+      <div class="feature-item">
+        {% if block.settings.icon %}
+          <img src="{{ block.settings.icon | img_url: 'medium' }}" alt="{{ block.settings.title }}">
+        {% endif %}
+        <h3>{{ block.settings.title }}</h3>
+        <p>{{ block.settings.description }}</p>
+      </div>
+    {% endfor %}
   </div>
-</section>
+</div>
