@@ -9,25 +9,6 @@
  */
 {
   "sections": {
-    "rich_text_aVzkC6": {
-      "type": "rich-text",
-      "settings": {
-        "animation": "",
-        "setwidth": "container",
-        "bgsection": "#5bc2e7",
-        "gradient_bg": "",
-        "title_color": "rgba(0,0,0,0)",
-        "title_top": "Building Your dream carports and Pergolas",
-        "title": "Welcome to SCP Carports & Patios",
-        "text": "<h3></h3><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-        "align-heading": "center",
-        "align-content": "center",
-        "paddingsection": "70px 0px 70px 0px",
-        "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px"
-      }
-    },
     "line_KWiBcB": {
       "type": "line",
       "settings": {
@@ -816,7 +797,6 @@
     }
   },
   "order": [
-    "rich_text_aVzkC6",
     "line_KWiBcB",
     "16485444103c52f5e9",
     "70da4000-c1cf-4928-8203-f21c081874c6",
