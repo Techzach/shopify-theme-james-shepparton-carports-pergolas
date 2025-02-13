@@ -81,7 +81,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "setwidth": "full",
+        "setwidth": "container",
         "background": "#1b365d",
         "border_headfooter": "rgba(0,0,0,0)",
         "border-copryright": "#dfdfca",
