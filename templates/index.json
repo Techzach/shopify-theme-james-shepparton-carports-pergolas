@@ -457,16 +457,16 @@
             "subtitle": "",
             "title": "Carports",
             "size_text": "h2",
-            "description": "• Protects your property\n• Adds value to your home\n• Neat and tidy\n• Designed and built to compliment your home",
+            "description": "<li>Protects your property\n</li><li>Adds value to your home\n</li><li>Neat and tidy\n</li><li>Designed and built to compliment your home</li>",
             "bg_color": "#ffffff",
-            "colordef": "#1b365d",
+            "colordef": "#131315",
             "opacity_bg": 0.7,
             "style_btn": "btn-underline btn-underline-white",
             "button_text": "",
             "button_link": "",
             "vertical": "bottom",
             "horizontal": "center",
-            "text_align": "center"
+            "text_align": "left"
           }
         },
         "banner_tafFKR": {
@@ -478,19 +478,19 @@
             "promo_banner_height_mobile": 400,
             "image": "shopify://shop_images/20160223_093332.jpg",
             "image_mobile": "shopify://shop_images/20160223_093332.jpg",
-            "subtitle": "Sub Title",
-            "title": "Image with text",
+            "subtitle": "",
+            "title": "Pergolas",
             "size_text": "h2",
-            "description": "<p>Lorem ipsum dolor sit amet</p>",
+            "description": "<li>Adds value to your home\n</li><li>Increased floor space\n</li><li>Comfort and style\n</li><li>Indoor-outdoor living year round</li>",
             "bg_color": "#ffffff",
-            "colordef": "#ffffff",
-            "opacity_bg": 0,
+            "colordef": "#131315",
+            "opacity_bg": 0.5,
             "style_btn": "btn-underline btn-underline-white",
-            "button_text": "View more",
+            "button_text": "",
             "button_link": "",
-            "vertical": "bottom",
+            "vertical": "mid",
             "horizontal": "center",
-            "text_align": "center"
+            "text_align": "left"
           }
         }
       },
@@ -511,7 +511,7 @@
         "show_overlay": true,
         "gradient_overlay": true,
         "bg_overlay": "#ffffff",
-        "opacity_overlay": 0.6,
+        "opacity_overlay": 0,
         "paddingsection": "0px 0px 20px 0px",
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
