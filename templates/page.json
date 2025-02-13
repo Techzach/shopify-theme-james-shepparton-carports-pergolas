@@ -120,6 +120,30 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
+    "line_MLppG8": {
+      "type": "line",
+      "settings": {
+        "animation": "",
+        "paddingsection": "2px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "bgsection": "#080808",
+        "setwidth": "container",
+        "bgborder": "#080808",
+        "wborder": "1px"
+      }
+    },
+    "line_993bca": {
+      "type": "line",
+      "settings": {
+        "animation": "",
+        "paddingsection": "2px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "bgsection": "#080808",
+        "setwidth": "container",
+        "bgborder": "#080808",
+        "wborder": "1px"
+      }
+    },
     "rich_text_hoz_HrmAh3": {
       "type": "rich-text-hoz",
       "blocks": {
@@ -195,6 +219,8 @@
     "main",
     "advanced_content_eXgfgT",
     "rich_text_hoz_XdT6Kb",
-    "rich_text_hoz_HrmAh3"
+    "line_MLppG8",
+    "rich_text_hoz_HrmAh3",
+    "line_993bca"
   ]
 }
