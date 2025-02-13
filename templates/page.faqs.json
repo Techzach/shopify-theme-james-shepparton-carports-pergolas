@@ -214,36 +214,42 @@
         "logo_rLJeAV": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Lysaght-Logo.jpg",
             "link": ""
           }
         },
         "logo_yaMmry": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Solarspan-Logo.jpg",
             "link": ""
           }
         },
         "logo_EnDp6z": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Colorbond-logo.jpg",
             "link": ""
           }
         },
         "logo_E4r7h3": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Telfords-logo.jpg",
             "link": ""
           }
         },
         "logo_XyXWVi": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Ampelite-logo.jpg",
             "link": ""
           }
         },
         "logo_WidfaU": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Bondor-logo.jpg",
             "link": ""
           }
         }
