@@ -86,6 +86,7 @@
         "16485444103c52f5e9-1",
         "16485444103c52f5e9-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".iconx8 .icon {stroke-width: 3px;}"
       ],
@@ -346,13 +347,13 @@
             "w_image": 40,
             "pos_image": 88,
             "e_image": "right",
-            "image": "shopify://shop_images/Enclosure-1024x768.jpg",
-            "image2": "shopify://shop_images/1E4A5243-2-1-1024x683.jpg",
-            "enable_video": true,
+            "image": "shopify://shop_images/20170228_152752.jpg",
+            "image2": "shopify://shop_images/IMG_0260.jpg",
+            "enable_video": false,
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "text_circle": "Fashion2 style store",
-            "video_url": "https://youtu.be/7945LyvDHOM"
+            "video_url": ""
           }
         },
         "template--19541121335616__662cf23c-2a28-41c4-9bd8-b6517c99ba49-1687424839f6967066-1": {
