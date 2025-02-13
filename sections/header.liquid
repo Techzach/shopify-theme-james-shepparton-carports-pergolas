@@ -23,26 +23,7 @@
   data-section-type="header" 
   data-sticky="{{ type_sticky }}" >
 
-  <div class="header-bottom py-2 py-lg-0 ">
-    <div class="">
-      <div class="d-flex row-header align-items-center">
-        {%- liquid
-          case layout_header
-          when 'logo-center-navigation-center'
-            render 'header-logo-center-nav-center', container : container, enable_menu_vertical: enable_menu_vertical, sl_menu_vertical: sl_menu_vertical, main_linklist: main_linklist, blocks: blocks
-          when 'logo-left-navigation-underleft'
-            render 'header-logo-left-nav-left', container : container, enable_menu_vertical: enable_menu_vertical, sl_menu_vertical: sl_menu_vertical, main_linklist: main_linklist, blocks: blocks
-          when 'logo-center-navigation-split'
-            render 'header-logo-center-split', container : container, enable_menu_vertical: enable_menu_vertical, sl_menu_vertical: sl_menu_vertical, main_linklist: main_linklist, blocks: blocks
-          when 'logo-center-navigation-drawer' 
-            render 'header-logo-center-drawer', container : container
-          else
-            render 'header-logo-left' , container : container, layout_header : layout_header, enable_menu_vertical: enable_menu_vertical, sl_menu_vertical: sl_menu_vertical, main_linklist: main_linklist, blocks: blocks
-          endcase
-        -%}
-      </div>
-    </div>
-  </div>
+
   {%- if enable_menu_vertical -%}
     {% unless layout_header == 'logo-center-navigation-split' or layout_header == 'logo-center-navigation-drawer' %}
       {% render 'slide-menu' %}
