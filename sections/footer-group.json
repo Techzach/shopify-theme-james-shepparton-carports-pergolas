@@ -55,12 +55,11 @@
         },
         "text_mBmajU": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "widthlogofooter": 100,
             "title": "contact",
             "text": "Have a question? Give us a call or fill out the contact form. We’d love to hear from you",
-            "width": "33%"
+            "width": "20%"
           }
         },
         "contact_L3hAUE": {
