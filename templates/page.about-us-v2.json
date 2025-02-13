@@ -382,7 +382,7 @@
     "9023d9a5-f48d-400d-86ac-2821223f115d": {
       "type": "grid-banner",
       "blocks": {
-        "23e9e6c1-6bb7-4e7d-84b9-485964a1bdaf": {
+        "banner_Gr9zak": {
           "type": "banner",
           "settings": {
             "width": "4",
@@ -450,12 +450,36 @@
             "horizontal": "center",
             "text_align": "center"
           }
+        },
+        "banner_GRFJ9h": {
+          "type": "banner",
+          "settings": {
+            "width": "4",
+            "enable_height_banner": false,
+            "promo_banner_height": 520,
+            "promo_banner_height_mobile": 400,
+            "image": "shopify://shop_images/20211006_145503.jpg",
+            "subtitle": "",
+            "title": "50 Countries",
+            "size_text": "h4",
+            "description": "Seafolly is sold in over 2100 <br>locations globally including major retailers <br>and online sites.",
+            "bg_color": "#ffffff",
+            "colordef": "#ffffff",
+            "opacity_bg": 0,
+            "style_btn": "btn-theme btn-white",
+            "button_text": "Location",
+            "button_link": "",
+            "vertical": "bottom",
+            "horizontal": "center",
+            "text_align": "center"
+          }
         }
       },
       "block_order": [
-        "23e9e6c1-6bb7-4e7d-84b9-485964a1bdaf",
+        "banner_Gr9zak",
         "template--19549171155264__9023d9a5-f48d-400d-86ac-2821223f115d-banner-1",
-        "d6983657-3f32-4b37-a862-fc26b411eefe"
+        "d6983657-3f32-4b37-a862-fc26b411eefe",
+        "banner_GRFJ9h"
       ],
       "settings": {
         "animation": "fade-up",
