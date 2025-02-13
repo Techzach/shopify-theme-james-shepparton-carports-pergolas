@@ -445,31 +445,31 @@
     "grid_banner_4izqeK": {
       "type": "grid-banner",
       "blocks": {
-        "banner_QwNtBy": {
+        "banner_tafFKR": {
           "type": "banner",
           "settings": {
             "width": "6",
             "enable_height_banner": false,
             "promo_banner_height": 520,
             "promo_banner_height_mobile": 400,
-            "image": "shopify://shop_images/20160223_093322_001.jpg",
-            "image_mobile": "shopify://shop_images/20160223_093322_001.jpg",
+            "image": "shopify://shop_images/20160223_093332.jpg",
+            "image_mobile": "shopify://shop_images/20160223_093332.jpg",
             "subtitle": "",
             "title": "Carports",
             "size_text": "h2",
-            "description": "<li>Protects your property\n</li><li>Adds value to your home\n</li><li>Neat and tidy\n</li><li>Designed and built to compliment your home</li>",
+            "description": "<li>Protects your property\n</li><li>Adds value to your home\n</li><li>Neat and tidy\n</li><li>Designed and built your home</li>",
             "bg_color": "#ffffff",
             "colordef": "#131315",
-            "opacity_bg": 0.7,
+            "opacity_bg": 0.5,
             "style_btn": "btn-underline btn-underline-white",
             "button_text": "",
             "button_link": "",
-            "vertical": "bottom",
+            "vertical": "mid",
             "horizontal": "center",
             "text_align": "left"
           }
         },
-        "banner_tafFKR": {
+        "banner_y6YYtg": {
           "type": "banner",
           "settings": {
             "width": "6",
@@ -495,8 +495,8 @@
         }
       },
       "block_order": [
-        "banner_QwNtBy",
-        "banner_tafFKR"
+        "banner_tafFKR",
+        "banner_y6YYtg"
       ],
       "settings": {
         "animation": "",
