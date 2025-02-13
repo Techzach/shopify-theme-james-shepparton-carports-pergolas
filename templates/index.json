@@ -436,7 +436,7 @@
             "width": "6",
             "description": "<h3 class=\"mb-2\">Carports</h3><p>Lorem ipsum dolor sit amet</p>",
             "button_text": "View more",
-            "button_link": "",
+            "button_link": "shopify://pages/carports",
             "style_btn": "btn-underline",
             "reverse": "flex-column",
             "text_align": "center"
@@ -452,7 +452,7 @@
             "width": "6",
             "description": "<h3 class=\"mb-2\">Pergolas</h3><p>Lorem ipsum dolor sit amet</p>",
             "button_text": "View more",
-            "button_link": "",
+            "button_link": "shopify://pages/pergolas",
             "style_btn": "btn-underline",
             "reverse": "flex-column",
             "text_align": "center"
