@@ -36,16 +36,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "1595696762386": {
-          "type": "text",
-          "settings": {
-            "logofooter": "shopify://shop_images/WhatsApp_Image_2025-02-12_at_10.26.15_PM-removebg-preview.png",
-            "widthlogofooter": 150,
-            "title": "",
-            "text": "We stand by our 10 year guarantee on all workmanship and our quality range of products. We have a range of inexpensive building materials to design a carport, patio or verandah to meet your lifestyle needs.",
-            "width": "33%"
-          }
-        },
         "social_pJWfWc": {
           "type": "social",
           "disabled": true,
@@ -58,6 +48,16 @@
           "type": "menu",
           "settings": {
             "link_list": "footer",
+            "width": "33%"
+          }
+        },
+        "1595696762386": {
+          "type": "text",
+          "settings": {
+            "logofooter": "shopify://shop_images/WhatsApp_Image_2025-02-12_at_10.26.15_PM-removebg-preview.png",
+            "widthlogofooter": 150,
+            "title": "",
+            "text": "We stand by our 10 year guarantee on all workmanship and our quality range of products. We have a range of inexpensive building materials to design a carport, patio or verandah to meet your lifestyle needs.",
             "width": "33%"
           }
         },
@@ -74,9 +74,9 @@
         }
       },
       "block_order": [
-        "1595696762386",
         "social_pJWfWc",
         "menu_YjgKMn",
+        "1595696762386",
         "contact_L3hAUE"
       ],
       "custom_css": [],
