@@ -60,61 +60,6 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
-    "1709cb72-25b6-4bc0-9831-fc53df49e9d2": {
-      "type": "rich-text",
-      "blocks": {
-        "3a9001a2-5fe9-42b5-a290-b24d0649ccd5": {
-          "type": "spacer",
-          "settings": {
-            "hero-spacer": 30
-          }
-        },
-        "0f476c49-e094-4f6d-90a8-df8ef124fd7c": {
-          "type": "sub_title",
-          "settings": {
-            "subtitle": "Verandahs "
-          }
-        },
-        "ca7db2ec-7284-4307-a6f5-0f536712f7a4": {
-          "type": "heading",
-          "settings": {
-            "title": "Verandahs are quintessentially Australian - every home needs one. A verandah is the perfect finishing touch for your country property. Designed and built by GV Carports, a verandah will make the most of your garden and country views, providing indoor-outdoor lifestyle and comfort for you and your family. A well-designed verandah will protect external walls and windows in summer, but let the winter sunlight in, reducing maintenance and heating/cooling costs. Whether you're entertaining or enjoying a peaceful moment alone, you'll wonder how you ever lived without it.",
-            "size_text": "h4"
-          }
-        },
-        "9794eab1-6392-4acc-94b6-7c81c4850d1d": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button": "discover now",
-            "link": "#",
-            "style_btn": "btn-underline"
-          }
-        }
-      },
-      "block_order": [
-        "3a9001a2-5fe9-42b5-a290-b24d0649ccd5",
-        "0f476c49-e094-4f6d-90a8-df8ef124fd7c",
-        "ca7db2ec-7284-4307-a6f5-0f536712f7a4",
-        "9794eab1-6392-4acc-94b6-7c81c4850d1d"
-      ],
-      "settings": {
-        "animation": "fade-up",
-        "setwidth": "container",
-        "bgsection": "#ffffff",
-        "gradient_bg": "linear-gradient(180deg, rgba(247, 241, 231, 1), rgba(244, 242, 239, 0) 100%)",
-        "title_color": "rgba(0,0,0,0)",
-        "title_top": "",
-        "title": "",
-        "text": "",
-        "align-heading": "center",
-        "align-content": "center",
-        "paddingsection": "100px 0px 100px 0px",
-        "paddingmobile": "40px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px"
-      }
-    },
     "1640249067965cb02d": {
       "type": "advanced-content",
       "blocks": {
@@ -144,7 +89,6 @@
         "0da5935f-bcb4-4f38-96d4-78e0ec3b4a0c",
         "1640249067277694fd-0"
       ],
-      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -198,7 +142,6 @@
         "c5976c2d-45e2-4242-b36d-dd21688fe650",
         "85b0a301-2dce-4713-a228-254be41238ec"
       ],
-      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -252,7 +195,6 @@
         },
         "a554d5b0-2bec-4123-adf5-5bdbd0b24f0e": {
           "type": "html",
-          "disabled": true,
           "settings": {
             "code": "<div class=\"text-center mt-5\">\n<a class=\"btn btn-theme\" href=\"#\"> Read more</a>\n</div>",
             "width": "100%",
@@ -266,7 +208,6 @@
         "7da3a34c-3ce6-4e1e-998b-755fa0b63af8",
         "a554d5b0-2bec-4123-adf5-5bdbd0b24f0e"
       ],
-      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -330,7 +271,6 @@
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1",
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-0"
       ],
-      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -382,7 +322,6 @@
         "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-image_block-1",
         "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-text_block-1"
       ],
-      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -427,7 +366,6 @@
         "30824ace-310b-4305-9e21-01a7cba35578",
         "16402501092f772dfb-0"
       ],
-      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "full",
@@ -527,7 +465,6 @@
         "template--19549171155264__9023d9a5-f48d-400d-86ac-2821223f115d-banner-1",
         "d6983657-3f32-4b37-a862-fc26b411eefe"
       ],
-      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -643,7 +580,6 @@
   "order": [
     "main",
     "16402476915bccc6a7",
-    "1709cb72-25b6-4bc0-9831-fc53df49e9d2",
     "1640249067965cb02d",
     "eb8451fb-cc18-4b15-9852-18c939660c4e",
     "1640249822349f58c7",
