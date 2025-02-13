@@ -617,6 +617,42 @@
         "image_UChpTD": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/IMG_1903.jpg",
+            "category": "carports"
+          }
+        },
+        "image_fqd9b9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20151230_114626.jpg",
+            "category": "pergola"
+          }
+        },
+        "image_Xrt7Az": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20190607_122013.jpg",
+            "category": "carports"
+          }
+        },
+        "image_NaQXFf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20240823_101108.jpg",
+            "category": "pergola"
+          }
+        },
+        "image_DHF3hy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20211201_103831.jpg",
+            "category": "carports"
+          }
+        },
+        "image_4ChKdh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20220203_104255.jpg",
             "category": "pergola"
           }
         }
@@ -624,7 +660,12 @@
       "block_order": [
         "image_HGqTx8",
         "image_apb6mN",
-        "image_UChpTD"
+        "image_UChpTD",
+        "image_fqd9b9",
+        "image_Xrt7Az",
+        "image_NaQXFf",
+        "image_DHF3hy",
+        "image_4ChKdh"
       ],
       "settings": {}
     }
