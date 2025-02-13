@@ -117,12 +117,21 @@
         "paragraph_qcRacN": {
           "type": "paragraph",
           "settings": {
-            "subtext": "<h2>Pergolas</h2>\n\n\nIndoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless."
+            "subtext": "<h2>Pergolas</h2>\n\n\n<p>Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless.</p>"
+          }
+        },
+        "image_6QmTQ4": {
+          "type": "image",
+          "settings": {
+            "img-in-hero": 200,
+            "image": "shopify://shop_images/IMG_0351.jpg",
+            "image_link": ""
           }
         }
       },
       "block_order": [
-        "paragraph_qcRacN"
+        "paragraph_qcRacN",
+        "image_6QmTQ4"
       ],
       "settings": {
         "animation": "",
