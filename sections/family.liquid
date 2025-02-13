@@ -1,79 +1,45 @@
 {% schema %}
 {
   "name": "Custom Icon List",
-  "settings": [
-    {
-      "type": "text",
-      "id": "heading",
-      "label": "Section Heading",
-      "default": "Our Features"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "icon_item",
-      "name": "Icon Item",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Icon Image"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Fast Shipping"
-        },
-        {
-          "type": "text",
-          "id": "description",
-          "label": "Description",
-          "default": "We deliver your products quickly and safely."
-        }
-      ]
-    }
-  ],
+  "settings": [],
+  "blocks": [],
   "presets": [
     {
-      "name": "Custom Icon List",
-      "category": "Custom"
+      "name": "Custom Icon List"
     }
   ]
 }
 {% endschema %}
 
-<section class="custom-icon-list">
-  <h2>{{ section.settings.heading }}</h2>
-  <div class="icon-list">
-    {% for block in section.blocks %}
-      <div class="icon-item">
-        {% if block.settings.icon != blank %}
-          <img src="{{ block.settings.icon | img_url: 'medium' }}" alt="{{ block.settings.title }}">
-        {% endif %}
-        <h3>{{ block.settings.title }}</h3>
-        <p>{{ block.settings.description }}</p>
+<section class="theme-light section-padding-medium block-icon-list overflow-hidden">
+  <div class="container">
+    <div class="row mb-lg-20">
+      <div class="col col-12">
+        <h5>Our Difference</h5>
+        <h2 class="mb-lg-20 mb-20 h2">We’ve perfected the art of outdoor living spaces</h2>
       </div>
-    {% endfor %}
+    </div>
+
+    <div class="swiper overflow-visible">
+      <div class="row g-0 g-lg-30 row-cols-1 row-cols-md-2 row-cols-lg-4 swiper-wrapper justify-content-lg-center">
+        <div class="swiper-slide">
+          <div class="col p-5 p-lg-20 pe-lg-33">
+            <div class="icon-list-card d-flex flex-row align-items-start text-left gap-20">
+              <div class="icon-list-card-icon mb-10">
+                <!-- Yahan aap apne SVG ya icons daal sakte hain -->
+                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="28" cy="28" r="26" stroke="#407EC9" stroke-width="4"/>
+                </svg>
+              </div>
+              <div>
+                <h3>Feature Title</h3>
+                <p>Feature description goes here...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add more slides here -->
+      </div>
+    </div>
   </div>
 </section>
-
-<style>
-  .custom-icon-list {
-    text-align: center;
-    padding: 40px;
-  }
-  .icon-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  .icon-item {
-    text-align: center;
-    max-width: 200px;
-  }
-  .icon-item img {
-    width: 50px;
-    height: 50px;
-  }
-</style>
