@@ -213,6 +213,62 @@
         "bgborder": "#080808",
         "wborder": "1px"
       }
+    },
+    "grid_banner_2_jDfCJB": {
+      "type": "grid-banner-2",
+      "blocks": {
+        "banner_EnhncL": {
+          "type": "banner",
+          "settings": {
+            "paddingblock": "0px 0px 0px 0px",
+            "border_banner": "rgba(0,0,0,0)",
+            "bg_banner": "rgba(0,0,0,0)",
+            "image": "shopify://shop_images/20210810_093600.heic",
+            "width": "6",
+            "description": "<h3 class=\"mb-2\">Banner title</h3><p>Lorem ipsum dolor sit amet</p>",
+            "button_text": "View more",
+            "button_link": "",
+            "style_btn": "btn-underline",
+            "reverse": "flex-column",
+            "text_align": "center"
+          }
+        },
+        "banner_fztP6k": {
+          "type": "banner",
+          "settings": {
+            "paddingblock": "0px 0px 0px 0px",
+            "border_banner": "rgba(0,0,0,0)",
+            "bg_banner": "rgba(0,0,0,0)",
+            "image": "shopify://shop_images/IMG_0139.jpg",
+            "width": "6",
+            "description": "<h3 class=\"mb-2\">Banner title</h3><p>Lorem ipsum dolor sit amet</p>",
+            "button_text": "View more",
+            "button_link": "",
+            "style_btn": "btn-underline",
+            "reverse": "flex-column",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "banner_EnhncL",
+        "banner_fztP6k"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_top": "What they say",
+        "title": "Satisfied Customers",
+        "des": "We Wanted to create outdoor spaces to give us areas to enjoy the pool, eat meals together and relax and read the paper",
+        "align-heading": "center",
+        "no_gutter": false,
+        "gutter_padding": 30,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
@@ -221,6 +277,7 @@
     "rich_text_hoz_XdT6Kb",
     "line_MLppG8",
     "rich_text_hoz_HrmAh3",
-    "line_993bca"
+    "line_993bca",
+    "grid_banner_2_jDfCJB"
   ]
 }
