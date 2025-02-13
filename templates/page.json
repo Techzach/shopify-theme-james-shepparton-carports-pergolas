@@ -116,23 +116,11 @@
         "gradient_bg": "",
         "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "60px 0px 60px 0px",
+        "marginsection": "60px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
     },
     "line_MLppG8": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "2px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#080808",
-        "wborder": "1px"
-      }
-    },
-    "line_993bca": {
       "type": "line",
       "settings": {
         "animation": "",
@@ -212,6 +200,18 @@
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
+      }
+    },
+    "line_993bca": {
+      "type": "line",
+      "settings": {
+        "animation": "",
+        "paddingsection": "2px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "bgsection": "#080808",
+        "setwidth": "container",
+        "bgborder": "#080808",
+        "wborder": "1px"
       }
     }
   },
