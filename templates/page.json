@@ -120,74 +120,65 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
-    "brand_list_xQTUzF": {
-      "type": "brand-list",
+    "rich_text_hoz_HrmAh3": {
+      "type": "rich-text-hoz",
       "blocks": {
-        "logo_GpVDxU": {
-          "type": "logo",
+        "heading_XAe8aw": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/IMG_0351.jpg",
-            "link": ""
+            "title": "Pergolas Gallery",
+            "size_text": "h2"
           }
         },
-        "logo_3KA3ff": {
-          "type": "logo",
+        "image_BFptqR": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_0250.jpg",
-            "link": ""
+            "img-in-hero": 200,
+            "image_link": ""
           }
         },
-        "logo_Pawdpw": {
-          "type": "logo",
+        "image_jwMqLW": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/20220203_104255.jpg",
-            "link": ""
+            "img-in-hero": 200,
+            "image_link": ""
           }
         },
-        "logo_mTpVAp": {
-          "type": "logo",
+        "image_DQ3mT7": {
+          "type": "image",
           "settings": {
-            "link": ""
+            "img-in-hero": 200,
+            "image_link": ""
           }
         },
-        "logo_hdx6j9": {
-          "type": "logo",
+        "image_BfkWFj": {
+          "type": "image",
           "settings": {
-            "link": ""
+            "img-in-hero": 200,
+            "image_link": ""
           }
         },
-        "logo_CHABtB": {
-          "type": "logo",
+        "image_kJyPtM": {
+          "type": "image",
           "settings": {
-            "link": ""
-          }
-        },
-        "logo_4cMn4H": {
-          "type": "logo",
-          "settings": {
-            "link": ""
+            "img-in-hero": 200,
+            "image_link": ""
           }
         }
       },
       "block_order": [
-        "logo_GpVDxU",
-        "logo_3KA3ff",
-        "logo_Pawdpw",
-        "logo_mTpVAp",
-        "logo_hdx6j9",
-        "logo_CHABtB",
-        "logo_4cMn4H"
+        "heading_XAe8aw",
+        "image_BFptqR",
+        "image_jwMqLW",
+        "image_DQ3mT7",
+        "image_BfkWFj",
+        "image_kJyPtM"
       ],
       "settings": {
         "animation": "",
         "setwidth": "container",
         "bgsection": "#ffffff",
-        "title_top": "",
-        "title": "Pergolas Gallery",
-        "des": "",
-        "align-heading": "center",
-        "grayscale": true,
-        "width": "2",
+        "gradient_bg": "",
         "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
@@ -199,6 +190,6 @@
     "main",
     "advanced_content_eXgfgT",
     "rich_text_hoz_XdT6Kb",
-    "brand_list_xQTUzF"
+    "rich_text_hoz_HrmAh3"
   ]
 }
