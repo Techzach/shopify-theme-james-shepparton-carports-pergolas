@@ -266,6 +266,7 @@
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1",
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-0"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -349,19 +350,10 @@
             "padding-left": false,
             "padding-right": false
           }
-        },
-        "16402501092f772dfb-0": {
-          "type": "html",
-          "settings": {
-            "code": "<div class=\"text-center px-lg-5\">\n<span class=\"subtop\">SUSTAINABILITY</span>\n<h2 class=\"my-3\">Our Fit Promise</h2>\n<p class=\"px-lg-5 mx-lg-5\">Clean-cut designs and clever contouring come together in the most iconic holiday essentials designed to enhance the body with ultimate support and comfort. Made with innovative regenerated fabric, our collections are future-focused, designed around the idea of easy, mix and match solutions in new season colours and signature prints.</p>\n<div class=\"text-center mt-5\">\n<a class=\"btn btn-theme\" href=\"#\"> Read more</a>\n</div>\n</div>",
-            "width": "50%",
-            "align": "center"
-          }
         }
       },
       "block_order": [
-        "30824ace-310b-4305-9e21-01a7cba35578",
-        "16402501092f772dfb-0"
+        "30824ace-310b-4305-9e21-01a7cba35578"
       ],
       "settings": {
         "animation": "fade-up",
@@ -397,6 +389,7 @@
             "enable_height_banner": false,
             "promo_banner_height": 520,
             "promo_banner_height_mobile": 400,
+            "image": "shopify://shop_images/20210810_093627.jpg",
             "subtitle": "",
             "title": "30 Stores",
             "size_text": "h4",
@@ -419,6 +412,7 @@
             "enable_height_banner": false,
             "promo_banner_height": 520,
             "promo_banner_height_mobile": 400,
+            "image": "shopify://shop_images/20220729_142952.heic",
             "subtitle": "",
             "title": "300+ Employees",
             "size_text": "h4",
@@ -441,6 +435,7 @@
             "enable_height_banner": false,
             "promo_banner_height": 520,
             "promo_banner_height_mobile": 400,
+            "image": "shopify://shop_images/20211006_145503.jpg",
             "subtitle": "",
             "title": "50 Countries",
             "size_text": "h4",
@@ -467,9 +462,9 @@
         "setwidth": "container",
         "bgsection": "#ffffff",
         "title_top": "",
-        "title": "",
-        "des": "",
-        "align-heading": "center",
+        "title": "Explore our roofing",
+        "des": "As manufacturers of both insulated panel roofing and single skin roofing, we offer a total system solution to our customers.\n\nOur National Head Office and Queensland Manufacturing facility is located at Parkinson in Brisbane. There are also Apollo Patio Roofing manufacturing facilities based in Sydney, Cairns, Townsville and Rockhampton.",
+        "align-heading": "left",
         "no_gutter": false,
         "gutter_padding": 30,
         "show_overlay": true,
