@@ -91,28 +91,29 @@
     "rich_text_hoz_XdT6Kb": {
       "type": "rich-text-hoz",
       "blocks": {
-        "heading_hKpNHU": {
-          "type": "heading",
-          "settings": {
-            "title": "Pergolas",
-            "size_text": "h2"
-          }
-        },
         "paragraph_qcRacN": {
           "type": "paragraph",
           "settings": {
-            "subtext": "Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless."
+            "subtext": "<h2>Pergolas</h2>Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless."
+          }
+        },
+        "image_hMBQzd": {
+          "type": "image",
+          "settings": {
+            "img-in-hero": 200,
+            "image": "shopify://shop_images/20220203_104255.jpg",
+            "image_link": ""
           }
         }
       },
       "block_order": [
-        "heading_hKpNHU",
-        "paragraph_qcRacN"
+        "paragraph_qcRacN",
+        "image_hMBQzd"
       ],
       "settings": {
         "animation": "",
         "setwidth": "container",
-        "bgsection": "#e4e4e4",
+        "bgsection": "#f3efe9",
         "gradient_bg": "",
         "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "40px 0px 40px 0px",
