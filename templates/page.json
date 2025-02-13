@@ -94,7 +94,7 @@
         "paragraph_qcRacN": {
           "type": "paragraph",
           "settings": {
-            "subtext": "<h2>Pergolas</h2>Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless."
+            "subtext": "<h2>Pergolas</h2>\nIndoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless."
           }
         },
         "image_hMBQzd": {
@@ -119,18 +119,6 @@
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "60px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "line_MLppG8": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "2px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#080808",
-        "wborder": "1px"
       }
     },
     "rich_text_hoz_HrmAh3": {
@@ -203,18 +191,6 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
-    "line_993bca": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "2px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#080808",
-        "wborder": "1px"
-      }
-    },
     "grid_banner_2_jDfCJB": {
       "type": "grid-banner-2",
       "blocks": {
@@ -276,9 +252,7 @@
     "main",
     "advanced_content_eXgfgT",
     "rich_text_hoz_XdT6Kb",
-    "line_MLppG8",
     "rich_text_hoz_HrmAh3",
-    "line_993bca",
     "grid_banner_2_jDfCJB"
   ]
 }
