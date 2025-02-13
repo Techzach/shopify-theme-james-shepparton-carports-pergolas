@@ -20,7 +20,7 @@
           "type": "text_block",
           "settings": {
             "width": "75%",
-            "bgtext": "#e7e8e3",
+            "bgtext": "#f3efe9",
             "title_color": "rgba(0,0,0,0)",
             "subtitle": "",
             "title": "Carports ",
@@ -48,7 +48,7 @@
       "settings": {
         "animation": "fade",
         "setwidth": "full",
-        "bgsection": "#e7e8e3",
+        "bgsection": "#f3efe9",
         "rangebg": 0,
         "bgbefore": "rgba(0,0,0,0)",
         "bg_pos": "left",
@@ -58,30 +58,6 @@
         "paddingmobile": "40px 0px 0px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "line_wg3kJQ": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "2px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#080808",
-        "wborder": "1px"
-      }
-    },
-    "line_HKpc3L": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "2px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#080808",
-        "wborder": "1px"
       }
     },
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4": {
@@ -308,8 +284,6 @@
   "order": [
     "main",
     "49b0a5ba-1ebd-493b-ae50-1ec847159046",
-    "line_wg3kJQ",
-    "line_HKpc3L",
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4",
     "2d11636f-e0da-4a86-b3b5-c1eda5735347",
     "d72bcc8c-88fe-4415-96f0-06511b070083",
