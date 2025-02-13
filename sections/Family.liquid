@@ -1,6 +1,96 @@
+<section class="family-owned-section">
+  <div class="container">
+    <h4 class="family-owned-title">{{ section.settings.subtitle }}</h4>
+    <h2 class="family-owned-heading">{{ section.settings.main_title }}</h2>
+    <p class="family-owned-description">{{ section.settings.description }}</p>
+
+    <div class="features-grid">
+      {% for block in section.blocks %}
+        <div class="feature-item">
+          <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.title }}" class="feature-icon">
+          <h4 class="feature-title">{{ block.settings.title }}</h4>
+          <p class="feature-text">{{ block.settings.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+.family-owned-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+.family-owned-title {
+  font-style: italic;
+  color: #0073e6;
+  font-size: 24px;
+}
+.family-owned-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1a2a44;
+}
+.family-owned-description {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.features-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.feature-item {
+  width: 250px;
+  margin: 15px;
+  text-align: center;
+}
+.feature-icon {
+  width: 60px;
+  height: 60px;
+}
+.feature-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.feature-text {
+  color: #777;
+  font-size: 14px;
+}
+</style>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Family-Owned Section",
+  "settings": [
+    { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Family-Owned" },
+    { "type": "text", "id": "main_title", "label": "Main Title", "default": "Everyone in our network is part of a family-owned business" },
+    { "type": "textarea", "id": "description", "label": "Description", "default": "We fully understand how important it is to get your outdoor addition right. We are genuinely committed to elevating the experience you have with us and strive to exceed your expectations along the way." }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Feature Image" },
+        { "type": "text", "id": "title", "label": "Feature Title" },
+        { "type": "textarea", "id": "text", "label": "Feature Text" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Family-Owned Section",
+      "blocks": [
+        { "type": "feature", "settings": { "title": "Operating since 1995", "text": "Three decades of experience" } },
+        { "type": "feature", "settings": { "title": "15-Year Warranty", "text": "On Durasheen paint coat finishes" } },
+        { "type": "feature", "settings": { "title": "Manufactured in Australia", "text": "Designed, engineered, and manufactured in Australia" } },
+        { "type": "feature", "settings": { "title": "Complete System", "text": "We deliver everything needed to construct your structure" } }
+      ]
+    }
+  ]
+}
 {% endschema %}
