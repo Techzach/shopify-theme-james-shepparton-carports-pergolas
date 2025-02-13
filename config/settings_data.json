@@ -183,7 +183,7 @@
     "height_border_btn": 1,
     "input_round": 0,
     "svg_cart": "cart-3",
-    "cartdraw": true,
+    "cartdraw": false,
     "e_notecart": true,
     "e_upsellcart": false,
     "title_upsell": "You may also like",
