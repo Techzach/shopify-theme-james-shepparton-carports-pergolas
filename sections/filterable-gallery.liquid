@@ -12,20 +12,21 @@
         {%- if block.settings.image != blank -%}
         <div class="image-content__image-container">
           <a href="{{ block.settings.link | default: '#' }}" class="gallery-item mb-3 image-content__image-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
-            {% assign img_url = block.settings.image | image_url: width: 1 | replace: 'width=1', 'width={width}' %}
-            <img 
-              class="lazyload gallery-item__image" 
-              src="{{ block.settings.image | image_url: width: 1, height: 1 }}" 
-              data-src="{{ img_url }}"
-              data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048]"
-              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-              data-sizes="auto"
-              loading="lazy"
-              width="{{ block.settings.image.width }}"
-              height="{{ block.settings.image.height }}" />
-            <div class="gallery-item__title">
-              {{ block.settings.title }}
-            </div>
+           {% assign img_url = block.settings.image | image_url: width: 400, height: 300, crop: 'center' %}
+<img 
+  class="lazyload gallery-item__image" 
+  src="{{ block.settings.image | image_url: width: 1, height: 1 }}" 
+  data-src="{{ img_url }}"
+  data-widths="[400, 800, 1200, 1600, 2000]"
+  data-aspectratio="4/3"
+  data-sizes="auto"
+  loading="lazy"
+  width="400"
+  height="300" />
+<div class="gallery-item__title">
+  {{ block.settings.title }}
+</div>
+
         
         </a>
       </div>
