@@ -16,28 +16,21 @@
     "16402476915bccc6a7": {
       "type": "backgroundvideo",
       "blocks": {
-        "51d3f50d-bcba-402f-95d5-20214fb273d7": {
-          "type": "sub_title",
-          "settings": {
-            "subtitle": "Verandahs "
-          }
-        },
         "af48e0ff-444a-4c43-9139-a13191c919b0": {
           "type": "heading",
           "settings": {
-            "title": "We do high - quality products",
+            "title": "Enhancing Outdoors with High-Quality",
             "size_text": "h1"
           }
         },
         "33a4eb27-4abf-4e2e-b005-11c1ac777408": {
           "type": "paragraph",
           "settings": {
-            "subtext": "Receive expert guidance in choosing the right fabrics and finding the perfect sofa, table, or dining chairs that suit your style and needs."
+            "subtext": "Get expert advice to find the perfect fabrics, sofa, table, or dining chairs for your style."
           }
         }
       },
       "block_order": [
-        "51d3f50d-bcba-402f-95d5-20214fb273d7",
         "af48e0ff-444a-4c43-9139-a13191c919b0",
         "33a4eb27-4abf-4e2e-b005-11c1ac777408"
       ],

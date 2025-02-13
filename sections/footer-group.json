@@ -36,14 +36,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "social_pJWfWc": {
-          "type": "social",
-          "disabled": true,
-          "settings": {
-            "title": "Follow us",
-            "width": "33%"
-          }
-        },
         "1595696762386": {
           "type": "text",
           "settings": {
@@ -84,7 +76,6 @@
         }
       },
       "block_order": [
-        "social_pJWfWc",
         "1595696762386",
         "menu_YjgKMn",
         "text_mBmajU",
