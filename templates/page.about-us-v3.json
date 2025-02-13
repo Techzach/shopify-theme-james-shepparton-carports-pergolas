@@ -72,44 +72,6 @@
         "wborder": "1px"
       }
     },
-    "f172e7b1-989c-4feb-a20b-ac2934933476": {
-      "type": "rich-text",
-      "blocks": {
-        "02d7795e-308f-44d9-b007-aa374d77dbcb": {
-          "type": "heading",
-          "settings": {
-            "title": "Range and designs",
-            "size_text": "h2"
-          }
-        },
-        "5b0f48ed-12f4-43e7-a7fd-3e3ea948966e": {
-          "type": "paragraph",
-          "settings": {
-            "subtext": "Take inspiration from the different styles of carports and book a consultation to speak with our local designer about your unique requirements and preferences.\n\nWhether you’re inspired by a gable carport, a flat roof or any other style, our Design Consultants can help create a space to give your home modern curb appeal.\n\nYour carport should look like a natural part of your house, rather than an afterthought."
-          }
-        }
-      },
-      "block_order": [
-        "02d7795e-308f-44d9-b007-aa374d77dbcb",
-        "5b0f48ed-12f4-43e7-a7fd-3e3ea948966e"
-      ],
-      "settings": {
-        "animation": "fade-up",
-        "setwidth": "container",
-        "bgsection": "#cded6f",
-        "gradient_bg": "",
-        "title_color": "rgba(0,0,0,0)",
-        "title_top": "",
-        "title": "",
-        "text": "",
-        "align-heading": "center",
-        "align-content": "left",
-        "paddingsection": "80px 0px 90px 0px",
-        "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px"
-      }
-    },
     "line_HKpc3L": {
       "type": "line",
       "settings": {
@@ -125,12 +87,6 @@
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4": {
       "type": "image-content",
       "blocks": {
-        "18d2b540-6aa2-4967-b7fd-c7eefd2bd1e5": {
-          "type": "image_block",
-          "settings": {
-            "image": "shopify://shop_images/Caravan-Carport-with-Slats.jpg"
-          }
-        },
         "image_block_GNypxA": {
           "type": "image_block",
           "settings": {
@@ -142,29 +98,28 @@
           "settings": {
             "width": "75%",
             "bgtext": "rgba(0,0,0,0)",
-            "title_color": "#ffffff",
+            "title_color": "#000000",
             "subtitle": "",
-            "title": "Our difference",
+            "title": "Range and Design",
             "size_text": "h2",
-            "text": "",
-            "answer_content": "<h4>We’ve perfected the art of outdoor living spaces</h4>",
+            "text": "Take inspiration from the different styles of carports and book a consultation to speak with our local designer about your unique requirements and preferences.\n\nWhether you’re inspired by a gable carport, a flat roof or any other style, our Design Consultants can help create a space to give your home modern curb appeal.\n\nYour carport should look like a natural part of your house, rather than an afterthought.",
+            "answer_content": "",
             "style_btn": "btn-underline btn-underline-white",
             "button": "",
             "link": "",
             "enable_padding": true,
-            "align": "center"
+            "align": "left"
           }
         }
       },
       "block_order": [
-        "18d2b540-6aa2-4967-b7fd-c7eefd2bd1e5",
         "image_block_GNypxA",
         "e3cdf781-1586-4bad-94d6-ba09691910ac"
       ],
       "settings": {
         "animation": "fade",
         "setwidth": "full",
-        "bgsection": "#9e9f38",
+        "bgsection": "#ffffff",
         "rangebg": 0,
         "bgbefore": "rgba(0,0,0,0)",
         "bg_pos": "left",
@@ -354,7 +309,6 @@
     "main",
     "49b0a5ba-1ebd-493b-ae50-1ec847159046",
     "line_wg3kJQ",
-    "f172e7b1-989c-4feb-a20b-ac2934933476",
     "line_HKpc3L",
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4",
     "2d11636f-e0da-4a86-b3b5-c1eda5735347",
