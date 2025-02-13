@@ -58,6 +58,15 @@
           "type": "menu",
           "settings": {
             "link_list": "footer",
+            "width": "20%"
+          }
+        },
+        "text_mBmajU": {
+          "type": "text",
+          "settings": {
+            "widthlogofooter": 130,
+            "title": "contact",
+            "text": "Have a question? Give us a call or fill out the contact form. We’d love to hear from you",
             "width": "25%"
           }
         },
@@ -77,6 +86,7 @@
         "social_pJWfWc",
         "1595696762386",
         "menu_YjgKMn",
+        "text_mBmajU",
         "contact_L3hAUE"
       ],
       "custom_css": [],
