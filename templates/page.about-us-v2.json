@@ -292,7 +292,9 @@
       "blocks": {
         "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-image_block-1": {
           "type": "image_block",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/242105684_369893331500695_1017738032941729558_n.jpg"
+          }
         },
         "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-text_block-1": {
           "type": "text_block",
@@ -300,11 +302,11 @@
             "width": "100%",
             "bgtext": "#ffffff",
             "title_color": "rgba(0,0,0,0)",
-            "subtitle": "DESIGNER?",
-            "title": "What Is Contemporary Furniture Design?",
+            "subtitle": "",
+            "title": "A Vision for Excellence",
             "size_text": "h2",
             "text": "",
-            "answer_content": "<p>Modern furniture design may sometimes be confused or used <br/>interchangeably with contemporary furniture design, but the two are not <br/>traditionally considered synonymous. While modern design refers to a <br/>design style that was popular during a specific period, contemporary <br/>design has a dynamic definition – it refers to whatever design style is <br/>presently popular.<br/></p>",
+            "answer_content": "<p>we believe in creating strong, stylish, and long-lasting outdoor solutions that enhance both your home and lifestyle. Our CEO, [CEO's Name], brings years of experience and a deep passion for delivering high-quality carports and pergolas that stand the test of time.<br/><br/>With a commitment to craftsmanship and customer satisfaction, we ensure every project reflects durability, elegance, and functionality. Under [CEO’s Name] leadership, our team works tirelessly to bring your vision to life—turning outdoor spaces into beautiful and practical extensions of your home.<br/><br/>\"Our goal is simple—to provide you with expertly designed and professionally built outdoor structures that you can enjoy for years to come.\"<br/><br/></p>",
             "style_btn": "btn-theme",
             "button": "Read more",
             "link": "#",
