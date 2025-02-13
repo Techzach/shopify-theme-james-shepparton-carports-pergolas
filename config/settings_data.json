@@ -185,7 +185,7 @@
     "svg_cart": "cart-3",
     "cartdraw": true,
     "e_notecart": true,
-    "e_upsellcart": true,
+    "e_upsellcart": false,
     "title_upsell": "You may also like",
     "product_list": [
       "hay-anything-scissors",
@@ -198,7 +198,7 @@
     "coupon_code_enable": true,
     "coupon_code_title": "List Coupon",
     "coupon_code_content": "<p><strong>Pose</strong> → 20% off all collections</p><p>Coupon code will work on checkout page</p>",
-    "free_shipping_enable": true,
+    "free_shipping_enable": false,
     "free_shipping_value": 1000,
     "free_end": "for Free Shipping",
     "free_shipping_text": "Your order is free delivery !",
