@@ -79,8 +79,9 @@
         "menu_YjgKMn",
         "contact_L3hAUE"
       ],
+      "custom_css": [],
       "settings": {
-        "setwidth": "container-fluid",
+        "setwidth": "full",
         "background": "#1b365d",
         "border_headfooter": "rgba(0,0,0,0)",
         "border-copryright": "#dfdfca",
