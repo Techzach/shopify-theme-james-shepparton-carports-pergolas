@@ -485,31 +485,31 @@
         "quote_nbyNMy": {
           "type": "quote",
           "settings": {
-            "title": "Comment",
-            "author": "Author's name",
+            "title": "",
+            "author": "John Smith",
             "info": "",
             "rate": 5,
-            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+            "quote": "\"Absolutely love our new pergola! It adds so much charm to our outdoor space, and the installation was smooth and hassle-free. Great service!\""
           }
         },
         "quote_NXBgjP": {
           "type": "quote",
           "settings": {
-            "title": "Comment",
-            "author": "Author's name",
+            "title": "",
+            "author": "Emily Johnson",
             "info": "",
             "rate": 5,
-            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+            "quote": "\"We needed a durable carport to protect our vehicles, and this company delivered exactly what we wanted. Strong, stylish, and built to last!\""
           }
         },
         "quote_cpj9rT": {
           "type": "quote",
           "settings": {
-            "title": "Comment",
-            "author": "Author's name",
+            "title": "",
+            "author": "Sarah Williams",
             "info": "",
             "rate": 5,
-            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+            "quote": "\"Our new pergola completely transformed our backyard! The craftsmanship is top-notch, and the team was professional from start to finish. Highly recommend!\""
           }
         }
       },
@@ -521,14 +521,14 @@
       "settings": {
         "animation": "",
         "setwidth": "container",
-        "bgsection": "#ffffff",
-        "title_color": "transparent",
-        "title_top": "Sub Title Top",
-        "title": "User reviews",
-        "des": "",
-        "align-heading": "center",
+        "bgsection": "#c6cad1",
+        "title_color": "#0a0909",
+        "title_top": "",
+        "title": "Testimonials",
+        "des": "Hear From Our Satisfied Customers",
+        "align-heading": "left",
         "aligntext": "text-left",
-        "style": "style-1",
+        "style": "style-2",
         "color_rate": "#f1f1f1",
         "color_rated": "#000000",
         "size_text": "txt-body",
@@ -540,7 +540,7 @@
         "draggable": true,
         "dots": true,
         "infinite": true,
-        "paddingsection": "0px 0px 0px 0px",
+        "paddingsection": "20px 0px 0px 0px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
