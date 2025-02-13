@@ -17,7 +17,7 @@
         "enable": true,
         "animation": "fade",
         "setwidth": "container-fluid",
-        "background": "#5bc2e7",
+        "background": "#133973",
         "gradient_bg": "",
         "text_color": "#ffffff",
         "font_size_topbar": 13,
@@ -95,7 +95,7 @@
       ],
       "custom_css": [
         "span .site-header__cart-indicator {display: none;}",
-        "span .svg-cart{display: none;}"
+        "span .svg-cart {display: none;}"
       ],
       "settings": {
         "logo": "shopify://shop_images/WhatsApp_Image_2025-02-12_at_10.26.15_PM-removebg-preview.png",

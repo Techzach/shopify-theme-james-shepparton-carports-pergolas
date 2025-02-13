@@ -512,7 +512,7 @@
         "gradient_overlay": true,
         "bg_overlay": "#131315",
         "opacity_overlay": 0.8,
-        "paddingsection": "0px 0px 20px 0px",
+        "paddingsection": "10px 0px 20px 0px",
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
