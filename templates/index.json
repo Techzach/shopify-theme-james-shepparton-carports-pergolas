@@ -479,6 +479,73 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
+    "quotes_r4PPce": {
+      "type": "quotes",
+      "blocks": {
+        "quote_nbyNMy": {
+          "type": "quote",
+          "settings": {
+            "title": "Comment",
+            "author": "Author's name",
+            "info": "",
+            "rate": 5,
+            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+          }
+        },
+        "quote_NXBgjP": {
+          "type": "quote",
+          "settings": {
+            "title": "Comment",
+            "author": "Author's name",
+            "info": "",
+            "rate": 5,
+            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+          }
+        },
+        "quote_cpj9rT": {
+          "type": "quote",
+          "settings": {
+            "title": "Comment",
+            "author": "Author's name",
+            "info": "",
+            "rate": 5,
+            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+          }
+        }
+      },
+      "block_order": [
+        "quote_nbyNMy",
+        "quote_NXBgjP",
+        "quote_cpj9rT"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_color": "transparent",
+        "title_top": "Sub Title Top",
+        "title": "User reviews",
+        "des": "",
+        "align-heading": "center",
+        "aligntext": "text-left",
+        "style": "style-1",
+        "color_rate": "#f1f1f1",
+        "color_rated": "#000000",
+        "size_text": "txt-body",
+        "bg_item": "#ffffff",
+        "widthcolumn": 50,
+        "enable_padding_inner": true,
+        "show": 3,
+        "arrows": false,
+        "draggable": true,
+        "dots": true,
+        "infinite": true,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
+    },
     "9f5bec20-9d0e-4091-a18f-120476d3ae96": {
       "type": "image-content-4",
       "disabled": true,
@@ -591,6 +658,7 @@
         "template--20258838741312__0a081843-18cc-4628-a950-350c7308b356-paragraph-1",
         "0c9bcfdc-8196-4783-bd27-25bd7010548e"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "full",
@@ -623,6 +691,7 @@
     "662cf23c-2a28-41c4-9bd8-b6517c99ba49",
     "70b7f2d2-4c12-4305-88bd-da89e2d18d5b",
     "grid_banner_2_3EyY3N",
+    "quotes_r4PPce",
     "9f5bec20-9d0e-4091-a18f-120476d3ae96",
     "1660192674d8a6fd50",
     "16609007639672b3d5",
