@@ -533,7 +533,7 @@
         "color_rated": "#000000",
         "size_text": "txt-body",
         "bg_item": "#ffffff",
-        "widthcolumn": 50,
+        "widthcolumn": 100,
         "enable_padding_inner": true,
         "show": 3,
         "arrows": false,
