@@ -174,78 +174,50 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
-    "advanced_content_eXgfgT": {
-      "type": "advanced-content",
+    "image_content_GMPHAk": {
+      "type": "image-content",
       "blocks": {
-        "image_TiAn3E": {
-          "type": "image",
+        "image_block_Vitt4E": {
+          "type": "image_block",
           "settings": {
-            "width": "33%",
-            "align": "auto",
-            "image": "shopify://shop_images/20191208_174930.jpg",
-            "width_image": 100,
-            "image_link": "",
-            "enable_top": false,
-            "code": "<p style=\"color: #1B365D; text-align: center;\">This text can be used to share information about your brand with customers.</p>",
-            "padding-left": false,
-            "padding-right": false
+            "image": "shopify://shop_images/20191208_174930.jpg"
           }
         },
-        "image_QKEcGM": {
-          "type": "image",
+        "text_block_CPfkBW": {
+          "type": "text_block",
           "settings": {
-            "width": "33%",
-            "align": "auto",
-            "image": "shopify://shop_images/20181112_163637.jpg",
-            "width_image": 100,
-            "image_link": "",
-            "enable_top": false,
-            "code": "<p style=\"color: #1B365D; text-align: center;\">This text can be used to share information about your brand with customers.</p>",
-            "padding-left": false,
-            "padding-right": false
-          }
-        },
-        "image_YxEUQa": {
-          "type": "image",
-          "settings": {
-            "width": "33%",
-            "align": "auto",
-            "image": "shopify://shop_images/20181112_163333_2.jpg",
-            "width_image": 100,
-            "image_link": "",
-            "enable_top": false,
-            "code": "<p style=\"color: #1B365D; text-align: center;\">This text can be used to share information about your brand with customers.</p>",
-            "padding-left": false,
-            "padding-right": false
+            "width": "100%",
+            "bgtext": "#ffffff",
+            "title_color": "rgba(0,0,0,0)",
+            "subtitle": "",
+            "title": "Entertain with ease",
+            "size_text": "h2",
+            "text": "Enjoy life outdoors with a purpose-built, functional area for all the family to enjoy.\n\nWhether you are looking to host dinner parties, relax in the shade or add value to your property\n\nYour new pergola can be custom designed to add style and practicality to your home, as well as giving you a comfortable outdoor area to suit your lifestyle.",
+            "answer_content": "",
+            "style_btn": "btn-underline btn-underline-white",
+            "button": "Buy free quote",
+            "link": "shopify://pages/contact",
+            "enable_padding": true,
+            "align": "left"
           }
         }
       },
       "block_order": [
-        "image_TiAn3E",
-        "image_QKEcGM",
-        "image_YxEUQa"
+        "image_block_Vitt4E",
+        "text_block_CPfkBW"
       ],
       "settings": {
         "animation": "",
         "setwidth": "container",
-        "text_color": "rgba(0,0,0,0)",
         "bgsection": "#ffffff",
         "rangebg": 0,
-        "bgbefore": "rgba(0,0,0,0)",
-        "e_size": "auto",
-        "e_repeat": "no-repeat",
-        "e_position": "center center",
-        "zindex": "0",
-        "title_top": "",
-        "title": "Pergola range & design options",
-        "des": "",
-        "align-heading": "center",
-        "padding": true,
-        "gutter_padding": 30,
-        "col_center": false,
-        "paddingsection": "50px 0px 50px 0px",
+        "bgbefore": "transparent",
+        "bg_pos": "left",
+        "enable_padding": true,
+        "align_center": true,
+        "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "0px 0px 0px 0px",
+        "marginsection": "20px 10px 20px 10px",
         "marginmobile": "0px 0px 0px 0px"
       }
     },
@@ -459,7 +431,7 @@
     "image_content_6_3Mmntm",
     "video_DAVBzw",
     "quotes_9nnQXU",
-    "advanced_content_eXgfgT",
+    "image_content_GMPHAk",
     "rich_text_hoz_HrmAh3",
     "grid_banner_2_jDfCJB",
     "brand_carousel_4M4r8A"
