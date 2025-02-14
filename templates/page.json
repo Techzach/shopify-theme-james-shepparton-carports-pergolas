@@ -294,7 +294,7 @@
     "quotes_9nnQXU": {
       "type": "quotes",
       "blocks": {
-        "quote_JF3f4g": {
+        "quote_miURpp": {
           "type": "quote",
           "settings": {
             "title": "",
@@ -305,7 +305,7 @@
             "quote": ""
           }
         },
-        "quote_miURpp": {
+        "quote_W3rV84": {
           "type": "quote",
           "settings": {
             "title": "",
@@ -340,8 +340,8 @@
         }
       },
       "block_order": [
-        "quote_JF3f4g",
         "quote_miURpp",
+        "quote_W3rV84",
         "quote_cBVRyL",
         "quote_cxAqQq"
       ],
@@ -361,7 +361,7 @@
         "size_text": "txt-body",
         "bg_item": "#f3efe9",
         "widthcolumn": 100,
-        "enable_padding_inner": true,
+        "enable_padding_inner": false,
         "show": 4,
         "arrows": false,
         "draggable": true,
