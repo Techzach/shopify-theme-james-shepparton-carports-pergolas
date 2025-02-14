@@ -140,13 +140,15 @@
 
 
 <style>
-  @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     .btn-header {
-        display: block;
-        width: 100%;
+        display: inline-block; /* Ensures button stays inline */
+        max-width: 90%; /* Prevents overflow but keeps text in one line */
         text-align: center;
-        font-size: 10px;
-        padding: 5px 0;
+        font-size: 12px;
+        padding: 10px 15px; /* Adjust padding to fit text */
+        white-space: nowrap; /* Forces text to stay in one line */
+        overflow: hidden; 
     }
 }
 </style>
