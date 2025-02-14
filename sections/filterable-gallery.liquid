@@ -48,9 +48,9 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".swiper-container", {
-    slidesPerView: "auto", // Fix for more images
+    slidesPerView: "auto", // Adjusted for dynamic images
     spaceBetween: 10,
-    loop: true,
+    loop: true,  // ✅ Loop enabled for infinite scrolling
     autoplay: {
       delay: 3000,
       disableOnInteraction: false
@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
+
 
 
 {% schema %}
