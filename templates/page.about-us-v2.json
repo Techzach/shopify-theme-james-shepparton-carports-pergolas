@@ -323,7 +323,6 @@
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1",
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-0"
       ],
-      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
@@ -345,100 +344,63 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
-    "9023d9a5-f48d-400d-86ac-2821223f115d": {
-      "type": "grid-banner",
+    "faq_accordion_XA3PpJ": {
+      "type": "faq-accordion",
       "blocks": {
-        "banner_Gr9zak": {
-          "type": "banner",
+        "faq_ke8CrJ": {
+          "type": "faq",
           "settings": {
-            "width": "4",
-            "enable_height_banner": false,
-            "promo_banner_height": 520,
-            "promo_banner_height_mobile": 400,
-            "image": "shopify://shop_images/20210810_093627.jpg",
-            "subtitle": "",
-            "title": "",
-            "size_text": "h4",
-            "description": "",
-            "bg_color": "#ffffff",
-            "colordef": "#ffffff",
-            "opacity_bg": 0,
-            "style_btn": "btn-theme",
-            "button_text": "Find a store",
-            "button_link": "shopify://pages/contact",
-            "vertical": "bottom",
-            "horizontal": "center",
-            "text_align": "center"
+            "faq_title": "Do you handle council applications?",
+            "faq_des": "<p>Yes, we can apply for council approval on your behalf. We submit all the required drawings, site plans and engineering requirements.</p>"
           }
         },
-        "template--19549171155264__9023d9a5-f48d-400d-86ac-2821223f115d-banner-1": {
-          "type": "banner",
+        "faq_bLGJQM": {
+          "type": "faq",
           "settings": {
-            "width": "4",
-            "enable_height_banner": false,
-            "promo_banner_height": 520,
-            "promo_banner_height_mobile": 400,
-            "image": "shopify://shop_images/20220729_142952.heic",
-            "subtitle": "",
-            "title": "",
-            "size_text": "h4",
-            "description": "",
-            "bg_color": "#ffffff",
-            "colordef": "#ffffff",
-            "opacity_bg": 0,
-            "style_btn": "btn-theme",
-            "button_text": "Work with us",
-            "button_link": "shopify://pages/contact",
-            "vertical": "bottom",
-            "horizontal": "center",
-            "text_align": "center"
+            "faq_title": "What styles are available in carports/pergolas?",
+            "faq_des": "<p>We design the structure to suit the style and design required. Whether you want gable, flatroof or pyramid style to match your existing roofline we will work with you to meet your needs to create a suitable style for you.</p>"
           }
         },
-        "d6983657-3f32-4b37-a862-fc26b411eefe": {
-          "type": "banner",
+        "faq_KNA44r": {
+          "type": "faq",
           "settings": {
-            "width": "4",
-            "enable_height_banner": false,
-            "promo_banner_height": 520,
-            "promo_banner_height_mobile": 400,
-            "image": "shopify://shop_images/20211006_145503.jpg",
-            "subtitle": "",
-            "title": "",
-            "size_text": "h4",
-            "description": "",
-            "bg_color": "#fffdfd",
-            "colordef": "#fffdfd",
-            "opacity_bg": 0,
-            "style_btn": "btn-theme",
-            "button_text": "Location",
-            "button_link": "shopify://pages/contact",
-            "vertical": "bottom",
-            "horizontal": "center",
-            "text_align": "center"
+            "faq_title": "Do you offer a guarantee?",
+            "faq_des": "<p>Yes we do, ten years structural guarantee.</p>"
+          }
+        },
+        "faq_xAUd4Q": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Do you offer a free measure and quote?",
+            "faq_des": "<p>Yes we do. We guarantee not to be beaten on any comparable quotes.</p>"
           }
         }
       },
       "block_order": [
-        "banner_Gr9zak",
-        "template--19549171155264__9023d9a5-f48d-400d-86ac-2821223f115d-banner-1",
-        "d6983657-3f32-4b37-a862-fc26b411eefe"
+        "faq_ke8CrJ",
+        "faq_bLGJQM",
+        "faq_KNA44r",
+        "faq_xAUd4Q"
       ],
       "settings": {
-        "animation": "fade-up",
+        "animation": "",
         "setwidth": "container",
-        "bgsection": "#ffffff",
-        "title_top": "",
-        "title": "Explore our roofing",
-        "des": "As manufacturers of both insulated panel roofing and single skin roofing, we offer a total system solution to our customers.\n\nOur National Head Office and Queensland Manufacturing facility is located at Parkinson in Brisbane. There are also Apollo Patio Roofing manufacturing facilities based in Sydney, Cairns, Townsville and Rockhampton.",
-        "align-heading": "left",
-        "no_gutter": false,
-        "gutter_padding": 30,
-        "show_overlay": true,
-        "gradient_overlay": true,
-        "bg_overlay": "#f3efe9",
-        "opacity_overlay": 0,
-        "paddingsection": "100px 0px 100px 0px",
-        "paddingmobile": "40px 0px 20px 0px",
+        "bgsection": "#f3efe9",
+        "e_size": "auto",
+        "e_repeat": "no-repeat",
+        "e_pos": "center center",
+        "title_top": "Question & Answer",
+        "title": "Get Some Frequently Asked Question",
+        "des": "",
+        "align-heading": "center",
+        "title_size": "h4",
+        "e_first_open": false,
+        "e_reverse": true,
+        "e_small": true,
+        "left_html": "",
+        "e_right": false,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
@@ -533,6 +495,105 @@
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
+    },
+    "9023d9a5-f48d-400d-86ac-2821223f115d": {
+      "type": "grid-banner",
+      "blocks": {
+        "banner_Gr9zak": {
+          "type": "banner",
+          "settings": {
+            "width": "4",
+            "enable_height_banner": false,
+            "promo_banner_height": 520,
+            "promo_banner_height_mobile": 400,
+            "image": "shopify://shop_images/20210810_093627.jpg",
+            "subtitle": "",
+            "title": "",
+            "size_text": "h4",
+            "description": "",
+            "bg_color": "#ffffff",
+            "colordef": "#ffffff",
+            "opacity_bg": 0,
+            "style_btn": "btn-theme",
+            "button_text": "Find a store",
+            "button_link": "shopify://pages/contact",
+            "vertical": "bottom",
+            "horizontal": "center",
+            "text_align": "center"
+          }
+        },
+        "template--19549171155264__9023d9a5-f48d-400d-86ac-2821223f115d-banner-1": {
+          "type": "banner",
+          "settings": {
+            "width": "4",
+            "enable_height_banner": false,
+            "promo_banner_height": 520,
+            "promo_banner_height_mobile": 400,
+            "image": "shopify://shop_images/20220729_142952.heic",
+            "subtitle": "",
+            "title": "",
+            "size_text": "h4",
+            "description": "",
+            "bg_color": "#ffffff",
+            "colordef": "#ffffff",
+            "opacity_bg": 0,
+            "style_btn": "btn-theme",
+            "button_text": "Work with us",
+            "button_link": "shopify://pages/contact",
+            "vertical": "bottom",
+            "horizontal": "center",
+            "text_align": "center"
+          }
+        },
+        "d6983657-3f32-4b37-a862-fc26b411eefe": {
+          "type": "banner",
+          "settings": {
+            "width": "4",
+            "enable_height_banner": false,
+            "promo_banner_height": 520,
+            "promo_banner_height_mobile": 400,
+            "image": "shopify://shop_images/20211006_145503.jpg",
+            "subtitle": "",
+            "title": "",
+            "size_text": "h4",
+            "description": "",
+            "bg_color": "#fffdfd",
+            "colordef": "#fffdfd",
+            "opacity_bg": 0,
+            "style_btn": "btn-theme",
+            "button_text": "Location",
+            "button_link": "shopify://pages/contact",
+            "vertical": "bottom",
+            "horizontal": "center",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "banner_Gr9zak",
+        "template--19549171155264__9023d9a5-f48d-400d-86ac-2821223f115d-banner-1",
+        "d6983657-3f32-4b37-a862-fc26b411eefe"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation": "fade-up",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_top": "",
+        "title": "Explore our roofing",
+        "des": "As manufacturers of both insulated panel roofing and single skin roofing, we offer a total system solution to our customers.\n\nOur National Head Office and Queensland Manufacturing facility is located at Parkinson in Brisbane. There are also Apollo Patio Roofing manufacturing facilities based in Sydney, Cairns, Townsville and Rockhampton.",
+        "align-heading": "left",
+        "no_gutter": false,
+        "gutter_padding": 30,
+        "show_overlay": true,
+        "gradient_overlay": true,
+        "bg_overlay": "#f3efe9",
+        "opacity_overlay": 0,
+        "paddingsection": "100px 0px 100px 0px",
+        "paddingmobile": "40px 0px 20px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
@@ -543,7 +604,8 @@
     "eb8451fb-cc18-4b15-9852-18c939660c4e",
     "1640249822349f58c7",
     "70b7f2d2-4c12-4305-88bd-da89e2d18d5b",
-    "9023d9a5-f48d-400d-86ac-2821223f115d",
-    "1660925094098c539e"
+    "faq_accordion_XA3PpJ",
+    "1660925094098c539e",
+    "9023d9a5-f48d-400d-86ac-2821223f115d"
   ]
 }
