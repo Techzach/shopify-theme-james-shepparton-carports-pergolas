@@ -120,7 +120,7 @@
         "1640249067277694fd-0": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"pl-lg-5\">\n\n<h2 class=\"mt-3 mb-3\">From Vision to Reality\n</h2>\n<p class=\"mb-5\">\n we understand that we’re not just building a structure—we’re enhancing your lifestyle and adding value to your home.\n\nWith years of expertise, we take pride in guiding you through every step, ensuring that your carport, pergola, or outdoor space is not just functional but also beautifully designed to suit your needs.\n\nFrom our transparent communication to our meticulous design process, every detail is thoughtfully crafted to make your home improvement journey smooth, enjoyable, and truly rewarding.\n</p>\n\n</div>",
+            "code": "<div class=\"pl-lg-5\">\n\n<h2 class=\"mt-3 mb-3\">From Vision to Reality\n</h2>\n<p class=\"mb-5 text-sm\">\n we understand that we’re not just building a structure—we’re enhancing your lifestyle and adding value to your home.\n\nWith years of expertise, we take pride in guiding you through every step, ensuring that your carport, pergola, or outdoor space is not just functional but also beautifully designed to suit your needs.\n\nFrom our transparent communication to our meticulous design process, every detail is thoughtfully crafted to make your home improvement journey smooth, enjoyable, and truly rewarding.\n</p>\n\n</div>",
             "width": "50%",
             "align": "center"
           }
