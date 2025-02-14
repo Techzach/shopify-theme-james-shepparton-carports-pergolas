@@ -333,9 +333,9 @@
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
-        "bgsection": "#f5f2ea",
+        "bgsection": "#f3efe9",
         "rangebg": 100,
-        "bgbefore": "#344a52",
+        "bgbefore": "#1b365d",
         "bg_pos": "right",
         "enable_padding": true,
         "align_center": true,
