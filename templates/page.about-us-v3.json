@@ -366,7 +366,7 @@
         "des": "",
         "align-heading": "center",
         "grayscale": false,
-        "arrows": false,
+        "arrows": true,
         "draggable": true,
         "dots": true,
         "infinite": true,
