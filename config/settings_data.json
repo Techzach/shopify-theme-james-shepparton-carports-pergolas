@@ -3221,5 +3221,10 @@
       },
       "content_for_index": []
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".group-fixed {display: none !important;}"
+    ]
   }
 }
