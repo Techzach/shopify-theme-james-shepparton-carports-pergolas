@@ -2,14 +2,13 @@
   .gallery-item{display:block;position:relative;}.gallery-item:after{position:absolute;content:"";width:100%;height:100%;background:#000;-webkit-transition:all ease .3s;-o-transition:all ease .3s;transition:all ease .3s;opacity:0;top:0;left:0}.gallery-item:hover:after{opacity:.6}.gallery-item__title{top:0;left:0;position:absolute;z-index:1;width:100%;height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#fff;-webkit-transition:all ease .3s;-o-transition:all ease .3s;transition:all ease .3s;opacity:0;-webkit-transform:translateY(-20px);-ms-transform:translateY(-20px);transform:translateY(-20px);font-size:calc(var(--g-font-size) + 6px)}.gallery-item:hover .gallery-item__title{opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}@media (max-width:991px){.gallery-item__title{opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}.gallery-item:after{opacity:.4}}.gallery-wrap{padding:30px 5px}.grid-item{width:25%}@media (max-width:1199px){.grid-item{width:33.33333333333%}}@media (max-width:991px){.grid-item{width:50%}}@media (max-width:767px){.grid-item{width:100%}}#js-loading{display:block}
 
 </style>
-
 {%- render 'style-section' -%}
 <div class="section-gallery enable-isotope customstyle{{ section.id }}">
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
-    <div class="js-grid row swiper-container">
+    <div class="js-grid row">
       {%- for block in section.blocks -%}
-      <div class="grid-item col-lg-3 col-md-4 col-sm-6 col-12 swiper-slide" data-aos="{{ section.settings.animation }}">
+      <div class="grid-item col-lg-3 col-md-4 col-sm-6 col-12" data-aos="{{ section.settings.animation }}">
         {%- if block.settings.image != blank -%}
         <div class="image-content__image-container">
           <a href="{{ block.settings.link | default: '#' }}" class="gallery-item mb-3 image-content__image-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
@@ -41,19 +40,6 @@
     </div>
   </div>
 </div>
-        
-     
-      <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
-      
-      <!-- Add Navigation -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-  </div>
-</div>
-
-
 
 {% schema %}
 {
@@ -293,99 +279,3 @@
   ]
 }
 {% endschema %}
-
-<style>
-  .gallery-item {
-  display: block;
-  position: relative;
-  width: 100%; /* Ensure the image container takes full width */
-  height: 300px; /* Set a fixed height matching the cropped image */
-  overflow: hidden; /* Prevent any overflow issues */
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image fills the container */
-}
-
-.gallery-item:after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: #000;
-  transition: all ease 0.3s;
-  opacity: 0;
-  top: 0;
-  left: 0;
-}
-
-.gallery-item:hover:after {
-  opacity: 0.6;
-}
-
-.gallery-item__title {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  transition: all ease 0.3s;
-  opacity: 0;
-  transform: translateY(-20px);
-  font-size: calc(var(--g-font-size) + 6px);
-}
-
-.gallery-item:hover .gallery-item__title {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-    .swiper-container {
-    width: 100%;
-    overflow: hidden;
-  }
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-/* Responsive Fixes */
-@media (max-width: 991px) {
-  .gallery-item__title {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .gallery-item:after {
-    opacity: 0.4;
-  }
-}
-
-</style>
-
-
-<!-- Swiper JS Initialization -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var swiper = new Swiper(".swiper-container", {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 10,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  });
-</script>
-
