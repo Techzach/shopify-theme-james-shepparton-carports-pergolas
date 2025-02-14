@@ -186,7 +186,7 @@
         "text_block_CPfkBW": {
           "type": "text_block",
           "settings": {
-            "width": "100%",
+            "width": "75%",
             "bgtext": "#ffffff",
             "title_color": "rgba(0,0,0,0)",
             "subtitle": "",
@@ -195,7 +195,7 @@
             "text": "Enjoy life outdoors with a purpose-built, functional area for all the family to enjoy.\n\nWhether you are looking to host dinner parties, relax in the shade or add value to your property, Apollo Patios can help bring your vision to life.\n\nYour new pergola can be custom designed to add style and practicality to your home, as well as giving you a comfortable outdoor area to suit your lifestyle.",
             "answer_content": "",
             "style_btn": "btn-underline btn-underline-white",
-            "button": "Buy free quote",
+            "button": "",
             "link": "shopify://pages/contact",
             "enable_padding": true,
             "align": "left"
