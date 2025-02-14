@@ -521,7 +521,23 @@
             "link": ""
           }
         },
+        "photo_NFFhwF": {
+          "type": "photo",
+          "settings": {
+            "image": "shopify://shop_images/20160223_093322_001.jpg",
+            "title": "Pergolas",
+            "link": ""
+          }
+        },
         "photo_JkBD9G": {
+          "type": "photo",
+          "settings": {
+            "image": "shopify://shop_images/20211201_103956.jpg",
+            "title": "Carports",
+            "link": ""
+          }
+        },
+        "photo_UbLCgc": {
           "type": "photo",
           "settings": {
             "image": "shopify://shop_images/20211201_103956.jpg",
@@ -537,6 +553,14 @@
             "link": ""
           }
         },
+        "photo_fGrtWd": {
+          "type": "photo",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0260.jpg",
+            "title": "Pergolas",
+            "link": ""
+          }
+        },
         "photo_3DAc4g": {
           "type": "photo",
           "settings": {
@@ -545,34 +569,10 @@
             "link": ""
           }
         },
-        "photo_dTV8Uf": {
+        "photo_aL4k8Q": {
           "type": "photo",
           "settings": {
-            "image": "shopify://shop_images/IMG_0351.jpg",
-            "title": "Pergolas",
-            "link": ""
-          }
-        },
-        "photo_HtHADG": {
-          "type": "photo",
-          "settings": {
-            "image": "shopify://shop_images/IMG_0809.jpg",
-            "title": "Carports",
-            "link": ""
-          }
-        },
-        "photo_Lc7V9k": {
-          "type": "photo",
-          "settings": {
-            "image": "shopify://shop_images/20220203_104255.jpg",
-            "title": "Pergolas",
-            "link": ""
-          }
-        },
-        "photo_fKVA9N": {
-          "type": "photo",
-          "settings": {
-            "image": "shopify://shop_images/20200211_134503.jpg",
+            "image": "shopify://shop_images/20170602_135559.jpg",
             "title": "Carports",
             "link": ""
           }
@@ -580,13 +580,13 @@
       },
       "block_order": [
         "photo_BfJP4b",
+        "photo_NFFhwF",
         "photo_JkBD9G",
+        "photo_UbLCgc",
         "photo_QDjLf4",
+        "photo_fGrtWd",
         "photo_3DAc4g",
-        "photo_dTV8Uf",
-        "photo_HtHADG",
-        "photo_Lc7V9k",
-        "photo_fKVA9N"
+        "photo_aL4k8Q"
       ],
       "settings": {
         "animation": "",
