@@ -323,6 +323,7 @@
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1",
         "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-0"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
