@@ -29,7 +29,8 @@
             "enable_video": false,
             "overlay_color": "#000000",
             "overlay_opacity": 30,
-            "text_circle": "Fashion2 style store"
+            "text_circle": "Fashion2 style store",
+            "video_url": ""
           }
         },
         "text_block_Rm6k4W": {
@@ -77,6 +78,7 @@
         "text_circle": "",
         "title": "Pergolas",
         "size_text": "h2",
+        "video_url": "",
         "cover_image": "shopify://shop_images/20181112_163406_3.jpg",
         "show_overlay": true,
         "overlay_color": "#000000",
@@ -143,11 +145,12 @@
         "quote_cBVRyL",
         "quote_cxAqQq"
       ],
+      "disabled": true,
       "settings": {
         "animation": "",
         "setwidth": "container",
         "bgsection": "#ffffff",
-        "title_color": "transparent",
+        "title_color": "rgba(0,0,0,0)",
         "title_top": "",
         "title": "",
         "des": "<h4 style=\"color: #1B365D; \">We’ve perfected the art of outdoor living spaces</h4>",
@@ -372,6 +375,83 @@
         "marginsection": "50px 0px 50px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
+    },
+    "brand_carousel_4M4r8A": {
+      "type": "brand-carousel",
+      "blocks": {
+        "logo_6mqrrq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/20240823_101102.jpg",
+            "link": ""
+          }
+        },
+        "logo_bCB3Vy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0351.jpg",
+            "link": ""
+          }
+        },
+        "logo_wWbUDG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/20210810_093600.heic",
+            "link": ""
+          }
+        },
+        "logo_AgFtDy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Carport-Flat-roof-1024x768.png",
+            "link": ""
+          }
+        },
+        "logo_YVHzN4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/20181112_163536.jpg",
+            "link": ""
+          }
+        },
+        "logo_YMGrBM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1903.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_6mqrrq",
+        "logo_bCB3Vy",
+        "logo_wWbUDG",
+        "logo_AgFtDy",
+        "logo_YVHzN4",
+        "logo_YMGrBM"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_top": "Related Project",
+        "title": "Pergolas",
+        "des": "",
+        "align-heading": "center",
+        "grayscale": false,
+        "arrows": true,
+        "draggable": true,
+        "dots": true,
+        "infinite": true,
+        "width_image": 100,
+        "slidestoshow": 5,
+        "slidescroll": 1,
+        "rows": "1",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
@@ -381,6 +461,7 @@
     "quotes_9nnQXU",
     "advanced_content_eXgfgT",
     "rich_text_hoz_HrmAh3",
-    "grid_banner_2_jDfCJB"
+    "grid_banner_2_jDfCJB",
+    "brand_carousel_4M4r8A"
   ]
 }
