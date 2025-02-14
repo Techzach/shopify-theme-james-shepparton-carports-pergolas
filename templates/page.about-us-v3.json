@@ -24,7 +24,8 @@
             "enable_video": false,
             "overlay_color": "#000000",
             "overlay_opacity": 30,
-            "text_circle": "Fashion2 style store"
+            "text_circle": "Fashion2 style store",
+            "video_url": ""
           }
         },
         "text_block_aJWmmC": {
@@ -34,7 +35,7 @@
             "subtitle": "",
             "title": "",
             "size_text": "h2",
-            "text": "<h2>Carports</h2>\n\n<p style=\"padding: 30px\">When you need answers, advice, or just a little bit of inspiration, we’re always here to help with our free design services – in person, online, or over the phone – to make it even easier to a create a space you’ll love coming home to.  Best of all, it won't attract the kind of clutter that garages are famous for!</p>",
+            "text": "<h2 style=\"padding: 10px;\">Carports</h2>\n\n<p style=\"padding: 30px;\">When you need answers, advice, or just a little bit of inspiration, we’re always here to help with our free design services – in person, online, or over the phone – to make it even easier to a create a space you’ll love coming home to.  Best of all, it won't attract the kind of clutter that garages are famous for!</p>",
             "answer_content": "",
             "button": "BUy free quote",
             "link": "shopify://pages/contact",
