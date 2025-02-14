@@ -161,12 +161,95 @@
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
+    },
+    "quotes_LbgzEN": {
+      "type": "quotes",
+      "blocks": {
+        "quote_4gzUYq": {
+          "type": "quote",
+          "settings": {
+            "title": "",
+            "avatar": "shopify://shop_images/11111.png",
+            "author": "Proudly Australian",
+            "info": "Designed and manufactured in Australia",
+            "rate": 0,
+            "quote": ""
+          }
+        },
+        "quote_D77fwg": {
+          "type": "quote",
+          "settings": {
+            "title": "",
+            "avatar": "shopify://shop_images/11111.png",
+            "author": "Proudly Australian",
+            "info": "Designed and manufactured in Australia",
+            "rate": 0,
+            "quote": ""
+          }
+        },
+        "quote_PyJTfb": {
+          "type": "quote",
+          "settings": {
+            "title": "",
+            "avatar": "shopify://shop_images/11111.png",
+            "author": "Proudly Australian",
+            "info": "Designed and manufactured in Australia",
+            "rate": 0,
+            "quote": ""
+          }
+        },
+        "quote_Wyyee3": {
+          "type": "quote",
+          "settings": {
+            "title": "",
+            "avatar": "shopify://shop_images/11111.png",
+            "author": "Proudly Australian",
+            "info": "Designed and manufactured in Australia",
+            "rate": 0,
+            "quote": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_4gzUYq",
+        "quote_D77fwg",
+        "quote_PyJTfb",
+        "quote_Wyyee3"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_color": "transparent",
+        "title_top": "Sub Title Top",
+        "title": "User reviews",
+        "des": "",
+        "align-heading": "center",
+        "aligntext": "text-left",
+        "style": "style-1",
+        "color_rate": "#f1f1f1",
+        "color_rated": "#000000",
+        "size_text": "txt-body",
+        "bg_item": "#ffffff",
+        "widthcolumn": 100,
+        "enable_padding_inner": true,
+        "show": 4,
+        "arrows": false,
+        "draggable": true,
+        "dots": true,
+        "infinite": true,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
     "announcement-bar",
     "announcement-bar-slide",
     "header",
-    "store-messages"
+    "store-messages",
+    "quotes_LbgzEN"
   ]
 }
