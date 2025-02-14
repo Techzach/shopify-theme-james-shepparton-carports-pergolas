@@ -47,30 +47,6 @@
 <!-- Swiper.js Script -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  var swiper = new Swiper(".swiper-container", {
-    slidesPerView: "auto", // Adjusted for dynamic images
-    spaceBetween: 10,
-    loop: true,  // ✅ Loop enabled for infinite scrolling
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-    },
-    breakpoints: {
-      991: { slidesPerView: 3 },
-      767: { slidesPerView: 2 },
-      480: { slidesPerView: 1 }
-    }
-  });
-});
-
   var swiper = new Swiper('.swiper-container', {
   slidesPerView: 1, 
   spaceBetween: 10, 
@@ -91,6 +67,15 @@ document.addEventListener("DOMContentLoaded", function () {
     clickable: true
   }
 });
+    breakpoints: {
+      991: { slidesPerView: 3 },
+      767: { slidesPerView: 2 },
+      480: { slidesPerView: 1 }
+    }
+  });
+});
+
+ 
 </script>
 
 
