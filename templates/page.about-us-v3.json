@@ -70,6 +70,7 @@
         "text_circle": "",
         "title": "Carports",
         "size_text": "h2",
+        "video_url": "",
         "cover_image": "shopify://shop_images/IMG_0043.jpg",
         "show_overlay": true,
         "overlay_color": "#000000",
@@ -301,6 +302,83 @@
         "marginsection": "30px 0px 30px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
+    },
+    "brand_carousel_3FQykn": {
+      "type": "brand-carousel",
+      "blocks": {
+        "logo_PynCnt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1793.jpg",
+            "link": ""
+          }
+        },
+        "logo_dQMnzn": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0809.jpg",
+            "link": ""
+          }
+        },
+        "logo_DhgnY8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/20210506_104344.jpg",
+            "link": ""
+          }
+        },
+        "logo_MazX4M": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/20170515_114126.jpg",
+            "link": ""
+          }
+        },
+        "logo_46xWmf": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/20200211_134503.jpg",
+            "link": ""
+          }
+        },
+        "logo_FTNY3Q": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/20170602_135608.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_PynCnt",
+        "logo_dQMnzn",
+        "logo_DhgnY8",
+        "logo_MazX4M",
+        "logo_46xWmf",
+        "logo_FTNY3Q"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_top": "Related Project",
+        "title": "More of our projects",
+        "des": "",
+        "align-heading": "center",
+        "grayscale": true,
+        "arrows": false,
+        "draggable": true,
+        "dots": true,
+        "infinite": true,
+        "width_image": 100,
+        "slidestoshow": 5,
+        "slidescroll": 1,
+        "rows": "1",
+        "paddingsection": "50px 0px 50px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
@@ -310,6 +388,7 @@
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4",
     "2d11636f-e0da-4a86-b3b5-c1eda5735347",
     "d72bcc8c-88fe-4415-96f0-06511b070083",
-    "24a28133-2e01-4361-8b00-ad164f72336f"
+    "24a28133-2e01-4361-8b00-ad164f72336f",
+    "brand_carousel_3FQykn"
   ]
 }
