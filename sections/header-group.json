@@ -27,9 +27,9 @@
         "enable_language_topbar": true,
         "enable_social_topbar": true,
         "enable_login_topbar": false,
-        "text_topbar": "Free shipping on orders over $75",
-        "buttonall_topbar": "Shop now",
-        "buttonall_link_topbar": "shopify://collections/all"
+        "text_topbar": "Get a",
+        "buttonall_topbar": "Free Quote",
+        "buttonall_link_topbar": "shopify://pages/contact"
       }
     },
     "announcement-bar-slide": {
