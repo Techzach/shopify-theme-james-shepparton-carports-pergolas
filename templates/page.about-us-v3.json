@@ -124,7 +124,7 @@
       "settings": {
         "animation": "fade",
         "setwidth": "container",
-        "bgsection": "#ffffff",
+        "bgsection": "#f3efe9",
         "rangebg": 0,
         "bgbefore": "rgba(0,0,0,0)",
         "bg_pos": "left",
@@ -223,6 +223,7 @@
         "template--16716887458110__d72bcc8c-88fe-4415-96f0-06511b070083-16666725974cf35e4d-0",
         "template--16716887458110__d72bcc8c-88fe-4415-96f0-06511b070083-16666725974cf35e4d-1"
       ],
+      "disabled": true,
       "settings": {
         "animation": "fade",
         "setwidth": "container",
