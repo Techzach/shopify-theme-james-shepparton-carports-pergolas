@@ -36,6 +36,88 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
+    "quotes_9nnQXU": {
+      "type": "quotes",
+      "blocks": {
+        "quote_miURpp": {
+          "type": "quote",
+          "settings": {
+            "title": "",
+            "avatar": "shopify://shop_images/11111-removebg-preview_1.png",
+            "author": "Proudly Australian",
+            "info": "Designed and manufactured in Australia",
+            "rate": 0,
+            "quote": ""
+          }
+        },
+        "quote_W3rV84": {
+          "type": "quote",
+          "settings": {
+            "title": "",
+            "avatar": "shopify://shop_images/11111-removebg-preview_1.png",
+            "author": "Proudly Australian",
+            "info": "Designed and manufactured in Australia",
+            "rate": 0,
+            "quote": ""
+          }
+        },
+        "quote_cBVRyL": {
+          "type": "quote",
+          "settings": {
+            "title": "",
+            "avatar": "shopify://shop_images/11111-removebg-preview_1.png",
+            "author": "Proudly Australian",
+            "info": "Designed and manufactured in Australia",
+            "rate": 0,
+            "quote": ""
+          }
+        },
+        "quote_cxAqQq": {
+          "type": "quote",
+          "settings": {
+            "title": "",
+            "avatar": "shopify://shop_images/11111-removebg-preview_1.png",
+            "author": "Proudly Australian",
+            "info": "Designed and manufactured in Australia",
+            "rate": 0,
+            "quote": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_miURpp",
+        "quote_W3rV84",
+        "quote_cBVRyL",
+        "quote_cxAqQq"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_color": "transparent",
+        "title_top": "",
+        "title": "",
+        "des": "<h4 style=\"color: #1B365D; \">We’ve perfected the art of outdoor living spaces</h4>",
+        "align-heading": "center",
+        "aligntext": "text-left",
+        "style": "style-2",
+        "color_rate": "#fffdfd",
+        "color_rated": "#000000",
+        "size_text": "h5",
+        "bg_item": "#ffffff",
+        "widthcolumn": 100,
+        "enable_padding_inner": false,
+        "show": 4,
+        "arrows": false,
+        "draggable": true,
+        "dots": true,
+        "infinite": true,
+        "paddingsection": "20px 0px 20px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
+    },
     "advanced_content_eXgfgT": {
       "type": "advanced-content",
       "blocks": {
@@ -290,97 +372,15 @@
         "marginsection": "50px 0px 50px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
-    },
-    "quotes_9nnQXU": {
-      "type": "quotes",
-      "blocks": {
-        "quote_miURpp": {
-          "type": "quote",
-          "settings": {
-            "title": "",
-            "avatar": "shopify://shop_images/11111-removebg-preview_1.png",
-            "author": "Proudly Australian",
-            "info": "Designed and manufactured in Australia",
-            "rate": 0,
-            "quote": ""
-          }
-        },
-        "quote_W3rV84": {
-          "type": "quote",
-          "settings": {
-            "title": "",
-            "avatar": "shopify://shop_images/11111-removebg-preview_1.png",
-            "author": "Proudly Australian",
-            "info": "Designed and manufactured in Australia",
-            "rate": 0,
-            "quote": ""
-          }
-        },
-        "quote_cBVRyL": {
-          "type": "quote",
-          "settings": {
-            "title": "",
-            "avatar": "shopify://shop_images/11111-removebg-preview_1.png",
-            "author": "Proudly Australian",
-            "info": "Designed and manufactured in Australia",
-            "rate": 0,
-            "quote": ""
-          }
-        },
-        "quote_cxAqQq": {
-          "type": "quote",
-          "settings": {
-            "title": "",
-            "avatar": "shopify://shop_images/11111-removebg-preview_1.png",
-            "author": "Proudly Australian",
-            "info": "Designed and manufactured in Australia",
-            "rate": 0,
-            "quote": ""
-          }
-        }
-      },
-      "block_order": [
-        "quote_miURpp",
-        "quote_W3rV84",
-        "quote_cBVRyL",
-        "quote_cxAqQq"
-      ],
-      "settings": {
-        "animation": "",
-        "setwidth": "container",
-        "bgsection": "#ffffff",
-        "title_color": "transparent",
-        "title_top": "",
-        "title": "",
-        "des": "<h4 style=\"color: #1B365D; \">We’ve perfected the art of outdoor living spaces</h4>",
-        "align-heading": "center",
-        "aligntext": "text-left",
-        "style": "style-2",
-        "color_rate": "#fffdfd",
-        "color_rated": "#000000",
-        "size_text": "h5",
-        "bg_item": "#ffffff",
-        "widthcolumn": 100,
-        "enable_padding_inner": false,
-        "show": 4,
-        "arrows": false,
-        "draggable": true,
-        "dots": true,
-        "infinite": true,
-        "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px"
-      }
     }
   },
   "order": [
     "main",
     "video_DAVBzw",
+    "quotes_9nnQXU",
     "advanced_content_eXgfgT",
     "image_content_6_3Mmntm",
     "rich_text_hoz_HrmAh3",
-    "grid_banner_2_jDfCJB",
-    "quotes_9nnQXU"
+    "grid_banner_2_jDfCJB"
   ]
 }
