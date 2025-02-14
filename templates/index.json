@@ -695,7 +695,7 @@
         "bgsection": "#ffffff",
         "bgsecond": "#ffffff",
         "title": "New Arrivals",
-        "arrows": false,
+        "arrows": true,
         "draggable": true,
         "dots": true
       }
