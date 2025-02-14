@@ -350,28 +350,28 @@
         "faq_ke8CrJ": {
           "type": "faq",
           "settings": {
-            "faq_title": "Do you handle council applications?",
+            "faq_title": "<p style=\"font-size: 16px;\" onmouseover=\"this.style.color='#1B365D'\" onmouseout=\"this.style.color='black'\">\nDo you handle council applications?</p>",
             "faq_des": "<p>Yes, we can apply for council approval on your behalf. We submit all the required drawings, site plans and engineering requirements.</p>"
           }
         },
         "faq_bLGJQM": {
           "type": "faq",
           "settings": {
-            "faq_title": "What styles are available in carports/pergolas?",
+            "faq_title": "<p style=\"font-size: 16px;\" onmouseover=\"this.style.color='#1B365D'\" onmouseout=\"this.style.color='black'\">\nWhat styles are available in carports/pergolas?</p>",
             "faq_des": "<p>We design the structure to suit the style and design required. Whether you want gable, flatroof or pyramid style to match your existing roofline we will work with you to meet your needs to create a suitable style for you.</p>"
           }
         },
         "faq_KNA44r": {
           "type": "faq",
           "settings": {
-            "faq_title": "Do you offer a guarantee?",
+            "faq_title": "<p style=\"font-size: 16px;\" onmouseover=\"this.style.color='#1B365D'\" onmouseout=\"this.style.color='black'\">\nDo you offer a guarantee?</p>",
             "faq_des": "<p>Yes we do, ten years structural guarantee.</p>"
           }
         },
         "faq_xAUd4Q": {
           "type": "faq",
           "settings": {
-            "faq_title": "Do you offer a free measure and quote?",
+            "faq_title": "<p style=\"font-size: 16px;\" onmouseover=\"this.style.color='#1B365D'\" onmouseout=\"this.style.color='black'\">\nDo you offer a free measure and quote?</p>",
             "faq_des": "<p>Yes we do. We guarantee not to be beaten on any comparable quotes.</p>"
           }
         }
