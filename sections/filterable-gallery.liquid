@@ -7,10 +7,10 @@
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
     
-    <div class="swiper-container">
+    <div class="js-grid row swiper-container">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
-        <div class="swiper-slide" data-aos="{{ section.settings.animation }}">
+        <div class="grid-item col-lg-3 col-md-4 col-sm-6 col-12 swiper-slide" data-aos="{{ section.settings.animation }}">
           {%- if block.settings.image != blank -%}
           <div class="image-content__image-container">
             <a href="{{ block.settings.link | default: '#' }}" class="gallery-item mb-3 image-content__image-wrapper">
@@ -38,7 +38,12 @@
         </div>
         {%- endfor -%}
       </div>
-      
+
+
+
+
+        
+     
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
       
