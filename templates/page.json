@@ -130,37 +130,9 @@
             "width_image": 100,
             "image_link": "",
             "enable_top": false,
-            "code": "This text can be used to share information about your brand with customers.",
-            "padding-left": true,
-            "padding-right": true
-          }
-        },
-        "image_jh4Vna": {
-          "type": "image",
-          "settings": {
-            "width": "33%",
-            "align": "auto",
-            "image": "shopify://shop_images/20191208_174930.jpg",
-            "width_image": 100,
-            "image_link": "",
-            "enable_top": false,
-            "code": "This text can be used to share information about your brand with customers.",
-            "padding-left": true,
-            "padding-right": true
-          }
-        },
-        "image_Rx96eE": {
-          "type": "image",
-          "settings": {
-            "width": "33%",
-            "align": "auto",
-            "image": "shopify://shop_images/20191208_174930.jpg",
-            "width_image": 100,
-            "image_link": "",
-            "enable_top": false,
-            "code": "This text can be used to share information about your brand with customers.",
-            "padding-left": true,
-            "padding-right": true
+            "code": "<p style=\"color: #1B365D; text-align: center;\">This text can be used to share information about your brand with customers.</p>",
+            "padding-left": false,
+            "padding-right": false
           }
         },
         "image_QKEcGM": {
@@ -194,8 +166,6 @@
       },
       "block_order": [
         "image_TiAn3E",
-        "image_jh4Vna",
-        "image_Rx96eE",
         "image_QKEcGM",
         "image_YxEUQa"
       ],
