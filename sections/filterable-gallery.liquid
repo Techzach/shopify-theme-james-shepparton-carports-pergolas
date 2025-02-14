@@ -2,7 +2,7 @@
 <div class="section-gallery enable-isotope customstyle{{ section.id }}">
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
-    
+
     <!-- Swiper Container Added -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
@@ -44,11 +44,33 @@
   </div>
 </div>
 
-
-
-<!-- Include Swiper.js CDN -->
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Swiper.js Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var swiper = new Swiper(".swiper-container", {
+    slidesPerView: "auto", // Fix for more images
+    spaceBetween: 10,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    breakpoints: {
+      991: { slidesPerView: 3 },
+      767: { slidesPerView: 2 },
+      480: { slidesPerView: 1 }
+    }
+  });
+});
+</script>
 
 
 {% schema %}
@@ -289,30 +311,3 @@
   ]
 }
 {% endschema %}
-
-<!-- Swiper.js Script -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  var swiper = new Swiper(".swiper-container", {
-    slidesPerView: 3,
-    spaceBetween: 10,
-    loop: true,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-    },
-    breakpoints: {
-      991: { slidesPerView: 2 },
-      767: { slidesPerView: 1 }
-    }
-  });
-});
-</script>
