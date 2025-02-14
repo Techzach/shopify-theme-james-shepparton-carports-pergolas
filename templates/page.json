@@ -111,99 +111,56 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
-    "hot_spots_split_VxtaQz": {
-      "type": "hot-spots-split",
+    "image_content_6_3Mmntm": {
+      "type": "image-content-6",
       "blocks": {
-        "feature_p3JjBy": {
-          "type": "feature",
+        "image_block_WhFNza": {
+          "type": "image_block",
           "settings": {
-            "width": "50%",
-            "enable_height": false,
-            "dot_color": "#ffffff",
-            "product1": "",
-            "pos1": "right",
-            "left1": 25,
-            "top1": 25,
-            "mobile_left1": 25,
-            "mobile_top1": 25,
-            "product2": "",
-            "pos2": "right",
-            "left2": 25,
-            "top2": 25,
-            "mobile_left2": 25,
-            "mobile_top2": 25,
-            "product3": "",
-            "pos3": "right",
-            "left3": 25,
-            "top3": 25,
-            "mobile_left3": 25,
-            "mobile_top3": 25
+            "style_content": "default",
+            "w_image": 40,
+            "pos_image": 50,
+            "e_image": "left",
+            "image": "shopify://shop_images/20210810_093600.heic",
+            "image2": "shopify://shop_images/IMG_0250.jpg",
+            "enable_video": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "text_circle": "Fashion2 style store"
           }
         },
-        "feature_right_mUWmLd": {
-          "type": "feature-right",
+        "text_block_Rm6k4W": {
+          "type": "text_block",
           "settings": {
-            "width": "50%",
-            "sub_title_block": "Pergolas",
-            "title_block": "",
-            "data_countdown": "",
-            "code": "ndoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round. GV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless.",
-            "button_text": "Shop Now",
-            "button_link": "",
-            "color": "#000000",
-            "bgcolor": "#DFA069"
+            "bgtext": "#ffffff",
+            "subtitle": "",
+            "title": "Pergolas",
+            "size_text": "h2",
+            "text": "<p>Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless.</p>",
+            "answer_content": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button": "discover now",
+            "link": "",
+            "style_btn": "btn-underline",
+            "align": "left",
+            "enable_padding_left": false,
+            "enable_padding_right": false
           }
         }
       },
       "block_order": [
-        "feature_p3JjBy",
-        "feature_right_mUWmLd"
-      ],
-      "settings": {
-        "animation": "",
-        "setwidth": "container",
-        "bgsection": "#ffffff",
-        "title_top": "Sub Title Top",
-        "title": "Hot Spots",
-        "des": "",
-        "align-heading": "center",
-        "gutter_padding": 30,
-        "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "0px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "rich_text_hoz_XdT6Kb": {
-      "type": "rich-text-hoz",
-      "blocks": {
-        "paragraph_qcRacN": {
-          "type": "paragraph",
-          "settings": {
-            "subtext": "<h2>Pergolas</h2>\n\n\n<p>Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless.</p>"
-          }
-        },
-        "image_6QmTQ4": {
-          "type": "image",
-          "settings": {
-            "img-in-hero": 200,
-            "image": "shopify://shop_images/IMG_0351.jpg",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "paragraph_qcRacN",
-        "image_6QmTQ4"
+        "image_block_WhFNza",
+        "text_block_Rm6k4W"
       ],
       "settings": {
         "animation": "",
         "setwidth": "container",
         "bgsection": "#f3efe9",
-        "gradient_bg": "",
+        "size": "50-50",
+        "enable_padding": true,
+        "align_center": true,
         "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "60px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
     },
@@ -339,8 +296,7 @@
     "main",
     "video_DAVBzw",
     "advanced_content_eXgfgT",
-    "hot_spots_split_VxtaQz",
-    "rich_text_hoz_XdT6Kb",
+    "image_content_6_3Mmntm",
     "rich_text_hoz_HrmAh3",
     "grid_banner_2_jDfCJB"
   ]
