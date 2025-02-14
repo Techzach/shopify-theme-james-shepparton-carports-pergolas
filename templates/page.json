@@ -14,6 +14,59 @@
       "disabled": true,
       "settings": {}
     },
+    "image_content_6_3Mmntm": {
+      "type": "image-content-6",
+      "blocks": {
+        "image_block_WhFNza": {
+          "type": "image_block",
+          "settings": {
+            "style_content": "default",
+            "w_image": 40,
+            "pos_image": 50,
+            "e_image": "left",
+            "image": "shopify://shop_images/20210810_093600.heic",
+            "image2": "shopify://shop_images/IMG_0250.jpg",
+            "enable_video": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "text_circle": "Fashion2 style store"
+          }
+        },
+        "text_block_Rm6k4W": {
+          "type": "text_block",
+          "settings": {
+            "bgtext": "#ffffff",
+            "subtitle": "",
+            "title": "",
+            "size_text": "h2",
+            "text": "<h2>Pergolas</h2>\n\n<p style=\"padding: 30px\">Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.</p>",
+            "answer_content": "",
+            "button": "Buy Free Quote",
+            "link": "shopify://pages/contact",
+            "style_btn": "btn-underline",
+            "align": "left",
+            "enable_padding_left": true,
+            "enable_padding_right": true
+          }
+        }
+      },
+      "block_order": [
+        "image_block_WhFNza",
+        "text_block_Rm6k4W"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#f3efe9",
+        "size": "50-50",
+        "enable_padding": true,
+        "align_center": true,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "40px 0px 40px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
+    },
     "video_DAVBzw": {
       "type": "video",
       "settings": {
@@ -144,7 +197,7 @@
             "width_image": 100,
             "image_link": "",
             "enable_top": false,
-            "code": "This text can be used to share information about your brand with customers.",
+            "code": "<p style=\"color: #1B365D; text-align: center;\">This text can be used to share information about your brand with customers.</p>",
             "padding-left": false,
             "padding-right": false
           }
@@ -158,7 +211,7 @@
             "width_image": 100,
             "image_link": "",
             "enable_top": false,
-            "code": "This text can be used to share information about your brand with customers.",
+            "code": "<p style=\"color: #1B365D; text-align: center;\">This text can be used to share information about your brand with customers.</p>",
             "padding-left": false,
             "padding-right": false
           }
@@ -190,59 +243,6 @@
         "paddingsection": "50px 0px 50px 0px",
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "image_content_6_3Mmntm": {
-      "type": "image-content-6",
-      "blocks": {
-        "image_block_WhFNza": {
-          "type": "image_block",
-          "settings": {
-            "style_content": "default",
-            "w_image": 40,
-            "pos_image": 50,
-            "e_image": "left",
-            "image": "shopify://shop_images/20210810_093600.heic",
-            "image2": "shopify://shop_images/IMG_0250.jpg",
-            "enable_video": false,
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "text_circle": "Fashion2 style store"
-          }
-        },
-        "text_block_Rm6k4W": {
-          "type": "text_block",
-          "settings": {
-            "bgtext": "#ffffff",
-            "subtitle": "",
-            "title": "",
-            "size_text": "h2",
-            "text": "<h2>Pergolas</h2>\n\n<p style=\"padding: 30px\">Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.</p>",
-            "answer_content": "",
-            "button": "discover now",
-            "link": "",
-            "style_btn": "btn-underline",
-            "align": "left",
-            "enable_padding_left": true,
-            "enable_padding_right": true
-          }
-        }
-      },
-      "block_order": [
-        "image_block_WhFNza",
-        "text_block_Rm6k4W"
-      ],
-      "settings": {
-        "animation": "",
-        "setwidth": "container",
-        "bgsection": "#f3efe9",
-        "size": "50-50",
-        "enable_padding": true,
-        "align_center": true,
-        "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "40px 0px 40px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
     },
@@ -376,10 +376,10 @@
   },
   "order": [
     "main",
+    "image_content_6_3Mmntm",
     "video_DAVBzw",
     "quotes_9nnQXU",
     "advanced_content_eXgfgT",
-    "image_content_6_3Mmntm",
     "rich_text_hoz_HrmAh3",
     "grid_banner_2_jDfCJB"
   ]
