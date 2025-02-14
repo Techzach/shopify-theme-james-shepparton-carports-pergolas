@@ -53,6 +53,53 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
+    "4e23e5dd-3451-47fa-a801-2e98e58aaadd": {
+      "type": "image-content",
+      "blocks": {
+        "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-image_block-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/242105684_369893331500695_1017738032941729558_n.jpg"
+          }
+        },
+        "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "width": "100%",
+            "bgtext": "#ffffff",
+            "title_color": "rgba(0,0,0,0)",
+            "subtitle": "",
+            "title": "A Vision for Excellence",
+            "size_text": "h2",
+            "text": "",
+            "answer_content": "<p>We believe in creating strong, stylish, and long-lasting outdoor solutions that enhance both your home and lifestyle. Our CEO, [CEO's Name], brings years of experience and a deep passion for delivering high-quality carports and pergolas that stand the test of time.<br/><br/>\"Our goal is simple—to provide you with expertly designed and professionally built outdoor structures that you can enjoy for years to come.\"<br/><br/></p>",
+            "style_btn": "btn-theme",
+            "button": "Buy Free quote",
+            "link": "shopify://pages/contact",
+            "enable_padding": true,
+            "align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-image_block-1",
+        "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-text_block-1"
+      ],
+      "settings": {
+        "animation": "fade-up",
+        "setwidth": "container",
+        "bgsection": "#f3efe9",
+        "rangebg": 100,
+        "bgbefore": "#1b365d",
+        "bg_pos": "right",
+        "enable_padding": true,
+        "align_center": true,
+        "paddingsection": "100px 0px 100px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
+    },
     "1640249067965cb02d": {
       "type": "advanced-content",
       "blocks": {
@@ -113,7 +160,7 @@
         "c5976c2d-45e2-4242-b36d-dd21688fe650": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"pl-lg-5 pr-lg-5\">\n<span class=\"subtop\">For Us</span>\n<h2 class=\"mt-3 mb-3\">Your Home Matters\n</h2>\n<p class=\"mb-5\">\nWe love what we do and take pride in helping you build a better, more comfortable lifestyle—whether it’s for your family or your personal retreat.\n\nTo us, “Home matters” isn’t just a phrase—it’s a promise. We understand that your home is your pride and joy, and we treat it with the care and respect it deserves.\n\nAnd because we handle everything from manufacturing to installation, you enjoy a seamless, stress-free experience—with one point of contact and a single, simple warranty.\n</p>\n<a class=\"btn btn-theme\" href=\"#\"> Read more</a>\n</div>",
+            "code": "<div class=\"pl-lg-5 pr-lg-5\">\n<span class=\"subtop\"></span>\n<h2 class=\"mt-3 mb-3\">For Us Your Home Matters\n</h2>\n<p class=\"mb-5\">\nWe love what we do and take pride in helping you build a better, more comfortable lifestyle—whether it’s for your family or your personal retreat.\n\nTo us, “Home matters” isn’t just a phrase—it’s a promise. We understand that your home is your pride and joy, and we treat it with the care and respect it deserves.\n\nAnd because we handle everything from manufacturing to installation, you enjoy a seamless, stress-free experience—with one point of contact and a single, simple warranty.\n</p>\n\n</div>",
             "width": "50%",
             "align": "center"
           }
@@ -292,53 +339,6 @@
         "draggable": true,
         "dots": false,
         "infinite": true,
-        "paddingsection": "100px 0px 100px 0px",
-        "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "4e23e5dd-3451-47fa-a801-2e98e58aaadd": {
-      "type": "image-content",
-      "blocks": {
-        "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-image_block-1": {
-          "type": "image_block",
-          "settings": {
-            "image": "shopify://shop_images/242105684_369893331500695_1017738032941729558_n.jpg"
-          }
-        },
-        "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-text_block-1": {
-          "type": "text_block",
-          "settings": {
-            "width": "100%",
-            "bgtext": "#ffffff",
-            "title_color": "rgba(0,0,0,0)",
-            "subtitle": "",
-            "title": "A Vision for Excellence",
-            "size_text": "h2",
-            "text": "",
-            "answer_content": "<p>We believe in creating strong, stylish, and long-lasting outdoor solutions that enhance both your home and lifestyle. Our CEO, [CEO's Name], brings years of experience and a deep passion for delivering high-quality carports and pergolas that stand the test of time.<br/><br/>\"Our goal is simple—to provide you with expertly designed and professionally built outdoor structures that you can enjoy for years to come.\"<br/><br/></p>",
-            "style_btn": "btn-theme",
-            "button": "Read more",
-            "link": "#",
-            "enable_padding": true,
-            "align": "left"
-          }
-        }
-      },
-      "block_order": [
-        "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-image_block-1",
-        "template--21109130330392__4e23e5dd-3451-47fa-a801-2e98e58aaadd-text_block-1"
-      ],
-      "settings": {
-        "animation": "fade-up",
-        "setwidth": "container",
-        "bgsection": "#f3efe9",
-        "rangebg": 100,
-        "bgbefore": "#1b365d",
-        "bg_pos": "right",
-        "enable_padding": true,
-        "align_center": true,
         "paddingsection": "100px 0px 100px 0px",
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
@@ -538,11 +538,11 @@
   "order": [
     "main",
     "16402476915bccc6a7",
+    "4e23e5dd-3451-47fa-a801-2e98e58aaadd",
     "1640249067965cb02d",
     "eb8451fb-cc18-4b15-9852-18c939660c4e",
     "1640249822349f58c7",
     "70b7f2d2-4c12-4305-88bd-da89e2d18d5b",
-    "4e23e5dd-3451-47fa-a801-2e98e58aaadd",
     "9023d9a5-f48d-400d-86ac-2821223f115d",
     "1660925094098c539e"
   ]
