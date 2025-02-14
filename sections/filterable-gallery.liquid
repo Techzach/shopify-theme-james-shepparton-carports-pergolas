@@ -6,40 +6,50 @@
 <div class="section-gallery enable-isotope customstyle{{ section.id }}">
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
-    <div class="js-grid row">
-      {%- for block in section.blocks -%}
-      <div class="grid-item col-lg-3 col-md-4 col-sm-6 col-12" data-aos="{{ section.settings.animation }}">
-        {%- if block.settings.image != blank -%}
-        <div class="image-content__image-container">
-          <a href="{{ block.settings.link | default: '#' }}" class="gallery-item mb-3 image-content__image-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
-           {% assign img_url = block.settings.image | image_url: width: 400, height: 300, crop: 'center' %}
-<img 
-  class="lazyload gallery-item__image" 
-  src="{{ block.settings.image | image_url: width: 1, height: 1 }}" 
-  data-src="{{ img_url }}"
-  data-widths="[400, 800, 1200, 1600, 2000]"
-  data-aspectratio="4/3"
-  data-sizes="auto"
-  loading="lazy"
-  width="400"
-  height="300" />
-<div class="gallery-item__title">
-  {{ block.settings.title }}
-</div>
-
-        
-        </a>
+    
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {%- for block in section.blocks -%}
+        <div class="swiper-slide" data-aos="{{ section.settings.animation }}">
+          {%- if block.settings.image != blank -%}
+          <div class="image-content__image-container">
+            <a href="{{ block.settings.link | default: '#' }}" class="gallery-item mb-3 image-content__image-wrapper">
+              {% assign img_url = block.settings.image | image_url: width: 400, height: 300, crop: 'center' %}
+              <img 
+                class="lazyload gallery-item__image" 
+                src="{{ block.settings.image | image_url: width: 1, height: 1 }}" 
+                data-src="{{ img_url }}"
+                data-widths="[400, 800, 1200, 1600, 2000]"
+                data-aspectratio="4/3"
+                data-sizes="auto"
+                loading="lazy"
+                width="400"
+                height="300" />
+              <div class="gallery-item__title">
+                {{ block.settings.title }}
+              </div>
+            </a>
+          </div>
+          {%- else -%}
+          <div class="gallery-item mb-3">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+          {%- endif -%}
+        </div>
+        {%- endfor -%}
       </div>
-        {% else %}
-        <div class="gallery-item mb-3">
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        </div> 
-        {%- endif -%}
-      </div>
-      {%- endfor -%}
+      
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
   </div>
 </div>
+
+
 
 {% schema %}
 {
@@ -331,6 +341,16 @@
   transform: translateY(0);
 }
 
+    .swiper-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 /* Responsive Fixes */
 @media (max-width: 991px) {
   .gallery-item__title {
@@ -344,3 +364,24 @@
 }
 
 </style>
+
+
+<!-- Swiper JS Initialization -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var swiper = new Swiper(".swiper-container", {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  });
+</script>
+
