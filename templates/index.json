@@ -699,6 +699,56 @@
         "draggable": true,
         "dots": true
       }
+    },
+    "quotes_special_7gVmbt": {
+      "type": "quotes-special",
+      "blocks": {
+        "quote_ywWn49": {
+          "type": "quote",
+          "settings": {
+            "title": "Comment",
+            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "rate": 5,
+            "author": "Author's name",
+            "info": "",
+            "avatar": "shopify://shop_images/20170602_135608.jpg"
+          }
+        },
+        "quote_7AYjcp": {
+          "type": "quote",
+          "settings": {
+            "title": "Comment",
+            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "rate": 5,
+            "author": "Author's name",
+            "info": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_ywWn49",
+        "quote_7AYjcp"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_top": "Sub Title Top",
+        "title": "User reviews",
+        "des": "",
+        "align-heading": "center",
+        "color_rate": "#f1f1f1",
+        "color_rated": "#000000",
+        "image_size": "square",
+        "arrows": true,
+        "draggable": true,
+        "dots": true,
+        "infinite": true,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
@@ -712,6 +762,7 @@
     "quotes_r4PPce",
     "0a081843-18cc-4628-a950-350c7308b356",
     "filterable_gallery_9XRifx",
-    "carousel_special_PJeVTg"
+    "carousel_special_PJeVTg",
+    "quotes_special_7gVmbt"
   ]
 }
