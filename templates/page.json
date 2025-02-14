@@ -111,6 +111,69 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
+    "hot_spots_split_VxtaQz": {
+      "type": "hot-spots-split",
+      "blocks": {
+        "feature_p3JjBy": {
+          "type": "feature",
+          "settings": {
+            "width": "50%",
+            "enable_height": false,
+            "dot_color": "#ffffff",
+            "product1": "",
+            "pos1": "right",
+            "left1": 25,
+            "top1": 25,
+            "mobile_left1": 25,
+            "mobile_top1": 25,
+            "product2": "",
+            "pos2": "right",
+            "left2": 25,
+            "top2": 25,
+            "mobile_left2": 25,
+            "mobile_top2": 25,
+            "product3": "",
+            "pos3": "right",
+            "left3": 25,
+            "top3": 25,
+            "mobile_left3": 25,
+            "mobile_top3": 25
+          }
+        },
+        "feature_right_mUWmLd": {
+          "type": "feature-right",
+          "settings": {
+            "width": "50%",
+            "sub_title_block": "Pergolas",
+            "title_block": "",
+            "data_countdown": "",
+            "code": "Indoor-outdoor living, designed for comfort and style. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round. shepparton Carports Pergola  will design and build a pergola to suit your property and surrounding landscape.",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "color": "#000000",
+            "bgcolor": "#DFA069"
+          }
+        }
+      },
+      "block_order": [
+        "feature_p3JjBy",
+        "feature_right_mUWmLd"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "title_top": "Sub Title Top",
+        "title": "Hot Spots",
+        "des": "",
+        "align-heading": "center",
+        "gutter_padding": 30,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "0px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
+    },
     "rich_text_hoz_XdT6Kb": {
       "type": "rich-text-hoz",
       "blocks": {
@@ -276,6 +339,7 @@
     "main",
     "video_DAVBzw",
     "advanced_content_eXgfgT",
+    "hot_spots_split_VxtaQz",
     "rich_text_hoz_XdT6Kb",
     "rich_text_hoz_HrmAh3",
     "grid_banner_2_jDfCJB"
