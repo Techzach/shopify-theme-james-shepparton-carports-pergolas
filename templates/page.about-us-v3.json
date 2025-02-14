@@ -9,6 +9,59 @@
  */
 {
   "sections": {
+    "image_content_6_LrjThR": {
+      "type": "image-content-6",
+      "blocks": {
+        "image_block_meUQRW": {
+          "type": "image_block",
+          "settings": {
+            "style_content": "default",
+            "w_image": 50,
+            "pos_image": 100,
+            "e_image": "left",
+            "image": "shopify://shop_images/IMG_0139.jpg",
+            "image2": "shopify://shop_images/IMG_1793.jpg",
+            "enable_video": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "text_circle": "Fashion2 style store"
+          }
+        },
+        "text_block_aJWmmC": {
+          "type": "text_block",
+          "settings": {
+            "bgtext": "#ffffff",
+            "subtitle": "",
+            "title": "",
+            "size_text": "h2",
+            "text": "<h2>Carports</h2>\n\n<p style=\"padding: 30px\">When you need answers, advice, or just a little bit of inspiration, we’re always here to help with our free design services – in person, online, or over the phone – to make it even easier to a create a space you’ll love coming home to.</p>",
+            "answer_content": "",
+            "button": "BUy free quote",
+            "link": "shopify://pages/contact",
+            "style_btn": "btn-underline",
+            "align": "left",
+            "enable_padding_left": true,
+            "enable_padding_right": true
+          }
+        }
+      },
+      "block_order": [
+        "image_block_meUQRW",
+        "text_block_aJWmmC"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "size": "50-50",
+        "enable_padding": true,
+        "align_center": true,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
+    },
     "49b0a5ba-1ebd-493b-ae50-1ec847159046": {
       "type": "image-content",
       "blocks": {
@@ -21,7 +74,7 @@
             "subtitle": "",
             "title": "Carports ",
             "size_text": "h3",
-            "text": "When you need answers, advice, or just a little bit of inspiration, we’re always here to help with our free design services – in person, online, or over the phone – to make it even easier to a create a space you’ll love coming home to.",
+            "text": "",
             "answer_content": "",
             "style_btn": "btn-underline btn-underline-white",
             "button": "",
@@ -382,6 +435,7 @@
     }
   },
   "order": [
+    "image_content_6_LrjThR",
     "49b0a5ba-1ebd-493b-ae50-1ec847159046",
     "main",
     "video_Mizgkw",
