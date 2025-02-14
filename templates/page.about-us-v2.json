@@ -365,7 +365,7 @@
             "opacity_bg": 0,
             "style_btn": "btn-theme",
             "button_text": "Find a store",
-            "button_link": "",
+            "button_link": "shopify://pages/contact",
             "vertical": "bottom",
             "horizontal": "center",
             "text_align": "center"
@@ -388,7 +388,7 @@
             "opacity_bg": 0,
             "style_btn": "btn-theme",
             "button_text": "Work with us",
-            "button_link": "",
+            "button_link": "shopify://pages/contact",
             "vertical": "bottom",
             "horizontal": "center",
             "text_align": "center"
@@ -411,7 +411,7 @@
             "opacity_bg": 0,
             "style_btn": "btn-theme",
             "button_text": "Location",
-            "button_link": "",
+            "button_link": "shopify://pages/contact",
             "vertical": "bottom",
             "horizontal": "center",
             "text_align": "center"
