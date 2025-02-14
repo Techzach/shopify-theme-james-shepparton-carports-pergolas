@@ -347,7 +347,7 @@
       ],
       "settings": {
         "animation": "",
-        "setwidth": "full",
+        "setwidth": "container-fluid",
         "bgsection": "#ffffff",
         "title_color": "transparent",
         "title_top": "",
