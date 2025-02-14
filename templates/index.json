@@ -654,6 +654,51 @@
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
+    },
+    "carousel_special_PJeVTg": {
+      "type": "carousel-special",
+      "blocks": {
+        "text_rCec87": {
+          "type": "Text",
+          "settings": {
+            "title_small": "heading",
+            "quote": "We stand by our 10 year guarantee on all workmanship and our quality range of products. We have a range of inexpensive building materials to design a carport, patio or verandah to meet your lifestyle needs.",
+            "image": "shopify://shop_images/20240823_101108.jpg"
+          }
+        },
+        "text_PaRqeX": {
+          "type": "Text",
+          "settings": {
+            "title_small": "heading",
+            "quote": "We stand by our 10 year guarantee on all workmanship and our quality range of products. We have a range of inexpensive building materials to design a carport, patio or verandah to meet your lifestyle needs.",
+            "image": "shopify://shop_images/20170602_135608.jpg"
+          }
+        },
+        "text_Lb4nKX": {
+          "type": "Text",
+          "settings": {
+            "title_small": "heading",
+            "quote": "We stand by our 10 year guarantee on all workmanship and our quality range of products. We have a range of inexpensive building materials to design a carport, patio or verandah to meet your lifestyle needs.",
+            "image": "shopify://shop_images/20240823_101108.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_rCec87",
+        "text_PaRqeX",
+        "text_Lb4nKX"
+      ],
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "bgsection": "#ffffff",
+        "bgsecond": "#ffffff",
+        "title": "New Arrivals",
+        "arrows": false,
+        "draggable": true,
+        "dots": true
+      }
     }
   },
   "order": [
@@ -666,6 +711,7 @@
     "grid_banner_2_3EyY3N",
     "quotes_r4PPce",
     "0a081843-18cc-4628-a950-350c7308b356",
-    "filterable_gallery_9XRifx"
+    "filterable_gallery_9XRifx",
+    "carousel_special_PJeVTg"
   ]
 }
