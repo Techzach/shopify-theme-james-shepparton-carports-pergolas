@@ -70,6 +70,27 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+  var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1, 
+  spaceBetween: 10, 
+  loop: true, // ✅ Continuous Looping
+  loopedSlides: 5, // ✅ Prevent blank space before first slide
+  preloadImages: false, // ✅ Lazy load handling
+  lazy: true, 
+  autoplay: {
+    delay: 3000, // ✅ Auto-slide every 3 sec
+    disableOnInteraction: false 
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  }
+});
 </script>
 
 
