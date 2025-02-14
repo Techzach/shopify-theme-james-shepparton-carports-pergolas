@@ -137,13 +137,13 @@
             "title": "Pergolas",
             "size_text": "h2",
             "text": "<p>Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless.</p>",
-            "answer_content": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "answer_content": "",
             "button": "discover now",
             "link": "",
             "style_btn": "btn-underline",
             "align": "left",
-            "enable_padding_left": false,
-            "enable_padding_right": false
+            "enable_padding_left": true,
+            "enable_padding_right": true
           }
         }
       },
@@ -158,7 +158,7 @@
         "size": "50-50",
         "enable_padding": true,
         "align_center": true,
-        "paddingsection": "0px 0px 0px 0px",
+        "paddingsection": "",
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
