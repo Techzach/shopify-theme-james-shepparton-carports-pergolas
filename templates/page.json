@@ -134,9 +134,9 @@
           "settings": {
             "bgtext": "#ffffff",
             "subtitle": "",
-            "title": "Pergolas",
+            "title": "",
             "size_text": "h2",
-            "text": "<p>Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.\nGV Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless.</p>",
+            "text": "<h2>Pergolas</h2>\n\n<p style=\"padding: 30px\">Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round. Shepparton Carports will design and build a pergola to suit your property and surrounding landscape. Pergolas allow rain to flow through and are made with either stainless steel wire, aluminium slats or can be completely open to allow vines to grow over. You will have an indoor-outdoor entertaining area to suit your family's changing needs. Fruiting vines, hanging pots, barbeque, sandpit, hammock or spa - the options are endless.</p>",
             "answer_content": "",
             "button": "discover now",
             "link": "",
@@ -158,7 +158,7 @@
         "size": "50-50",
         "enable_padding": true,
         "align_center": true,
-        "paddingsection": "20px 0px 0px 0px",
+        "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
