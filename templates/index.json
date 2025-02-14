@@ -336,53 +336,56 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
-    "70b7f2d2-4c12-4305-88bd-da89e2d18d5b": {
-      "type": "quotes-special",
+    "image_content_6_3MULGt": {
+      "type": "image-content-6",
       "blocks": {
-        "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-0": {
-          "type": "quote",
+        "text_block_dPNRre": {
+          "type": "text_block",
           "settings": {
-            "title": "Everyday luxury",
-            "quote": "<h6>“Create precious memories with friends and family that you will cherish for years to come with an outdoor living area that allows you to do what matters most – spend time with loved ones.\n\nWe will work with you to create a comfortable and practical space the whole family can enjoy all year round.\nWhether you want a larger entertainment area, a comfortable place to sip a glass of wine and watch the sun set, or a functional play space that brings the family together, we can help bring your vision to life.”</h6>",
-            "rate": 0,
-            "author": "",
-            "info": "",
-            "avatar": "shopify://shop_images/0Y9A2185.jpg"
+            "bgtext": "rgba(0,0,0,0)",
+            "subtitle": "About Us",
+            "title": "SCP Carports & Patios -the most reputable Carport and Pergola builders",
+            "size_text": "h4",
+            "text": "Create precious memories with friends and family that you will cherish for years to come with an outdoor living area that allows you to do what matters most – spend time with loved ones.\n\nWe will work with you to create a comfortable and practical space the whole family can enjoy all year round.\nWhether you want a larger entertainment area, a comfortable place to sip a glass of wine and watch the sun set, or a functional play space that brings the family together, we can help bring your vision to life.”",
+            "answer_content": "",
+            "button": "More About",
+            "link": "shopify://pages/verandahs",
+            "style_btn": "btn-theme",
+            "align": "left",
+            "enable_padding_left": true,
+            "enable_padding_right": false
           }
         },
-        "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1": {
-          "type": "quote",
+        "image_block_JxVYJX": {
+          "type": "image_block",
           "settings": {
-            "title": "Customised design",
-            "quote": "<h6>“With our clever designs that seamlessly blend the outside and inside of your home, you can spend more time outside or protect your vehicles, regardless of the weather.\n\nOutstanding designs personalised to suit your lifestyle\nQuality materials built to last\n15-year warranty on our Apollo Durasheen® paint finish\nWe take care of planning permission and approvals\nServicing locally in QLD, NSW and ACT\nResponsible lending with flexible finance options\n\"</h6>",
-            "rate": 0,
-            "author": "",
-            "info": "",
-            "avatar": "shopify://shop_images/0Y9A2104-copy-1024x880.jpg"
+            "style_content": "custom",
+            "w_image": 40,
+            "pos_image": 88,
+            "e_image": "right",
+            "image": "shopify://shop_images/20170228_152752.jpg",
+            "image2": "shopify://shop_images/IMG_0260.jpg",
+            "enable_video": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "text_circle": "Fashion2 style store",
+            "video_url": ""
           }
         }
       },
       "block_order": [
-        "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-0",
-        "template--14684877652053__70b7f2d2-4c12-4305-88bd-da89e2d18d5b-1665853262e19e6bf8-1"
+        "text_block_dPNRre",
+        "image_block_JxVYJX"
       ],
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
-        "bgsection": "#f4efe9",
-        "title_top": "",
-        "title": "",
-        "des": "",
-        "align-heading": "center",
-        "color_rate": "#f1f1f1",
-        "color_rated": "#000000",
-        "image_size": "landscape",
-        "arrows": true,
-        "draggable": true,
-        "dots": false,
-        "infinite": true,
-        "paddingsection": "100px 0px 100px 0px",
-        "paddingmobile": "40px 0px 0px 0px",
+        "bgsection": "#f5f5f5",
+        "size": "50-50",
+        "enable_padding": true,
+        "align_center": true,
+        "paddingsection": "90px 0px 90px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
@@ -659,7 +662,7 @@
     "90256253-4427-4c0f-a280-c9d024bc8dcc",
     "1f7801eb-26d9-49df-85c5-db063768cdb7",
     "662cf23c-2a28-41c4-9bd8-b6517c99ba49",
-    "70b7f2d2-4c12-4305-88bd-da89e2d18d5b",
+    "image_content_6_3MULGt",
     "grid_banner_2_3EyY3N",
     "quotes_r4PPce",
     "0a081843-18cc-4628-a950-350c7308b356",
