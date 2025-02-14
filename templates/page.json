@@ -221,6 +221,79 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
+    "image_content_JjmJfn": {
+      "type": "image-content",
+      "blocks": {
+        "text_block_zwP6JT": {
+          "type": "text_block",
+          "settings": {
+            "width": "100%",
+            "bgtext": "#ffffff",
+            "title_color": "rgba(0,0,0,0)",
+            "subtitle": "Sub Title",
+            "title": "Image with text",
+            "size_text": "h2",
+            "text": "",
+            "answer_content": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "style_btn": "btn-underline btn-underline-white",
+            "button": "discover now",
+            "link": "",
+            "enable_padding": true,
+            "align": "left"
+          }
+        },
+        "image_block_kdK6AA": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20220203_104255.jpg"
+          }
+        },
+        "image_block_QyfjdV": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20210810_093627.jpg"
+          }
+        },
+        "text_block_6tLpCV": {
+          "type": "text_block",
+          "settings": {
+            "width": "100%",
+            "bgtext": "#ffffff",
+            "title_color": "rgba(0,0,0,0)",
+            "subtitle": "Sub Title",
+            "title": "Image with text",
+            "size_text": "h2",
+            "text": "",
+            "answer_content": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "style_btn": "btn-underline btn-underline-white",
+            "button": "discover now",
+            "link": "",
+            "enable_padding": true,
+            "align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_zwP6JT",
+        "image_block_kdK6AA",
+        "image_block_QyfjdV",
+        "text_block_6tLpCV"
+      ],
+      "settings": {
+        "animation": "",
+        "setwidth": "container",
+        "bgsection": "#ffffff",
+        "rangebg": 0,
+        "bgbefore": "transparent",
+        "bg_pos": "left",
+        "enable_padding": true,
+        "align_center": true,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
+    },
     "rich_text_hoz_HrmAh3": {
       "type": "rich-text-hoz",
       "blocks": {
@@ -332,6 +405,7 @@
         "banner_EnhncL",
         "banner_fztP6k"
       ],
+      "disabled": true,
       "settings": {
         "animation": "",
         "setwidth": "container",
@@ -432,6 +506,7 @@
     "video_DAVBzw",
     "quotes_9nnQXU",
     "image_content_GMPHAk",
+    "image_content_JjmJfn",
     "rich_text_hoz_HrmAh3",
     "grid_banner_2_jDfCJB",
     "brand_carousel_4M4r8A"
