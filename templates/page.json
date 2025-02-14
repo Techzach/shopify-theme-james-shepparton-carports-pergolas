@@ -144,18 +144,6 @@
         "marginmobile": "0px 0px 0px 0px"
       }
     },
-    "line_MLppG8": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "2px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#080808",
-        "wborder": "1px"
-      }
-    },
     "rich_text_hoz_HrmAh3": {
       "type": "rich-text-hoz",
       "blocks": {
@@ -215,6 +203,7 @@
         "image_DQ3mT7",
         "image_BfkWFj"
       ],
+      "disabled": true,
       "settings": {
         "animation": "",
         "setwidth": "container",
@@ -224,18 +213,6 @@
         "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
-      }
-    },
-    "line_993bca": {
-      "type": "line",
-      "settings": {
-        "animation": "",
-        "paddingsection": "2px 0px 0px 0px",
-        "marginsection": "0px 0px 0px 0px",
-        "bgsection": "#080808",
-        "setwidth": "container",
-        "bgborder": "#080808",
-        "wborder": "1px"
       }
     },
     "grid_banner_2_jDfCJB": {
@@ -290,7 +267,7 @@
         "gutter_padding": 30,
         "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "0px 0px 0px 0px",
+        "marginsection": "50px 0px 50px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
     }
@@ -300,9 +277,7 @@
     "video_DAVBzw",
     "advanced_content_eXgfgT",
     "rich_text_hoz_XdT6Kb",
-    "line_MLppG8",
     "rich_text_hoz_HrmAh3",
-    "line_993bca",
     "grid_banner_2_jDfCJB"
   ]
 }
