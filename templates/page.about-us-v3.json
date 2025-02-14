@@ -13,6 +13,28 @@
       "type": "main-page",
       "settings": {}
     },
+    "video_Mizgkw": {
+      "type": "video",
+      "settings": {
+        "animation": "",
+        "bgsection": "#ffffff",
+        "color": "#ffffff",
+        "setwidth": "container",
+        "text_circle": "",
+        "title": "Carports",
+        "size_text": "h2",
+        "cover_image": "shopify://shop_images/IMG_0043.jpg",
+        "show_overlay": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "height_video": 600,
+        "height_video_mobile": 400,
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px"
+      }
+    },
     "49b0a5ba-1ebd-493b-ae50-1ec847159046": {
       "type": "image-content",
       "blocks": {
@@ -283,6 +305,7 @@
   },
   "order": [
     "main",
+    "video_Mizgkw",
     "49b0a5ba-1ebd-493b-ae50-1ec847159046",
     "3a37a7d4-3633-4dd9-93c8-8609cd17d9c4",
     "2d11636f-e0da-4a86-b3b5-c1eda5735347",
