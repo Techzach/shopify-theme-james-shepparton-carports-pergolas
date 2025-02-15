@@ -1,16 +1,22 @@
-{%- render 'style-section' -%}
+<!-- Include Lightbox CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+
+<!-- Gallery Section -->
 <div class="section-gallery enable-isotope customstyle{{ section.id }}">
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
 
-    <!-- Swiper Container Added -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
         <div class="swiper-slide grid-item col-lg-3 col-md-4 col-sm-6 col-12" data-aos="{{ section.settings.animation }}">
           {%- if block.settings.image != blank -%}
           <div class="image-content__image-container">
-            <a href="{{ block.settings.image | image_url }}" class="gallery-item mb-3 image-content__image-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;" data-fslightbox="gallery">
+            <!-- Lightbox Image Link -->
+            <a href="{{ block.settings.image | image_url: width: 2000 }}" 
+               data-lightbox="gallery" 
+               data-title="{{ block.settings.title }}"
+               class="gallery-item mb-3 image-content__image-wrapper">
               {% assign img_url = block.settings.image | image_url: width: 400, height: 300, crop: 'center' %}
               <img 
                 class="lazyload gallery-item__image" 
@@ -44,7 +50,8 @@
   </div>
 </div>
 
-<!-- Swiper.js & Lightbox Script -->
+<!-- Include Lightbox & Swiper Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".swiper-container", {
@@ -65,14 +72,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Initialize Lightbox
-  const lightbox = new FsLightbox();
-  lightbox.props.loadOnlyCurrentSource = true;
+  // Initialize Lightbox2
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true,  // Enables navigation arrows inside lightbox
+    'albumLabel': "Image %1 of %2"
+  });
 });
 </script>
 
-<!-- FsLightbox Library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/fslightbox.min.js"></script>
 
 
 
