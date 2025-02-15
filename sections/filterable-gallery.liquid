@@ -1,4 +1,5 @@
 {%- render 'style-section' -%}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 <div class="section-gallery enable-isotope customstyle{{ section.id }}">
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
@@ -10,7 +11,7 @@
         <div class="swiper-slide grid-item col-lg-3 col-md-4 col-sm-6 col-12" data-aos="{{ section.settings.animation }}">
           {%- if block.settings.image != blank -%}
           <div class="image-content__image-container">
-            <a href="{{ block.settings.image | image_url }}" class="gallery-item mb-3 image-content__image-wrapper" data-fancybox="gallery">
+            <a href="{{ block.settings.image | image_url: width: 1200 }}" data-lightbox="gallery" class="gallery-item mb-3 image-content__image-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
               {% assign img_url = block.settings.image | image_url: width: 400, height: 300, crop: 'center' %}
               <img 
                 class="lazyload gallery-item__image" 
@@ -44,13 +45,14 @@
   </div>
 </div>
 
-<!-- Fancybox & Swiper.js Script -->
+<!-- Lightbox2 & Swiper.js Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".swiper-container", {
-    slidesPerView: "auto",
+    slidesPerView: "auto", 
     spaceBetween: 10,
-    loop: true,
+    loop: true,  
     autoplay: {
       delay: 3000,
       disableOnInteraction: false
@@ -62,20 +64,16 @@ document.addEventListener("DOMContentLoaded", function () {
     pagination: {
       el: ".swiper-pagination",
       clickable: true
-    }
+    },
   });
-
-  // Initialize Fancybox for Lightbox
-  Fancybox.bind("[data-fancybox='gallery']", {
-    infinite: true, // Loop images in lightbox
-    buttons: ["close"], // Close button enabled
-    Thumbs: false,
-    arrows: true // Enable next/previous buttons
+  
+  // Initialize Lightbox
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
   });
 });
 </script>
-
-
 
 
 
