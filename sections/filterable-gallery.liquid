@@ -1,17 +1,22 @@
-{%- render 'style-section' -%}
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+<!-- Include Fancybox CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+<!-- Gallery Section -->
 <div class="section-gallery enable-isotope customstyle{{ section.id }}">
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
 
-    <!-- Swiper Container Added -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
         <div class="swiper-slide grid-item col-lg-3 col-md-4 col-sm-6 col-12" data-aos="{{ section.settings.animation }}">
           {%- if block.settings.image != blank -%}
           <div class="image-content__image-container">
-            <a href="{{ block.settings.image | image_url: width: 1200 }}" data-lightbox="gallery" class="gallery-item mb-3 image-content__image-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
+            <!-- Fancybox Image Link -->
+            <a href="{{ block.settings.image | image_url: width: 2000 }}" 
+               data-fancybox="gallery"
+               data-caption="{{ block.settings.title }}"
+               class="gallery-item mb-3 image-content__image-wrapper">
               {% assign img_url = block.settings.image | image_url: width: 400, height: 300, crop: 'center' %}
               <img 
                 class="lazyload gallery-item__image" 
@@ -45,14 +50,14 @@
   </div>
 </div>
 
-<!-- Lightbox2 & Swiper.js Scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<!-- Include Fancybox & Swiper Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".swiper-container", {
-    slidesPerView: "auto", 
+    slidesPerView: "auto",
     spaceBetween: 10,
-    loop: true,  
+    loop: true,
     autoplay: {
       delay: 3000,
       disableOnInteraction: false
@@ -64,16 +69,29 @@ document.addEventListener("DOMContentLoaded", function () {
     pagination: {
       el: ".swiper-pagination",
       clickable: true
-    },
+    }
   });
-  
-  // Initialize Lightbox
-  lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true
+
+  // Initialize Fancybox
+  Fancybox.bind("[data-fancybox='gallery']", {
+    Thumbs: {
+      autoStart: true, // Thumbnails enable honge
+    },
+    Toolbar: {
+      display: ["zoom", "close"], // Close aur Zoom button show honge
+    },
+    Buttons: [
+      "zoom",
+      "slideShow",
+      "fullScreen",
+      "download",
+      "thumbs",
+      "close"
+    ],
   });
 });
 </script>
+
 
 
 
@@ -349,7 +367,6 @@ document.addEventListener("DOMContentLoaded", function () {
   font-weight: bold;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-    margin-bottom: 50px;
 
 }
 
