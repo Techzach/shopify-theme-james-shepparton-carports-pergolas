@@ -67,10 +67,11 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
   
-  // Initialize Lightbox
-  lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true
+ Fancybox.bind("[data-fancybox='gallery']", {
+    infinite: true, // Loop images in lightbox
+    buttons: ["close"], // Close button enabled
+    Thumbs: false,
+    arrows: true // Enable next/previous buttons
   });
 });
 </script>
