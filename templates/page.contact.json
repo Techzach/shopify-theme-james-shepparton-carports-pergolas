@@ -44,13 +44,13 @@
     "e47bb256-2659-485f-9896-382aaec96e87": {
       "type": "map",
       "settings": {
-        "heading": "Our store",
-        "address": "<p>123 Fake St.<br/>Toronto, Canada</p><p>Mon - Fri, 10am - 9pm<br/>Saturday, 11am - 9pm<br/>Sunday, 11am - 5pm</p>",
-        "map_address": "301 Front St W, Toronto",
+        "heading": "Shepparton Carports Pergolas.",
+        "address": "<p>91 Archer St, Shepparton VIC 3630, Australia</p><p>Mon - Sat, 10am - 9pm<br/>Sunday, 11am - 5pm</p>",
+        "map_address": "91 Archer St, Shepparton VIC 3630, Australia",
         "button_text": "Get directions",
         "show_pin": true,
         "api_key": "",
-        "map_code": "<div class=\"mapouter\"><div class=\"gmap_canvas\">\n<iframe width=\"600\" height=\"500\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?q=CN%20Tower,%20301%20Front%20St%20W,%20Toronto,%20ON%20M5V%202T6,%20Canada&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" loading=\"lazy\" allowfullscreen></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>\n<a href=\"https://www.embedgooglemap.net\">google maps code generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>\n</div></div>",
+        "map_code": "<div class=\"mapouter\"><div class=\"gmap_canvas\">\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.018139813467!2d145.41284729999998!3d-36.3845549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad887b277597721%3A0xa32e94ec25577e32!2sShepparton%20Carports%20Pergolas.!5e0!3m2!1sen!2s!4v1739606630712!5m2!1sen!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>\n<a href=\"https://www.embedgooglemap.net\">google maps code generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>\n</div></div>",
         "background_image_position": "center center"
       }
     },
@@ -62,7 +62,7 @@
           "settings": {
             "bgblock": "rgba(0,0,0,0)",
             "title": "Adress",
-            "description": "91 Archer Street Shepparton, Victoria, 3630",
+            "description": "91 Archer St, Shepparton VIC 3630, Australia",
             "icon": "<i class=\"icon-placeholder\"></i>"
           }
         },
@@ -71,7 +71,7 @@
           "settings": {
             "bgblock": "rgba(0,0,0,0)",
             "title": "Call us",
-            "description": "044888621",
+            "description": "0448886213",
             "icon": "<i class=\"icon-phone\"></i>"
           }
         },
@@ -80,7 +80,7 @@
           "settings": {
             "bgblock": "rgba(0,0,0,0)",
             "title": "Open",
-            "description": "Monday - Friday: 8am - 4pm<br>\nSaturday - Sunday: 9am - 5pm",
+            "description": "Monday - Saturday : 8am - 4pm<br>\nSunday: Closed",
             "icon": "<i class=\"icon-check-circle\"></i>"
           }
         },
@@ -89,7 +89,7 @@
           "settings": {
             "bgblock": "#ffffff",
             "title": "Emails",
-            "description": "fashionstyle@example.com<br>\ninfo@example.com",
+            "description": "info@example.com<br>\nSCP@example.com",
             "icon": "<i class=\"icon-mail\"></i>"
           }
         }
