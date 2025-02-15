@@ -59,6 +59,10 @@
       <link rel="preload" href="{{ 'swiper-bundle.min.js' | asset_url }}" as="script">
       <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
+
+    {{ 'swiper.css' | asset_url | stylesheet_tag }}
+{{ 'fancybox.css' | asset_url | stylesheet_tag }}
+
   </head>
   <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} body-theme {% if settings.productpage == 'product-2' or settings.productpage == 'product-6' or settings.productpage == 'product-7' %} product-hide-breadcrumb {% endif %}">
    {% assign lazy = false %}
