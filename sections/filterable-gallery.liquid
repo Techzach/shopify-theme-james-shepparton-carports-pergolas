@@ -1,22 +1,16 @@
-<!-- Include Fancybox CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
-
-<!-- Gallery Section -->
+{%- render 'style-section' -%}
 <div class="section-gallery enable-isotope customstyle{{ section.id }}">
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
 
+    <!-- Swiper Container Added -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
         <div class="swiper-slide grid-item col-lg-3 col-md-4 col-sm-6 col-12" data-aos="{{ section.settings.animation }}">
           {%- if block.settings.image != blank -%}
           <div class="image-content__image-container">
-            <!-- Fancybox Image Link -->
-            <a href="{{ block.settings.image | image_url: width: 2000 }}" 
-               data-fancybox="gallery"
-               data-caption="{{ block.settings.title }}"
-               class="gallery-item mb-3 image-content__image-wrapper">
+            <a href="{{ block.settings.image | image_url }}" class="gallery-item mb-3 image-content__image-wrapper" data-fancybox="gallery">
               {% assign img_url = block.settings.image | image_url: width: 400, height: 300, crop: 'center' %}
               <img 
                 class="lazyload gallery-item__image" 
@@ -50,8 +44,7 @@
   </div>
 </div>
 
-<!-- Include Fancybox & Swiper Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<!-- Fancybox & Swiper.js Script -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".swiper-container", {
@@ -72,25 +65,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Initialize Fancybox
+  // Initialize Fancybox for Lightbox
   Fancybox.bind("[data-fancybox='gallery']", {
-    Thumbs: {
-      autoStart: true, // Thumbnails enable honge
-    },
-    Toolbar: {
-      display: ["zoom", "close"], // Close aur Zoom button show honge
-    },
-    Buttons: [
-      "zoom",
-      "slideShow",
-      "fullScreen",
-      "download",
-      "thumbs",
-      "close"
-    ],
+    infinite: true, // Loop images in lightbox
+    buttons: ["close"], // Close button enabled
+    Thumbs: false,
+    arrows: true // Enable next/previous buttons
   });
 });
 </script>
+
 
 
 
