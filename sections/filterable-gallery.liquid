@@ -1,28 +1,24 @@
 {%- render 'style-section' -%}
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 <div class="section-gallery enable-isotope customstyle{{ section.id }}">
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
 
-    <!-- Swiper Container Added -->
+    <!-- Swiper Container -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
         <div class="swiper-slide grid-item col-lg-3 col-md-4 col-sm-6 col-12" data-aos="{{ section.settings.animation }}">
           {%- if block.settings.image != blank -%}
           <div class="image-content__image-container">
-            <a href="{{ block.settings.image | image_url: width: 1200 }}" data-lightbox="gallery" class="gallery-item mb-3 image-content__image-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
+            <a href="javascript:void(0);" class="gallery-item mb-3 image-content__image-wrapper" 
+               onclick="openModal({{ forloop.index0 }})">
               {% assign img_url = block.settings.image | image_url: width: 400, height: 300, crop: 'center' %}
-              <img 
-                class="lazyload gallery-item__image" 
-                src="{{ block.settings.image | image_url: width: 1, height: 1 }}" 
-                data-src="{{ img_url }}"
-                data-widths="[400, 800, 1200, 1600, 2000]"
-                data-aspectratio="4/3"
-                data-sizes="auto"
-                loading="lazy"
-                width="400"
-                height="300" />
+              <img class="lazyload gallery-item__image" 
+                   src="{{ block.settings.image | image_url: width: 1, height: 1 }}" 
+                   data-src="{{ img_url }}"
+                   loading="lazy"
+                   width="400"
+                   height="300" />
               <div class="gallery-item__title">
                 {{ block.settings.title }}
               </div>
@@ -45,14 +41,21 @@
   </div>
 </div>
 
-<!-- Lightbox2 & Swiper.js Scripts -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> --->
+<!-- Image Modal -->
+<div id="imageModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+  <a class="next" onclick="changeImage(1)">&#10095;</a>
+</div>
+
+<!-- JavaScript for Modal & Swiper -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".swiper-container", {
-    slidesPerView: "auto", 
+    slidesPerView: "auto",
     spaceBetween: 10,
-    loop: true,  
+    loop: true,
     autoplay: {
       delay: 3000,
       disableOnInteraction: false
@@ -64,17 +67,77 @@ document.addEventListener("DOMContentLoaded", function () {
     pagination: {
       el: ".swiper-pagination",
       clickable: true
-    },
-  });
-  
- Fancybox.bind("[data-fancybox='gallery']", {
-    infinite: true, // Loop images in lightbox
-    buttons: ["close"], // Close button enabled
-    Thumbs: false,
-    arrows: true // Enable next/previous buttons
+    }
   });
 });
+
+// Store all images in an array
+let images = [];
+document.querySelectorAll('.gallery-item a').forEach((item, index) => {
+  images.push(item.querySelector('img').getAttribute('data-src'));
+  item.setAttribute('data-index', index);
+});
+
+let currentIndex = 0;
+
+// Open Modal
+function openModal(index) {
+  document.getElementById("imageModal").style.display = "block";
+  document.getElementById("modalImage").src = images[index];
+  currentIndex = index;
+}
+
+// Close Modal
+function closeModal() {
+  document.getElementById("imageModal").style.display = "none";
+}
+
+// Change Image (Next / Previous)
+function changeImage(direction) {
+  currentIndex += direction;
+  if (currentIndex < 0) currentIndex = images.length - 1;
+  if (currentIndex >= images.length) currentIndex = 0;
+  document.getElementById("modalImage").src = images[currentIndex];
+}
 </script>
+
+<!-- Modal Styles -->
+<style>
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 10%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+.modal-content {
+  max-width: 90%;
+  max-height: 80vh;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.prev { left: 10px; }
+.next { right: 10px; }
+</style>
 
 
 
