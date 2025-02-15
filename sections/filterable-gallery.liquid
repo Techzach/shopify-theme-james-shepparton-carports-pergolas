@@ -1,5 +1,5 @@
 {%- render 'style-section' -%}
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 <div class="section-gallery enable-isotope customstyle{{ section.id }}">
   <div class="{{ section.settings.setwidth }}">
     {%- render 'section-heading' -%}
@@ -11,7 +11,7 @@
         <div class="swiper-slide grid-item col-lg-3 col-md-4 col-sm-6 col-12" data-aos="{{ section.settings.animation }}">
           {%- if block.settings.image != blank -%}
           <div class="image-content__image-container">
-            <a href="{{ block.settings.image | image_url: width: 1200 }}" data-lightbox="gallery" class="gallery-item mb-3 image-content__image-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
+            <a href="{{ block.settings.image | image_url: width: 1200 }}" data-fancybox="gallery" class="gallery-item mb-3 image-content__image-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
               {% assign img_url = block.settings.image | image_url: width: 400, height: 300, crop: 'center' %}
               <img 
                 class="lazyload gallery-item__image" 
@@ -45,7 +45,8 @@
   </div>
 </div>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> --->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".swiper-container", {
@@ -66,15 +67,15 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
   
-  // Initialize Lightbox
-  lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true
+  // Initialize Fancybox with only the close button
+  $('[data-fancybox="gallery"]').fancybox({
+    buttons: [
+      "close"
+    ]
   });
 });
-
-  
 </script>
+
 
 
 
