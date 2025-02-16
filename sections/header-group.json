@@ -27,8 +27,8 @@
         "enable_language_topbar": true,
         "enable_social_topbar": true,
         "enable_login_topbar": false,
-        "text_topbar": "Enquiry Now <a href=\"tel:+61448886213\">+61 448 886 213</a>or Get a",
-        "buttonall_topbar": "Free Quote",
+        "text_topbar": "Enquiry Now <a href=\"tel:+61448886213\">+61 448 886 213</a>",
+        "buttonall_topbar": "",
         "buttonall_link_topbar": "shopify://pages/contact"
       }
     },
