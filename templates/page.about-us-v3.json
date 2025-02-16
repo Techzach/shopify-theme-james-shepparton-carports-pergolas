@@ -305,8 +305,8 @@
         "bg_pos": "left",
         "enable_padding": true,
         "align_center": false,
-        "paddingsection": "100px 0px 100px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
+        "paddingsection": "100px 0px 0px 0px",
+        "paddingmobile": "60px 0px 0px 0px",
         "marginsection": "30px 0px 30px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
