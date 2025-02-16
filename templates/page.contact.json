@@ -45,12 +45,12 @@
       "type": "map",
       "settings": {
         "heading": "SCP",
-        "address": "<p>Shepparton Carports Pergolas.<br/>91 Archer St, Shepparton VIC 3630, Australia</p><p>Mon - Sat, 10am - 9pm<br/>Sunday, 11am - 5pm</p>",
+        "address": "<p><strong>Shepparton Carports Pergolas</strong>.<br/>91 Archer St, Shepparton VIC 3630, Australia</p><p>Mon - Sat, 10am - 9pm<br/>Sunday, 11am - 5pm</p>",
         "map_address": "91 Archer St, Shepparton VIC 3630, Australia",
         "button_text": "Get directions",
         "show_pin": true,
         "api_key": "",
-        "map_code": "<div class=\"mapouter\"><div class=\"gmap_canvas\">\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.018139813467!2d145.41284729999998!3d-36.3845549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad887b277597721%3A0xa32e94ec25577e32!2sShepparton%20Carports%20Pergolas.!5e0!3m2!1sen!2s!4v1739606630712!5m2!1sen!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>\n<a href=\"https://www.embedgooglemap.net\">google maps code generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>\n</div></div>",
+        "map_code": "<div class=\"mapouter\"><div class=\"gmap_canvas\">\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.018139813467!2d145.41284729999998!3d-36.3845549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad887b277597721%3A0xa32e94ec25577e32!2sShepparton%20Carports%20Pergolas.!5e0!3m2!1sen!2s!4v1739606630712!5m2!1sen!2s\" width=\"600\" height=\"550\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>\n<a href=\"https://www.embedgooglemap.net\">google maps code generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>\n</div></div>",
         "background_image_position": "center center"
       }
     },
