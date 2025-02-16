@@ -85,7 +85,7 @@
         "height_video": 600,
         "height_video_mobile": 400,
         "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "40px 0px 40px 0px",
+        "paddingmobile": "0px 0px 0px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px"
       }
@@ -132,9 +132,9 @@
         "enable_padding": true,
         "align_center": true,
         "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "0px 0px 40px 0px",
-        "marginsection": "20px 10px 20px 10px",
-        "marginmobile": "40px 0px 0px 0px"
+        "paddingmobile": "20px 0px 40px 0px",
+        "marginsection": "0px 10px 20px 10px",
+        "marginmobile": "0px 0px 0px 0px"
       }
     },
     "2d11636f-e0da-4a86-b3b5-c1eda5735347": {
