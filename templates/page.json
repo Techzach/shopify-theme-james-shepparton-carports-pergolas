@@ -42,7 +42,7 @@
             "size_text": "h2",
             "text": "<h2 style=\"padding: 10px;\">Pergolas</h2>\n\n<p style=\"padding: 30px;\">Indoor-outdoor living, designed for comfort and style. Australians love spending time outdoors, but blistering sun or rain can make it less than ideal. By installing a pergola, you're effectively increasing the floor space and value of your home, creating a protected oasis you can enjoy year round.</p>",
             "answer_content": "",
-            "button": "Get a Quote",
+            "button": "Get a Free quote",
             "link": "shopify://pages/contact",
             "style_btn": "btn-underline",
             "align": "left",
@@ -195,7 +195,7 @@
             "text": "Enjoy life outdoors with a purpose-built, functional area for all the family to enjoy.\n\nWhether you are looking to host dinner parties, relax in the shade or add value to your property, Apollo Patios can help bring your vision to life.\n\nYour new pergola can be custom designed to add style and practicality to your home, as well as giving you a comfortable outdoor area to suit your lifestyle.",
             "answer_content": "",
             "style_btn": "btn-underline",
-            "button": "Buy free quote",
+            "button": "Get a Free quote",
             "link": "shopify://pages/contact",
             "enable_padding": true,
             "align": "left"
