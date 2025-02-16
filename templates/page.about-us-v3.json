@@ -37,7 +37,7 @@
             "size_text": "h2",
             "text": "<h2 style=\"padding: 10px;\">Carports</h2>\n\n<p style=\"padding: 30px;\">When you need answers, advice, or just a little bit of inspiration, we’re always here to help with our free design services – in person, online, or over the phone – to make it even easier to a create a space you’ll love coming home to.  Best of all, it won't attract the kind of clutter that garages are famous for!</p>",
             "answer_content": "",
-            "button": "BUy free quote",
+            "button": "Get a Free quote",
             "link": "shopify://pages/contact",
             "style_btn": "btn-underline",
             "align": "left",
@@ -111,7 +111,7 @@
             "text": "Take inspiration from the different styles of carports and book a consultation to speak with our local designer about your unique requirements and preferences.\n\nWhether you’re inspired by a gable carport, a flat roof or any other style, our Design Consultants can help create a space to give your home modern curb appeal.\n\nYour carport should look like a natural part of your house, rather than an afterthought.",
             "answer_content": "",
             "style_btn": "btn-underline",
-            "button": "Buy free quote",
+            "button": "Get a Free quote",
             "link": "shopify://pages/contact",
             "enable_padding": true,
             "align": "left"
